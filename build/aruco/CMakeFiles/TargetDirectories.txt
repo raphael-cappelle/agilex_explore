@@ -1,0 +1,10 @@
+/home/agilex/agilex_ws/build/aruco/CMakeFiles/uninstall.dir
+/home/agilex/agilex_ws/build/aruco/CMakeFiles/aruco_uninstall.dir
+/home/agilex/agilex_ws/build/aruco/CMakeFiles/aruco.dir
+/home/agilex/agilex_ws/build/aruco/CMakeFiles/test.dir
+/home/agilex/agilex_ws/build/aruco/CMakeFiles/edit_cache.dir
+/home/agilex/agilex_ws/build/aruco/CMakeFiles/rebuild_cache.dir
+/home/agilex/agilex_ws/build/aruco/CMakeFiles/list_install_components.dir
+/home/agilex/agilex_ws/build/aruco/CMakeFiles/install.dir
+/home/agilex/agilex_ws/build/aruco/CMakeFiles/install/local.dir
+/home/agilex/agilex_ws/build/aruco/CMakeFiles/install/strip.dir

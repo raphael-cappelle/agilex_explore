@@ -1,0 +1,5 @@
+/home/agilex/agilex_ws/install/magic_enum/lib/cmake/magic_enum/magic_enumConfigVersion.cmake
+/home/agilex/agilex_ws/install/magic_enum/lib/cmake/magic_enum/magic_enumConfig.cmake
+/home/agilex/agilex_ws/install/magic_enum/./include/magic_enum.hpp
+/home/agilex/agilex_ws/install/magic_enum/./include/magic_enum_fuse.hpp
+/home/agilex/agilex_ws/install/magic_enum/share/magic_enum/package.xml

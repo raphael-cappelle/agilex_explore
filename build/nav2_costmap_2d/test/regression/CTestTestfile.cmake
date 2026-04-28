@@ -1,0 +1,8 @@
+# CMake generated Testfile for 
+# Source directory: /home/agilex/agilex_ws/src/navigation2/nav2_costmap_2d/test/regression
+# Build directory: /home/agilex/agilex_ws/build/nav2_costmap_2d/test/regression
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(costmap_bresenham_2d "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/agilex/agilex_ws/build/nav2_costmap_2d/test_results/nav2_costmap_2d/costmap_bresenham_2d.gtest.xml" "--package-name" "nav2_costmap_2d" "--output-file" "/home/agilex/agilex_ws/build/nav2_costmap_2d/ament_cmake_gtest/costmap_bresenham_2d.txt" "--command" "/home/agilex/agilex_ws/build/nav2_costmap_2d/test/regression/costmap_bresenham_2d" "--gtest_output=xml:/home/agilex/agilex_ws/build/nav2_costmap_2d/test_results/nav2_costmap_2d/costmap_bresenham_2d.gtest.xml")
+set_tests_properties(costmap_bresenham_2d PROPERTIES  LABELS "gtest" REQUIRED_FILES "/home/agilex/agilex_ws/build/nav2_costmap_2d/test/regression/costmap_bresenham_2d" TIMEOUT "60" WORKING_DIRECTORY "/home/agilex/agilex_ws/build/nav2_costmap_2d/test/regression" _BACKTRACE_TRIPLES "/opt/ros/humble/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake;86;ament_add_test;/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake;93;ament_add_gtest_test;/home/agilex/agilex_ws/src/navigation2/nav2_costmap_2d/test/regression/CMakeLists.txt;1;ament_add_gtest;/home/agilex/agilex_ws/src/navigation2/nav2_costmap_2d/test/regression/CMakeLists.txt;0;")

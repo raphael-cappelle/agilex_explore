@@ -1,0 +1,15 @@
+{
+  "package_name": "orbbec_camera_msgs",
+  "non_idl_tuples": [
+    "/home/agilex/agilex_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/DeviceInfo.msg",
+    "/home/agilex/agilex_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/Extrinsics.msg",
+    "/home/agilex/agilex_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:msg/Metadata.msg",
+    "/home/agilex/agilex_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetBool.srv",
+    "/home/agilex/agilex_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetDeviceInfo.srv",
+    "/home/agilex/agilex_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetCameraInfo.srv",
+    "/home/agilex/agilex_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetInt32.srv",
+    "/home/agilex/agilex_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/GetString.srv",
+    "/home/agilex/agilex_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/SetInt32.srv",
+    "/home/agilex/agilex_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs:srv/SetString.srv"
+  ]
+}

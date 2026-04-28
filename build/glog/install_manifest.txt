@@ -1,0 +1,17 @@
+/home/agilex/agilex_ws/install/glog/lib/libglog.so.0.6.0
+/home/agilex/agilex_ws/install/glog/lib/libglog.so.1
+/home/agilex/agilex_ws/install/glog/lib/libglog.so
+/home/agilex/agilex_ws/install/glog/include/glog/export.h
+/home/agilex/agilex_ws/install/glog/include/glog/logging.h
+/home/agilex/agilex_ws/install/glog/include/glog/raw_logging.h
+/home/agilex/agilex_ws/install/glog/include/glog/stl_logging.h
+/home/agilex/agilex_ws/install/glog/include/glog/vlog_is_on.h
+/home/agilex/agilex_ws/install/glog/include/glog/log_severity.h
+/home/agilex/agilex_ws/install/glog/include/glog/platform.h
+/home/agilex/agilex_ws/install/glog/lib/pkgconfig/libglog.pc
+/home/agilex/agilex_ws/install/glog/lib/cmake/glog/glog-modules.cmake
+/home/agilex/agilex_ws/install/glog/lib/cmake/glog/glog-config.cmake
+/home/agilex/agilex_ws/install/glog/lib/cmake/glog/glog-config-version.cmake
+/home/agilex/agilex_ws/install/glog/share/glog/cmake/FindUnwind.cmake
+/home/agilex/agilex_ws/install/glog/lib/cmake/glog/glog-targets.cmake
+/home/agilex/agilex_ws/install/glog/lib/cmake/glog/glog-targets-noconfig.cmake
