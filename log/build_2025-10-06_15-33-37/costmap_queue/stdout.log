@@ -1,8 +1,0 @@
-[  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
-[ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
-[ 27%] [32mBuilding CXX object CMakeFiles/costmap_queue.dir/src/limited_costmap_queue.cpp.o[0m
-[ 36%] [32mBuilding CXX object CMakeFiles/costmap_queue.dir/src/costmap_queue.cpp.o[0m
-[ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
-[ 45%] Built target gtest_main
-[ 54%] [32m[1mLinking CXX static library libcostmap_queue.a[0m
-[ 54%] Built target costmap_queue

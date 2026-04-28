@@ -1,1 +1,0 @@
-Invoking command in '/home/agilex/agilex_ws/build/costmap_converter_msgs': /usr/bin/cmake /home/agilex/agilex_ws/src/costmap_converter/costmap_converter_msgs -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/costmap_converter_msgs

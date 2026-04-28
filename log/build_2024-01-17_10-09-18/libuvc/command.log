@@ -1,4 +1,0 @@
-Invoking command in '/home/agilex/agilex_ws/build/libuvc': /usr/bin/cmake --build /home/agilex/agilex_ws/build/libuvc -- -j8 -l8
-Invoked command in '/home/agilex/agilex_ws/build/libuvc' returned '0': /usr/bin/cmake --build /home/agilex/agilex_ws/build/libuvc -- -j8 -l8
-Invoking command in '/home/agilex/agilex_ws/build/libuvc': /usr/bin/cmake --install /home/agilex/agilex_ws/build/libuvc
-Invoked command in '/home/agilex/agilex_ws/build/libuvc' returned '0': /usr/bin/cmake --install /home/agilex/agilex_ws/build/libuvc

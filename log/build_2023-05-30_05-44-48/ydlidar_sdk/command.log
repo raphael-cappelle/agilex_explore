@@ -1,6 +1,0 @@
-Invoking command in '/home/agilex/agilex_ws/build/ydlidar_sdk': /usr/bin/cmake /home/agilex/agilex_ws/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/ydlidar_sdk
-Invoked command in '/home/agilex/agilex_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake /home/agilex/agilex_ws/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/ydlidar_sdk
-Invoking command in '/home/agilex/agilex_ws/build/ydlidar_sdk': /usr/bin/cmake --build /home/agilex/agilex_ws/build/ydlidar_sdk -- -j8 -l8
-Invoked command in '/home/agilex/agilex_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/agilex/agilex_ws/build/ydlidar_sdk -- -j8 -l8
-Invoking command in '/home/agilex/agilex_ws/build/ydlidar_sdk': /usr/bin/cmake --install /home/agilex/agilex_ws/build/ydlidar_sdk
-Invoked command in '/home/agilex/agilex_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/agilex/agilex_ws/build/ydlidar_sdk

@@ -1,6 +1,0 @@
-Invoking command in '/home/agilex/agilex_ws/build/limo_visions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agilex/agilex_ws/src/limo_visions -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/limo_visions
-Invoked command in '/home/agilex/agilex_ws/build/limo_visions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agilex/agilex_ws/src/limo_visions -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/limo_visions
-Invoking command in '/home/agilex/agilex_ws/build/limo_visions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agilex/agilex_ws/build/limo_visions -- -j8 -l8
-Invoked command in '/home/agilex/agilex_ws/build/limo_visions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agilex/agilex_ws/build/limo_visions -- -j8 -l8
-Invoking command in '/home/agilex/agilex_ws/build/limo_visions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agilex/agilex_ws/build/limo_visions
-Invoked command in '/home/agilex/agilex_ws/build/limo_visions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agilex/agilex_ws/build/limo_visions

@@ -1,6 +1,0 @@
-[  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
-[ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
-[ 27%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/publisher.cpp.o[0m
-[ 36%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/dwb_local_planner.cpp.o[0m
-[ 45%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/trajectory_utils.cpp.o[0m
-[ 54%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/illegal_trajectory_tracker.cpp.o[0m
