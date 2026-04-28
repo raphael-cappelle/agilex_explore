@@ -1,0 +1,55 @@
+[0.015s] Invoking command in '/home/agilex/agilex_ws/build/magic_enum': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agilex/agilex_ws/src/ros2_astra_camera/magic_enum-0.8.0 -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/magic_enum
+[1.388s] -- The CXX compiler identification is GNU 11.3.0
+[1.388s] -- Detecting CXX compiler ABI info
+[1.388s] -- Detecting CXX compiler ABI info - done
+[1.388s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.388s] -- Detecting CXX compile features
+[1.388s] -- Detecting CXX compile features - done
+[1.388s] -- Performing Test HAS_CPP20_FLAG
+[1.388s] -- Performing Test HAS_CPP20_FLAG - Success
+[1.388s] -- Configuring done
+[1.388s] -- Generating done
+[1.389s] -- Build files have been written to: /home/agilex/agilex_ws/build/magic_enum
+[1.392s] Invoked command in '/home/agilex/agilex_ws/build/magic_enum' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agilex/agilex_ws/src/ros2_astra_camera/magic_enum-0.8.0 -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/magic_enum
+[1.392s] Invoking command in '/home/agilex/agilex_ws/build/magic_enum': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agilex/agilex_ws/build/magic_enum -- -j8 -l8
+[1.713s] [  5%] [32mBuilding CXX object example/CMakeFiles/example.dir/example.cpp.o[0m
+[2.243s] [ 11%] [32m[1mLinking CXX executable example[0m
+[2.334s] [ 11%] Built target example
+[2.355s] [ 16%] [32mBuilding CXX object test/CMakeFiles/test-cpp20.dir/test.cpp.o[0m
+[15.785s] [ 22%] [32m[1mLinking CXX executable test-cpp20[0m
+[15.792s] /usr/bin/c++ CMakeFiles/test-cpp20.dir/test.cpp.o -o test-cpp20 
+[16.168s] [ 22%] Built target test-cpp20
+[16.185s] [ 27%] [32mBuilding CXX object test/CMakeFiles/test_flags-cpp20.dir/test_flags.cpp.o[0m
+[28.563s] [ 33%] [32m[1mLinking CXX executable test_flags-cpp20[0m
+[28.571s] /usr/bin/c++ CMakeFiles/test_flags-cpp20.dir/test_flags.cpp.o -o test_flags-cpp20 
+[28.984s] [ 33%] Built target test_flags-cpp20
+[29.000s] [ 38%] [32mBuilding CXX object test/CMakeFiles/test_flags-cpp17.dir/test_flags.cpp.o[0m
+[40.418s] [ 44%] [32m[1mLinking CXX executable test_flags-cpp17[0m
+[40.425s] /usr/bin/c++ CMakeFiles/test_flags-cpp17.dir/test_flags.cpp.o -o test_flags-cpp17 
+[40.765s] [ 44%] Built target test_flags-cpp17
+[40.782s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test-cpp17.dir/test.cpp.o[0m
+[53.195s] [ 55%] [32m[1mLinking CXX executable test-cpp17[0m
+[53.202s] /usr/bin/c++ CMakeFiles/test-cpp17.dir/test.cpp.o -o test-cpp17 
+[53.602s] [ 55%] Built target test-cpp17
+[53.620s] [ 61%] [32mBuilding CXX object example/CMakeFiles/example_nonascii_name.dir/example_nonascii_name.cpp.o[0m
+[53.634s] [ 66%] [32mBuilding CXX object example/CMakeFiles/example_switch.dir/example_switch.cpp.o[0m
+[54.393s] [ 72%] [32m[1mLinking CXX executable example_nonascii_name[0m
+[54.511s] [ 77%] [32m[1mLinking CXX executable example_switch[0m
+[54.529s] [ 77%] Built target example_nonascii_name
+[54.560s] [ 83%] [32mBuilding CXX object example/CMakeFiles/example_custom_name.dir/example_custom_name.cpp.o[0m
+[54.641s] [ 83%] Built target example_switch
+[54.743s] [ 88%] [32mBuilding CXX object example/CMakeFiles/enum_flag_example.dir/enum_flag_example.cpp.o[0m
+[55.468s] [ 94%] [32m[1mLinking CXX executable example_custom_name[0m
+[55.600s] [ 94%] Built target example_custom_name
+[55.696s] [100%] [32m[1mLinking CXX executable enum_flag_example[0m
+[55.899s] [100%] Built target enum_flag_example
+[56.011s] Invoked command in '/home/agilex/agilex_ws/build/magic_enum' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agilex/agilex_ws/build/magic_enum -- -j8 -l8
+[56.328s] Invoking command in '/home/agilex/agilex_ws/build/magic_enum': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agilex/agilex_ws/build/magic_enum
+[56.349s] -- Install configuration: ""
+[56.350s] -- Installing: /home/agilex/agilex_ws/install/magic_enum/lib/cmake/magic_enum/magic_enumConfigVersion.cmake
+[56.350s] -- Installing: /home/agilex/agilex_ws/install/magic_enum/lib/cmake/magic_enum/magic_enumConfig.cmake
+[56.351s] -- Installing: /home/agilex/agilex_ws/install/magic_enum/./include
+[56.352s] -- Installing: /home/agilex/agilex_ws/install/magic_enum/./include/magic_enum.hpp
+[56.353s] -- Installing: /home/agilex/agilex_ws/install/magic_enum/./include/magic_enum_fuse.hpp
+[56.356s] -- Installing: /home/agilex/agilex_ws/install/magic_enum/share/magic_enum/package.xml
+[56.375s] Invoked command in '/home/agilex/agilex_ws/build/magic_enum' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agilex/agilex_ws/build/magic_enum

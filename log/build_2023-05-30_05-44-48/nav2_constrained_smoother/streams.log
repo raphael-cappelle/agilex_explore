@@ -1,0 +1,104 @@
+[0.026s] Invoking command in '/home/agilex/agilex_ws/build/nav2_constrained_smoother': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agilex/agilex_ws/src/navigation2/nav2_constrained_smoother -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/nav2_constrained_smoother
+[1.970s] -- The C compiler identification is GNU 11.3.0
+[1.970s] -- The CXX compiler identification is GNU 11.3.0
+[1.970s] -- Detecting C compiler ABI info
+[1.970s] -- Detecting C compiler ABI info - done
+[1.970s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.970s] -- Detecting C compile features
+[1.971s] -- Detecting C compile features - done
+[1.971s] -- Detecting CXX compiler ABI info
+[1.971s] -- Detecting CXX compiler ABI info - done
+[1.971s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.971s] -- Detecting CXX compile features
+[1.971s] -- Detecting CXX compile features - done
+[1.971s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.971s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.971s] -- Found nav2_core: 1.1.0 (/home/agilex/agilex_ws/install/nav2_core/share/nav2_core/cmake)
+[1.971s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.971s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.971s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.972s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.972s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.972s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.972s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.972s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.972s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.972s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.972s] -- Looking for pthread.h
+[1.972s] -- Looking for pthread.h - found
+[1.972s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.972s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.972s] -- Found Threads: TRUE  
+[2.910s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.910s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.303s] -- Found nav2_common: 1.1.0 (/home/agilex/agilex_ws/install/nav2_common/share/nav2_common/cmake)
+[5.310s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[5.322s] -- Found required Ceres dependency: glog
+[5.323s] -- Found required Ceres dependency: gflags
+[5.324s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[11.512s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.638s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[23.353s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[23.354s] -- Configured cppcheck include dirs: /home/agilex/agilex_ws/src/navigation2/nav2_constrained_smoother/include
+[23.354s] -- Configured cppcheck exclude dirs and/or files: 
+[23.355s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[23.355s] -- Configured cpplint exclude dirs and/or files: 
+[23.355s] -- Added test 'lint_cmake' to check CMake code style
+[23.357s] -- Added test 'uncrustify' to check C / C++ code style
+[23.357s] -- Configured uncrustify additional arguments: 
+[23.358s] -- Added test 'xmllint' to check XML markup files
+[23.360s] -- Configuring done
+[23.463s] -- Generating done
+[23.465s] -- Build files have been written to: /home/agilex/agilex_ws/build/nav2_constrained_smoother
+[23.485s] Invoked command in '/home/agilex/agilex_ws/build/nav2_constrained_smoother' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agilex/agilex_ws/src/navigation2/nav2_constrained_smoother -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/nav2_constrained_smoother
+[23.486s] Invoking command in '/home/agilex/agilex_ws/build/nav2_constrained_smoother': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_constrained_smoother -- -j8 -l8
+[30.781s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_constrained_smoother.dir/src/constrained_smoother.cpp.o[0m
+[34.568s] [ 20%] [32m[1mLinking CXX shared library libnav2_constrained_smoother.so[0m
+[34.880s] [ 20%] Built target nav2_constrained_smoother
+[34.897s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[35.885s] [ 40%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[35.913s] [ 40%] Built target gtest_main
+[35.929s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[44.838s] [ 60%] [32m[1mLinking CXX static library libgtest.a[0m
+[44.888s] [ 60%] Built target gtest
+[44.914s] [ 70%] [32mBuilding CXX object test/CMakeFiles/test_smoother_cost_function.dir/test_smoother_cost_function.cpp.o[0m
+[44.932s] [ 80%] [32mBuilding CXX object test/CMakeFiles/test_constrained_smoother.dir/test_constrained_smoother.cpp.o[0m
+[56.719s] [ 90%] [32m[1mLinking CXX executable test_smoother_cost_function[0m
+[57.132s] [ 90%] Built target test_smoother_cost_function
+[66.210s] [100%] [32m[1mLinking CXX executable test_constrained_smoother[0m
+[66.586s] [100%] Built target test_constrained_smoother
+[66.597s] Invoked command in '/home/agilex/agilex_ws/build/nav2_constrained_smoother' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_constrained_smoother -- -j8 -l8
+[66.618s] Invoking command in '/home/agilex/agilex_ws/build/nav2_constrained_smoother': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_constrained_smoother
+[66.625s] -- Install configuration: "Release"
+[66.625s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/lib/libnav2_constrained_smoother.so
+[66.626s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_constrained_smoother/lib/libnav2_constrained_smoother.so" to ""
+[66.626s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/include/
+[66.626s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/include//nav2_constrained_smoother
+[66.627s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/include//nav2_constrained_smoother/options.hpp
+[66.627s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/include//nav2_constrained_smoother/constrained_smoother.hpp
+[66.627s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/include//nav2_constrained_smoother/utils.hpp
+[66.627s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/include//nav2_constrained_smoother/smoother.hpp
+[66.627s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/include//nav2_constrained_smoother/smoother_cost_function.hpp
+[66.627s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/library_path.sh
+[66.627s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/library_path.dsv
+[66.628s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/nav2_constrained_smoother.xml
+[66.628s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/ament_index/resource_index/package_run_dependencies/nav2_constrained_smoother
+[66.628s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/ament_index/resource_index/parent_prefix_path/nav2_constrained_smoother
+[66.628s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/ament_prefix_path.sh
+[66.628s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/ament_prefix_path.dsv
+[66.628s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/path.sh
+[66.628s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/path.dsv
+[66.629s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/local_setup.bash
+[66.629s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/local_setup.sh
+[66.629s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/local_setup.zsh
+[66.629s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/local_setup.dsv
+[66.629s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/package.dsv
+[66.629s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/ament_index/resource_index/packages/nav2_constrained_smoother
+[66.629s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_constrained_smoother
+[66.629s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/ament_cmake_export_include_directories-extras.cmake
+[66.629s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/ament_cmake_export_libraries-extras.cmake
+[66.629s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/ament_cmake_export_dependencies-extras.cmake
+[66.630s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/nav2_constrained_smootherConfig.cmake
+[66.630s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/nav2_constrained_smootherConfig-version.cmake
+[66.630s] -- Installing: /home/agilex/agilex_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/package.xml
+[66.633s] Invoked command in '/home/agilex/agilex_ws/build/nav2_constrained_smoother' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_constrained_smoother

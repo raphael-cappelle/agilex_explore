@@ -1,0 +1,287 @@
+[0.020s] Invoking command in '/home/agilex/agilex_ws/build/costmap_converter': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/home/agilex/agilex_ws/install/costmap_converter_msgs CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/home/agilex/agilex_ws/install/costmap_converter_msgs LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:/home/agilex/agilex_ws/install/costmap_converter_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/agilex/agilex_ws/build/costmap_converter -- -j16 -l16
+[0.083s] [  5%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_polygons.cpp.o[0m
+[4.170s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.170s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:42[m[K,
+[4.170s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/src/costmap_to_polygons.cpp:39[m[K:
+[4.171s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[4.171s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[4.171s]   197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+[4.171s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.194s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[4.194s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.194s]   313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[4.194s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.194s] In file included from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:43[m[K,
+[4.194s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/src/costmap_to_polygons.cpp:39[m[K:
+[4.195s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.195s]   313 |  underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[4.195s]       |                                                            [01;36m[K~^[m[K
+[4.195s]       |                                                             [01;36m[K|[m[K
+[4.195s]       |                                                             [01;36m[Kchar*[m[K
+[4.195s] 
+[7.414s] [ 10%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_dynamic_obstacles/multitarget_tracker/HungarianAlg.cpp.o[0m
+[9.373s] [ 15%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_dynamic_obstacles/multitarget_tracker/Kalman.cpp.o[0m
+[12.165s] [ 21%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_dynamic_obstacles/multitarget_tracker/Ctracker.cpp.o[0m
+[14.443s] [ 26%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_dynamic_obstacles/blob_detector.cpp.o[0m
+[16.796s] [ 31%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_dynamic_obstacles/background_subtractor.cpp.o[0m
+[17.852s] [ 36%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.cpp.o[0m
+[18.255s] In file included from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/src/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.cpp:6[m[K:
+[18.255s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[18.255s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[18.255s]       |  [01;35m[K^~~~~~~[m[K
+[21.136s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[21.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[21.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[21.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.137s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:46[m[K,
+[21.137s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.h:47[m[K,
+[21.137s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/src/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.cpp:1[m[K:
+[21.137s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[21.138s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[21.138s]   197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+[21.138s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[21.159s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[21.160s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[21.160s]   313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[21.160s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.160s] In file included from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.h:47[m[K,
+[21.160s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/src/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.cpp:1[m[K:
+[21.160s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[21.160s]   313 |  underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[21.160s]       |                                                            [01;36m[K~^[m[K
+[21.160s]       |                                                             [01;36m[K|[m[K
+[21.160s]       |                                                             [01;36m[Kchar*[m[K
+[21.160s] 
+[43.026s] [ 42%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_lines_ransac.cpp.o[0m
+[48.594s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[48.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[48.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[48.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[48.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[48.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[48.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[48.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[48.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[48.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[48.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[48.595s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:46[m[K,
+[48.595s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_lines_ransac.h:42[m[K,
+[48.595s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/src/costmap_to_lines_ransac.cpp:39[m[K:
+[48.595s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[48.595s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[48.595s]   197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+[48.595s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[48.623s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[48.623s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[48.623s]   313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[48.623s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[48.623s] In file included from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_lines_ransac.h:42[m[K,
+[48.623s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/src/costmap_to_lines_ransac.cpp:39[m[K:
+[48.623s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[48.623s]   313 |  underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[48.623s]       |                                                            [01;36m[K~^[m[K
+[48.623s]       |                                                             [01;36m[K|[m[K
+[48.623s]       |                                                             [01;36m[Kchar*[m[K
+[48.623s] 
+[52.652s] [ 47%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_lines_convex_hull.cpp.o[0m
+[57.086s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[57.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[57.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[57.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[57.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[57.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[57.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[57.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[57.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[57.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[57.087s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[57.087s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:46[m[K,
+[57.087s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_lines_convex_hull.h:42[m[K,
+[57.087s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/src/costmap_to_lines_convex_hull.cpp:39[m[K:
+[57.088s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[57.088s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[57.088s]   197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+[57.088s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[57.105s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[57.105s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[57.105s]   313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[57.105s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[57.105s] In file included from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_lines_convex_hull.h:42[m[K,
+[57.106s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/src/costmap_to_lines_convex_hull.cpp:39[m[K:
+[57.106s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[57.106s]   313 |  underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[57.106s]       |                                                            [01;36m[K~^[m[K
+[57.106s]       |                                                             [01;36m[K|[m[K
+[57.106s]       |                                                             [01;36m[Kchar*[m[K
+[57.106s] 
+[59.603s] [ 52%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_polygons_concave.cpp.o[0m
+[63.418s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[63.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[63.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[63.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[63.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[63.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[63.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[63.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[63.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[63.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[63.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[63.419s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:42[m[K,
+[63.420s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons_concave.h:42[m[K,
+[63.420s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/src/costmap_to_polygons_concave.cpp:39[m[K:
+[63.420s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[63.420s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[63.420s]   197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+[63.420s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[63.436s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[63.436s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[63.436s]   313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[63.436s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[63.436s] In file included from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:43[m[K,
+[63.436s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons_concave.h:42[m[K,
+[63.436s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/src/costmap_to_polygons_concave.cpp:39[m[K:
+[63.436s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[63.436s]   313 |  underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[63.437s]       |                                                            [01;36m[K~^[m[K
+[63.437s]       |                                                             [01;36m[K|[m[K
+[63.437s]       |                                                             [01;36m[Kchar*[m[K
+[63.437s] 
+[66.794s] [ 57%] [32m[1mLinking CXX shared library libcostmap_converter.so[0m
+[67.305s] [ 57%] Built target costmap_converter
+[67.334s] [ 63%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[73.758s] [ 68%] [32m[1mLinking CXX static library libgtest.a[0m
+[73.800s] [ 68%] Built target gtest
+[73.834s] [ 78%] Built target gtest_main
+[73.845s] [ 84%] [32mBuilding CXX object CMakeFiles/standalone_converter.dir/src/costmap_converter_node.cpp.o[0m
+[73.881s] [ 89%] [32mBuilding CXX object CMakeFiles/test_costmap_polygons.dir/test/costmap_polygons.cpp.o[0m
+[79.975s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[79.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[79.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[79.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[79.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[79.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[79.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[79.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[79.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[79.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[79.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[79.976s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/src/costmap_converter_node.cpp:40[m[K:
+[79.976s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[79.977s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[79.977s]   197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+[79.977s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[80.108s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[80.108s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[80.108s]   313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[80.108s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[80.108s] In file included from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/src/costmap_converter_node.cpp:47[m[K:
+[80.108s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[80.108s]   313 |  underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[80.109s]       |                                                            [01;36m[K~^[m[K
+[80.109s]       |                                                             [01;36m[K|[m[K
+[80.109s]       |                                                             [01;36m[Kchar*[m[K
+[80.109s] 
+[82.348s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[82.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[82.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[82.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[82.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[82.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[82.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[82.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[82.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[82.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[82.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[82.350s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:42[m[K,
+[82.350s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/test/costmap_polygons.cpp:5[m[K:
+[82.350s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[82.350s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[82.350s]   197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+[82.350s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[82.373s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[82.373s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[82.373s]   313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[82.373s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[82.373s] In file included from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:43[m[K,
+[82.373s]                  from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/test/costmap_polygons.cpp:5[m[K:
+[82.374s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[82.374s]   313 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[82.374s]       |                                                                                                                      [01;36m[K~^[m[K
+[82.374s]       |                                                                                                                       [01;36m[K|[m[K
+[82.374s]       |                                                                                                                       [01;36m[Kchar*[m[K
+[84.244s] In file included from [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/test/costmap_polygons.cpp:3[m[K:
+[84.244s] /opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h: In instantiation of ‘[01m[Ktesting::AssertionResult testing::internal::CmpHelperEQ(const char*, const char*, const T1&, const T2&) [with T1 = int; T2 = long unsigned int][m[K’:
+[84.244s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:1554:23:[m[K   required from ‘[01m[Kstatic testing::AssertionResult testing::internal::EqHelper::Compare(const char*, const char*, const T1&, const T2&) [with T1 = int; T2 = long unsigned int; typename std::enable_if<((! std::is_integral<_Tp>::value) || (! std::is_pointer<_Dp>::value))>::type* <anonymous> = 0][m[K’
+[84.244s] [01m[K/home/agilex/agilex_ws/src/costmap_converter/costmap_converter/test/costmap_polygons.cpp:125:3:[m[K   required from here
+[84.245s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:1527:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kconst long unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[84.245s]  1527 |   if ([01;35m[Klhs == rhs[m[K) {
+[84.245s]       |       [01;35m[K~~~~^~~~~~[m[K
+[87.531s] [ 94%] [32m[1mLinking CXX executable test_costmap_polygons[0m
+[88.913s] [ 94%] Built target test_costmap_polygons
+[92.646s] [100%] [32m[1mLinking CXX executable standalone_converter[0m
+[92.970s] [100%] Built target standalone_converter
+[93.006s] Invoked command in '/home/agilex/agilex_ws/build/costmap_converter' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/home/agilex/agilex_ws/install/costmap_converter_msgs CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/home/agilex/agilex_ws/install/costmap_converter_msgs LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:/home/agilex/agilex_ws/install/costmap_converter_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/agilex/agilex_ws/build/costmap_converter -- -j16 -l16
+[93.040s] Invoking command in '/home/agilex/agilex_ws/build/costmap_converter': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/home/agilex/agilex_ws/install/costmap_converter_msgs CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/home/agilex/agilex_ws/install/costmap_converter_msgs LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:/home/agilex/agilex_ws/install/costmap_converter_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/agilex/agilex_ws/build/costmap_converter
+[93.047s] -- Install configuration: "Release"
+[93.049s] -- Installing: /home/agilex/agilex_ws/install/costmap_converter/lib/libcostmap_converter.so
+[93.052s] -- Set runtime path of "/home/agilex/agilex_ws/install/costmap_converter/lib/libcostmap_converter.so" to ""
+[93.053s] -- Installing: /home/agilex/agilex_ws/install/costmap_converter/bin/standalone_converter
+[93.055s] -- Set runtime path of "/home/agilex/agilex_ws/install/costmap_converter/bin/standalone_converter" to ""
+[93.055s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/include/
+[93.055s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/include//costmap_converter
+[93.056s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/include//costmap_converter/costmap_converter_interface.h
+[93.056s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/include//costmap_converter/costmap_to_lines_convex_hull.h
+[93.056s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/include//costmap_converter/costmap_to_polygons_concave.h
+[93.056s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/include//costmap_converter/costmap_to_lines_ransac.h
+[93.056s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles
+[93.056s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.h
+[93.056s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/blob_detector.h
+[93.056s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/background_subtractor.h
+[93.056s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker
+[93.057s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/Ctracker.h
+[93.057s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/defines.h
+[93.057s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/Kalman.h
+[93.057s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/README.md
+[93.057s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/HungarianAlg.h
+[93.057s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/include//costmap_converter/misc.h
+[93.057s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/include//costmap_converter/costmap_to_polygons.h
+[93.057s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/costmap_converter/environment/library_path.sh
+[93.058s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/costmap_converter/environment/library_path.dsv
+[93.058s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/costmap_converter/costmap_converter_plugins.xml
+[93.058s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/ament_index/resource_index/package_run_dependencies/costmap_converter
+[93.058s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/ament_index/resource_index/parent_prefix_path/costmap_converter
+[93.058s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/costmap_converter/environment/ament_prefix_path.sh
+[93.059s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/costmap_converter/environment/ament_prefix_path.dsv
+[93.059s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/costmap_converter/environment/path.sh
+[93.059s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/costmap_converter/environment/path.dsv
+[93.059s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/costmap_converter/local_setup.bash
+[93.059s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/costmap_converter/local_setup.sh
+[93.059s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/costmap_converter/local_setup.zsh
+[93.059s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/costmap_converter/local_setup.dsv
+[93.059s] -- Installing: /home/agilex/agilex_ws/install/costmap_converter/share/costmap_converter/package.dsv
+[93.059s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/ament_index/resource_index/packages/costmap_converter
+[93.060s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/ament_index/resource_index/costmap_converter__pluginlib__plugin/costmap_converter
+[93.060s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_include_directories-extras.cmake
+[93.060s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_libraries-extras.cmake
+[93.060s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_dependencies-extras.cmake
+[93.060s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/costmap_converter/cmake/costmap_converterConfig.cmake
+[93.061s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/costmap_converter/cmake/costmap_converterConfig-version.cmake
+[93.061s] -- Up-to-date: /home/agilex/agilex_ws/install/costmap_converter/share/costmap_converter/package.xml
+[93.064s] Invoked command in '/home/agilex/agilex_ws/build/costmap_converter' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/home/agilex/agilex_ws/install/costmap_converter_msgs CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/home/agilex/agilex_ws/install/costmap_converter_msgs LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:/home/agilex/agilex_ws/install/costmap_converter_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/agilex/agilex_ws/build/costmap_converter

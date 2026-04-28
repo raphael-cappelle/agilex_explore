@@ -1,0 +1,45 @@
+[0.310s] Invoking command in '/home/agilex/agilex_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_common PYTHONPATH=/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_voxel_grid -- -j16 -l16
+[0.518s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.525s] [ 20%] [32mBuilding CXX object CMakeFiles/voxel_grid.dir/src/voxel_grid.cpp.o[0m
+[0.532s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[6.674s] [ 40%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.843s] [ 40%] Built target gtest_main
+[20.053s] [ 50%] [32m[1mLinking CXX shared library libvoxel_grid.so[0m
+[20.339s] [ 50%] Built target voxel_grid
+[25.806s] [ 60%] [32m[1mLinking CXX static library libgtest.a[0m
+[25.855s] [ 60%] Built target gtest
+[25.889s] [ 70%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_tests.dir/voxel_grid_tests.cpp.o[0m
+[31.578s] [ 80%] [32m[1mLinking CXX executable voxel_grid_tests[0m
+[31.889s] [ 80%] Built target voxel_grid_tests
+[31.889s] [ 90%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_bresenham_3d.dir/voxel_grid_bresenham_3d.cpp.o[0m
+[35.454s] [100%] [32m[1mLinking CXX executable voxel_grid_bresenham_3d[0m
+[35.631s] [100%] Built target voxel_grid_bresenham_3d
+[35.670s] Invoked command in '/home/agilex/agilex_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_common PYTHONPATH=/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_voxel_grid -- -j16 -l16
+[35.702s] Invoking command in '/home/agilex/agilex_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_common PYTHONPATH=/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_voxel_grid
+[35.711s] -- Install configuration: "Release"
+[35.713s] -- Installing: /home/agilex/agilex_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[35.713s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so" to ""
+[35.713s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/include
+[35.714s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/include/nav2_voxel_grid
+[35.714s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[35.717s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[35.717s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[35.718s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[35.718s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[35.718s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[35.718s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[35.718s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[35.719s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[35.719s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[35.719s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[35.719s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[35.719s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[35.719s] -- Installing: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[35.719s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[35.719s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.720s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.720s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[35.720s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[35.720s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[35.720s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[35.724s] Invoked command in '/home/agilex/agilex_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_common PYTHONPATH=/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_voxel_grid

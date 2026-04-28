@@ -1,0 +1,46 @@
+[0.090s] Invoking command in '/home/agilex/agilex_ws/build/nav2_planner': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_planner -- -j16 -l16
+[0.160s] [ 10%] [32mBuilding CXX object CMakeFiles/planner_server_core.dir/src/planner_server.cpp.o[0m
+[23.705s] [ 20%] [32m[1mLinking CXX shared library libplanner_server_core.so[0m
+[24.180s] [ 20%] Built target planner_server_core
+[24.212s] [ 40%] Built target gtest_main
+[24.256s] [ 50%] [32mBuilding CXX object CMakeFiles/planner_server.dir/src/main.cpp.o[0m
+[32.189s] [ 60%] [32m[1mLinking CXX executable planner_server[0m
+[32.540s] [ 60%] Built target planner_server
+[32.605s] [ 70%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[43.211s] [ 80%] [32m[1mLinking CXX static library libgtest.a[0m
+[43.251s] [ 80%] Built target gtest
+[43.295s] [ 90%] [32mBuilding CXX object test/CMakeFiles/test_dynamic_parameters.dir/test_dynamic_parameters.cpp.o[0m
+[49.951s] [100%] [32m[1mLinking CXX executable test_dynamic_parameters[0m
+[50.311s] [100%] Built target test_dynamic_parameters
+[50.346s] Invoked command in '/home/agilex/agilex_ws/build/nav2_planner' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_planner -- -j16 -l16
+[50.374s] Invoking command in '/home/agilex/agilex_ws/build/nav2_planner': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_planner
+[50.469s] -- Install configuration: "Release"
+[50.469s] -- Installing: /home/agilex/agilex_ws/install/nav2_planner/lib/libplanner_server_core.so
+[50.470s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_planner/lib/libplanner_server_core.so" to ""
+[50.470s] -- Installing: /home/agilex/agilex_ws/install/nav2_planner/lib/nav2_planner/planner_server
+[50.470s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_planner/lib/nav2_planner/planner_server" to ""
+[50.470s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/include/
+[50.470s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/include//nav2_planner
+[50.470s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/include//nav2_planner/planner_server.hpp
+[50.471s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/environment/library_path.sh
+[50.471s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/environment/library_path.dsv
+[50.472s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/ament_index/resource_index/package_run_dependencies/nav2_planner
+[50.472s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/ament_index/resource_index/parent_prefix_path/nav2_planner
+[50.472s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/environment/ament_prefix_path.sh
+[50.472s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/environment/ament_prefix_path.dsv
+[50.472s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/environment/path.sh
+[50.472s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/environment/path.dsv
+[50.472s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/local_setup.bash
+[50.472s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/local_setup.sh
+[50.472s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/local_setup.zsh
+[50.472s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/local_setup.dsv
+[50.472s] -- Installing: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/package.dsv
+[50.472s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/ament_index/resource_index/packages/nav2_planner
+[50.473s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/ament_index/resource_index/rclcpp_components/nav2_planner
+[50.473s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[50.473s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[50.473s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[50.473s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/cmake/nav2_plannerConfig.cmake
+[50.473s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/cmake/nav2_plannerConfig-version.cmake
+[50.473s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/package.xml
+[50.474s] Invoked command in '/home/agilex/agilex_ws/build/nav2_planner' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_planner

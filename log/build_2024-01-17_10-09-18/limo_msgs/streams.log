@@ -1,0 +1,153 @@
+[0.364s] Invoking command in '/home/agilex/agilex_ws/build/limo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/agilex/agilex_ws/build/limo_msgs -- -j8 -l8
+[0.548s] [35m[1mConsolidate compiler generated dependencies of target limo_msgs__rosidl_generator_c[0m
+[0.565s] [  3%] Built target limo_msgs__cpp
+[0.617s] [35m[1mConsolidate compiler generated dependencies of target limo_msgs__rosidl_typesupport_cpp[0m
+[0.620s] [35m[1mConsolidate compiler generated dependencies of target limo_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.655s] [35m[1mConsolidate compiler generated dependencies of target limo_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.736s] [  3%] Built target ament_cmake_python_copy_limo_msgs
+[0.767s] [ 12%] Built target limo_msgs__rosidl_generator_c
+[0.831s] [35m[1mConsolidate compiler generated dependencies of target limo_msgs__rosidl_typesupport_introspection_c[0m
+[0.842s] [ 25%] Built target limo_msgs__rosidl_typesupport_introspection_cpp
+[0.848s] [ 35%] Built target limo_msgs__rosidl_typesupport_cpp
+[0.849s] [35m[1mConsolidate compiler generated dependencies of target limo_msgs__rosidl_typesupport_c[0m
+[0.852s] [ 41%] Built target limo_msgs__rosidl_typesupport_fastrtps_cpp
+[0.876s] [35m[1mConsolidate compiler generated dependencies of target limo_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.929s] [ 51%] Built target limo_msgs__rosidl_typesupport_introspection_c
+[0.955s] [ 61%] Built target limo_msgs__rosidl_typesupport_c
+[0.964s] [ 70%] Built target limo_msgs__rosidl_typesupport_fastrtps_c
+[1.046s] [ 70%] Built target limo_msgs
+[1.127s] [ 74%] Built target limo_msgs__py
+[1.152s] [35m[1mConsolidate compiler generated dependencies of target limo_msgs__rosidl_generator_py[0m
+[1.192s] [ 80%] Built target limo_msgs__rosidl_generator_py
+[1.223s] [35m[1mConsolidate compiler generated dependencies of target limo_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.234s] [35m[1mConsolidate compiler generated dependencies of target limo_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.258s] [35m[1mConsolidate compiler generated dependencies of target limo_msgs__rosidl_typesupport_c__pyext[0m
+[1.273s] [ 87%] Built target limo_msgs__rosidl_typesupport_introspection_c__pyext
+[1.295s] [ 93%] Built target limo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.313s] [100%] Built target limo_msgs__rosidl_typesupport_c__pyext
+[1.385s] running egg_info
+[1.390s] writing limo_msgs.egg-info/PKG-INFO
+[1.403s] writing dependency_links to limo_msgs.egg-info/dependency_links.txt
+[1.403s] writing top-level names to limo_msgs.egg-info/top_level.txt
+[1.420s] reading manifest file 'limo_msgs.egg-info/SOURCES.txt'
+[1.422s] writing manifest file 'limo_msgs.egg-info/SOURCES.txt'
+[1.484s] [100%] Built target ament_cmake_python_build_limo_msgs_egg
+[1.513s] Invoked command in '/home/agilex/agilex_ws/build/limo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/agilex/agilex_ws/build/limo_msgs -- -j8 -l8
+[1.641s] Invoking command in '/home/agilex/agilex_ws/build/limo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/agilex/agilex_ws/build/limo_msgs
+[1.662s] -- Install configuration: ""
+[1.662s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/ament_index/resource_index/rosidl_interfaces/limo_msgs
+[1.663s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs
+[1.663s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg
+[1.663s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail
+[1.663s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__functions.c
+[1.664s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__functions.h
+[1.664s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__struct.h
+[1.664s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.h
+[1.664s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/limo_status.h
+[1.664s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.664s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/environment/library_path.sh
+[1.665s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/environment/library_path.dsv
+[1.665s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_c.so
+[1.665s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs
+[1.665s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg
+[1.665s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail
+[1.665s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_fastrtps_c.h
+[1.665s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.665s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_c.so
+[1.665s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs
+[1.665s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg
+[1.666s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/limo_status.hpp
+[1.666s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail
+[1.666s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__builder.hpp
+[1.666s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__struct.hpp
+[1.666s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__traits.hpp
+[1.666s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs
+[1.666s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg
+[1.666s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail
+[1.666s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.667s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/dds_fastrtps
+[1.667s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.667s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.667s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs
+[1.667s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg
+[1.667s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail
+[1.667s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.c
+[1.667s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_introspection_c.h
+[1.668s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.668s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_c.so
+[1.668s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_c.so
+[1.668s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs
+[1.668s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg
+[1.668s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail
+[1.669s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_introspection_cpp.hpp
+[1.669s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.cpp
+[1.669s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_cpp.so
+[1.669s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_cpp.so
+[1.669s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/environment/pythonpath.sh
+[1.669s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/environment/pythonpath.dsv
+[1.669s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info
+[1.669s] -- Installing: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.669s] -- Installing: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.669s] -- Installing: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.669s] -- Installing: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.669s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs
+[1.670s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg
+[1.670s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/_limo_status_s.c
+[1.670s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/__init__.py
+[1.670s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/_limo_status.py
+[1.670s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.670s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.670s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_c.c
+[1.670s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/__init__.py
+[1.670s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/liblimo_msgs__rosidl_generator_py.so
+[1.671s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.671s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.671s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.719s] Listing '/home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs'...
+[1.719s] Listing '/home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg'...
+[1.722s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.723s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.723s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.725s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_py.so
+[1.725s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/msg/LimoStatus.idl
+[1.725s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/msg/LimoStatus.msg
+[1.725s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/ament_index/resource_index/package_run_dependencies/limo_msgs
+[1.725s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/ament_index/resource_index/parent_prefix_path/limo_msgs
+[1.725s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/environment/ament_prefix_path.sh
+[1.725s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/environment/ament_prefix_path.dsv
+[1.725s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/environment/path.sh
+[1.725s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/environment/path.dsv
+[1.726s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/local_setup.bash
+[1.726s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/local_setup.sh
+[1.726s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/local_setup.zsh
+[1.726s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/local_setup.dsv
+[1.726s] -- Installing: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/package.dsv
+[1.726s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/ament_index/resource_index/packages/limo_msgs
+[1.726s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cExport.cmake
+[1.726s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.726s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.726s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.726s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cppExport.cmake
+[1.727s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.727s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.728s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.728s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.729s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cExport.cmake
+[1.730s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.730s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.730s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.730s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cppExport.cmake
+[1.730s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.731s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_pyExport.cmake
+[1.731s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.731s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake-extras.cmake
+[1.731s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.731s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.731s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.731s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.731s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.731s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.732s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgsConfig.cmake
+[1.732s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgsConfig-version.cmake
+[1.732s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_msgs/share/limo_msgs/package.xml
+[1.869s] Invoked command in '/home/agilex/agilex_ws/build/limo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/agilex/agilex_ws/build/limo_msgs

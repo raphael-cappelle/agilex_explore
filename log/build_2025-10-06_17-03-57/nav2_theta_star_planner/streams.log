@@ -1,0 +1,47 @@
+[0.050s] Invoking command in '/home/agilex/agilex_ws/build/nav2_theta_star_planner': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_theta_star_planner -- -j16 -l16
+[16.269s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_theta_star_planner.dir/src/theta_star.cpp.o[0m
+[16.279s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_theta_star_planner.dir/src/theta_star_planner.cpp.o[0m
+[16.279s] [ 33%] [32m[1mLinking CXX shared library libnav2_theta_star_planner.so[0m
+[16.279s] [ 33%] Built target nav2_theta_star_planner
+[16.279s] [ 44%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[17.052s] [ 55%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[17.091s] [ 55%] Built target gtest_main
+[17.121s] [ 66%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[23.452s] [ 77%] [32m[1mLinking CXX static library libgtest.a[0m
+[23.487s] [ 77%] Built target gtest
+[23.523s] [ 88%] [32mBuilding CXX object CMakeFiles/test_theta_star.dir/test/test_theta_star.cpp.o[0m
+[31.903s] [100%] [32m[1mLinking CXX executable test_theta_star[0m
+[32.459s] [100%] Built target test_theta_star
+[32.494s] Invoked command in '/home/agilex/agilex_ws/build/nav2_theta_star_planner' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_theta_star_planner -- -j16 -l16
+[32.751s] Invoking command in '/home/agilex/agilex_ws/build/nav2_theta_star_planner': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_theta_star_planner
+[32.797s] -- Install configuration: "Release"
+[32.797s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/theta_star_planner.xml
+[32.797s] -- Installing: /home/agilex/agilex_ws/install/nav2_theta_star_planner/lib/libnav2_theta_star_planner.so
+[32.797s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_theta_star_planner/lib/libnav2_theta_star_planner.so" to ""
+[32.797s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/include/
+[32.798s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/include//nav2_theta_star_planner
+[32.798s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/include//nav2_theta_star_planner/theta_star.hpp
+[32.798s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/include//nav2_theta_star_planner/theta_star_planner.hpp
+[32.798s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/theta_star_planner.xml
+[32.798s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/library_path.sh
+[32.798s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/library_path.dsv
+[32.798s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/ament_index/resource_index/package_run_dependencies/nav2_theta_star_planner
+[32.798s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/ament_index/resource_index/parent_prefix_path/nav2_theta_star_planner
+[32.798s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/ament_prefix_path.sh
+[32.798s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/ament_prefix_path.dsv
+[32.798s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/path.sh
+[32.799s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/path.dsv
+[32.799s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.bash
+[32.799s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.sh
+[32.799s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.zsh
+[32.799s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.dsv
+[32.799s] -- Installing: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/package.dsv
+[32.799s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/ament_index/resource_index/packages/nav2_theta_star_planner
+[32.799s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_theta_star_planner
+[32.799s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.799s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[32.799s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.799s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/nav2_theta_star_plannerConfig.cmake
+[32.799s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/nav2_theta_star_plannerConfig-version.cmake
+[32.800s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/package.xml
+[32.968s] Invoked command in '/home/agilex/agilex_ws/build/nav2_theta_star_planner' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_theta_star_planner

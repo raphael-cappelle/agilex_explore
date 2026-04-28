@@ -1,0 +1,144 @@
+[0.061s] Invoking command in '/home/agilex/agilex_ws/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_smac_planner -- -j16 -l16
+[0.184s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o[0m
+[14.217s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_basic.cpp.o[0m
+[20.975s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_2d.cpp.o[0m
+[29.148s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/costmap_downsampler.cpp.o[0m
+[35.197s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_lattice.cpp.o[0m
+[51.268s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_hybrid.cpp.o[0m
+[59.498s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/analytic_expansion.cpp.o[0m
+[65.680s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smoother.cpp.o[0m
+[70.355s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/a_star.cpp.o[0m
+[70.357s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/collision_checker.cpp.o[0m
+[84.630s] [ 18%] [32m[1mLinking CXX shared library libnav2_smac_planner.so[0m
+[85.360s] [ 18%] Built target nav2_smac_planner
+[85.373s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[85.387s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[85.388s] [ 23%] Built target gtest_main
+[85.421s] [35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner_lattice[0m
+[85.510s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smac_planner_lattice.cpp.o[0m
+[85.512s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smoother.cpp.o[0m
+[93.752s] [ 28%] [32m[1mLinking CXX static library libgtest.a[0m
+[93.790s] [ 28%] Built target gtest
+[93.817s] [ 30%] [32mBuilding CXX object test/CMakeFiles/test_costmap_downsampler.dir/test_costmap_downsampler.cpp.o[0m
+[93.828s] [35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner_2d[0m
+[93.830s] [ 33%] [32mBuilding CXX object test/CMakeFiles/test_node2d.dir/test_node2d.cpp.o[0m
+[93.830s] [ 33%] [32mBuilding CXX object test/CMakeFiles/test_nodehybrid.dir/test_nodehybrid.cpp.o[0m
+[93.869s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o[0m
+[94.894s] [ 37%] [32mBuilding CXX object test/CMakeFiles/test_collision_checker.dir/test_collision_checker.cpp.o[0m
+[94.908s] [ 38%] [32mBuilding CXX object test/CMakeFiles/test_a_star.dir/test_a_star.cpp.o[0m
+[94.908s] [ 40%] [32mBuilding CXX object test/CMakeFiles/test_nodebasic.dir/test_nodebasic.cpp.o[0m
+[95.178s] [ 42%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_basic.cpp.o[0m
+[95.190s] [ 44%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_lattice.cpp.o[0m
+[95.190s] [ 47%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/costmap_downsampler.cpp.o[0m
+[95.191s] [ 47%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_2d.cpp.o[0m
+[95.197s] [ 49%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_hybrid.cpp.o[0m
+[95.200s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/analytic_expansion.cpp.o[0m
+[95.205s] [ 52%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/collision_checker.cpp.o[0m
+[96.281s] [ 54%] [32mBuilding CXX object test/CMakeFiles/test_smac_hybrid.dir/test_smac_hybrid.cpp.o[0m
+[108.102s] [ 55%] [32m[1mLinking CXX executable test_collision_checker[0m
+[109.045s] [ 55%] Built target test_collision_checker
+[115.452s] [ 57%] [32m[1mLinking CXX executable test_costmap_downsampler[0m
+[115.463s] [ 59%] [32m[1mLinking CXX executable test_nodebasic[0m
+[115.860s] [ 59%] Built target test_nodebasic
+[115.927s] [ 59%] Built target test_costmap_downsampler
+[116.274s] [ 61%] [32m[1mLinking CXX executable test_node2d[0m
+[116.655s] [ 61%] Built target test_node2d
+[117.717s] [ 62%] [32m[1mLinking CXX executable test_a_star[0m
+[118.194s] [ 62%] Built target test_a_star
+[118.457s] [ 64%] [32m[1mLinking CXX executable test_smac_hybrid[0m
+[118.784s] [ 64%] Built target test_smac_hybrid
+[118.871s] [ 66%] [32mBuilding CXX object test/CMakeFiles/test_lattice_node.dir/test_nodelattice.cpp.o[0m
+[118.946s] [ 67%] [32m[1mLinking CXX shared library libnav2_smac_planner_lattice.so[0m
+[119.335s] [ 69%] Built target nav2_smac_planner_lattice
+[119.381s] [ 71%] [32mBuilding CXX object test/CMakeFiles/test_smac_lattice.dir/test_smac_lattice.cpp.o[0m
+[120.891s] [ 74%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o[0m
+[120.891s] [ 74%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o[0m
+[120.898s] [ 76%] [32m[1mLinking CXX executable test_nodehybrid[0m
+[121.264s] [ 76%] Built target test_nodehybrid
+[125.352s] [ 77%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o[0m
+[125.354s] [ 81%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o[0m
+[125.354s] [ 81%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o[0m
+[128.054s] [ 83%] [32m[1mLinking CXX executable test_smac_lattice[0m
+[128.479s] [ 83%] Built target test_smac_lattice
+[128.546s] [ 84%] [32m[1mLinking CXX executable test_lattice_node[0m
+[129.014s] [ 84%] Built target test_lattice_node
+[129.091s] [ 89%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o[0m
+[129.091s] [ 89%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o[0m
+[129.091s] [ 89%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o[0m
+[135.982s] [ 91%] [32m[1mLinking CXX shared library libnav2_smac_planner_2d.so[0m
+[136.248s] [ 93%] Built target nav2_smac_planner_2d
+[136.275s] [ 94%] [32mBuilding CXX object test/CMakeFiles/test_smoother.dir/test_smoother.cpp.o[0m
+[136.281s] [ 96%] [32mBuilding CXX object test/CMakeFiles/test_smac_2d.dir/test_smac_2d.cpp.o[0m
+[141.985s] [ 98%] [32m[1mLinking CXX executable test_smoother[0m
+[142.129s] [100%] [32m[1mLinking CXX executable test_smac_2d[0m
+[142.243s] [100%] Built target test_smoother
+[142.370s] [100%] Built target test_smac_2d
+[142.397s] Invoked command in '/home/agilex/agilex_ws/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_smac_planner -- -j16 -l16
+[142.454s] Invoking command in '/home/agilex/agilex_ws/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_smac_planner
+[142.460s] -- Install configuration: "Release"
+[142.460s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_hybrid.xml
+[142.460s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_2d.xml
+[142.460s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_lattice.xml
+[142.461s] -- Installing: /home/agilex/agilex_ws/install/nav2_smac_planner/lib/libnav2_smac_planner.so
+[142.462s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_smac_planner/lib/libnav2_smac_planner.so" to ""
+[142.462s] -- Installing: /home/agilex/agilex_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so
+[142.463s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so" to ""
+[142.463s] -- Installing: /home/agilex/agilex_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so
+[142.464s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so" to ""
+[142.464s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/include/
+[142.464s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/include//nav2_smac_planner
+[142.464s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/include//nav2_smac_planner/utils.hpp
+[142.464s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/include//nav2_smac_planner/constants.hpp
+[142.464s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_hybrid.hpp
+[142.464s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/include//nav2_smac_planner/costmap_downsampler.hpp
+[142.464s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/include//nav2_smac_planner/types.hpp
+[142.464s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/include//nav2_smac_planner/smoother.hpp
+[142.464s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_lattice.hpp
+[142.465s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/include//nav2_smac_planner/a_star.hpp
+[142.465s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_lattice.hpp
+[142.465s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/include//nav2_smac_planner/analytic_expansion.hpp
+[142.465s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_2d.hpp
+[142.465s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_basic.hpp
+[142.465s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_hybrid.hpp
+[142.465s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_2d.hpp
+[142.465s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/include//nav2_smac_planner/collision_checker.hpp
+[142.465s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives
+[142.465s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution
+[142.465s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius
+[142.465s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/all_trajectories.png
+[142.465s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff
+[142.466s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff/output.json
+[142.466s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann
+[142.466s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann/output.json
+[142.466s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni
+[142.466s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni/output.json
+[142.466s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius
+[142.466s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/all_trajectories.png
+[142.466s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff
+[142.466s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff/output.json
+[142.467s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann
+[142.467s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann/output.json
+[142.467s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni
+[142.467s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni/output.json
+[142.467s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.sh
+[142.467s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.dsv
+[142.468s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/ament_index/resource_index/package_run_dependencies/nav2_smac_planner
+[142.468s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/ament_index/resource_index/parent_prefix_path/nav2_smac_planner
+[142.468s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.sh
+[142.468s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.dsv
+[142.468s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.sh
+[142.468s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.dsv
+[142.468s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.bash
+[142.468s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.sh
+[142.468s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.zsh
+[142.469s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.dsv
+[142.469s] -- Installing: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/package.dsv
+[142.469s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/ament_index/resource_index/packages/nav2_smac_planner
+[142.469s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_smac_planner
+[142.469s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[142.469s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[142.469s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[142.469s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig.cmake
+[142.470s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig-version.cmake
+[142.470s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_smac_planner/share/nav2_smac_planner/package.xml
+[142.472s] Invoked command in '/home/agilex/agilex_ws/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_smac_planner

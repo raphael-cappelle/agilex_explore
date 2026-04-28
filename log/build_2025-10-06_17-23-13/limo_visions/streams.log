@@ -1,0 +1,32 @@
+[0.087s] Invoking command in '/home/agilex/agilex_ws/build/limo_visions': /usr/bin/cmake --build /home/agilex/agilex_ws/build/limo_visions -- -j16 -l16
+[0.444s] [ 20%] Built target traffic_light
+[0.444s] [ 40%] Built target detect_rgb
+[0.444s] [ 60%] Built target move_to_ar
+[0.444s] [ 80%] Built target object_detect
+[0.444s] [100%] Built target detect_line
+[0.450s] Invoked command in '/home/agilex/agilex_ws/build/limo_visions' returned '0': /usr/bin/cmake --build /home/agilex/agilex_ws/build/limo_visions -- -j16 -l16
+[0.524s] Invoking command in '/home/agilex/agilex_ws/build/limo_visions': /usr/bin/cmake --install /home/agilex/agilex_ws/build/limo_visions
+[0.528s] -- Install configuration: ""
+[0.528s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/lib/limo_visions/move_to_ar
+[0.528s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/lib/limo_visions/object_detect
+[0.528s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/lib/limo_visions/detect_line
+[0.528s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/lib/limo_visions/traffic_light
+[0.528s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/lib/limo_visions/detect_rgb
+[0.528s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/ament_index/resource_index/package_run_dependencies/limo_visions
+[0.528s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/ament_index/resource_index/parent_prefix_path/limo_visions
+[0.528s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/environment/ament_prefix_path.sh
+[0.529s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/environment/ament_prefix_path.dsv
+[0.529s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/environment/path.sh
+[0.529s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/environment/path.dsv
+[0.529s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/local_setup.bash
+[0.529s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/local_setup.sh
+[0.529s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/local_setup.zsh
+[0.529s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/local_setup.dsv
+[0.530s] -- Installing: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/package.dsv
+[0.530s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/ament_index/resource_index/packages/limo_visions
+[0.530s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.530s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.530s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/cmake/limo_visionsConfig.cmake
+[0.530s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/cmake/limo_visionsConfig-version.cmake
+[0.530s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/package.xml
+[0.643s] Invoked command in '/home/agilex/agilex_ws/build/limo_visions' returned '0': /usr/bin/cmake --install /home/agilex/agilex_ws/build/limo_visions

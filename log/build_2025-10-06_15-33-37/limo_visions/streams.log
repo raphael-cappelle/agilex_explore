@@ -1,0 +1,81 @@
+[0.095s] Invoking command in '/home/agilex/agilex_ws/build/limo_visions': /usr/bin/cmake --build /home/agilex/agilex_ws/build/limo_visions -- -j16 -l16
+[2.431s] [35m[1mConsolidate compiler generated dependencies of target detect_rgb[0m
+[2.432s] [35m[1mConsolidate compiler generated dependencies of target detect_line[0m
+[2.432s] [ 20%] Built target detect_line
+[2.432s] [ 30%] [32mBuilding CXX object CMakeFiles/object_detect.dir/src/object_detect.cpp.o[0m
+[2.432s] [ 40%] [32mBuilding CXX object CMakeFiles/move_to_ar.dir/src/move_to_ar.cpp.o[0m
+[2.432s] [ 50%] [32mBuilding CXX object CMakeFiles/traffic_light.dir/src/traffic_light.cpp.o[0m
+[2.432s] [ 70%] Built target detect_rgb
+[13.422s] [01m[K/home/agilex/agilex_ws/src/limo_visions/src/traffic_light.cpp:26:73:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[13.422s]    26 |         void image_callback(const sensor_msgs::msg::Image::ConstPtr &msg[01;35m[K)[m[K
+[13.422s]       |                                                                         [01;35m[K^[m[K
+[13.422s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[13.422s]                  from [01m[K/home/agilex/agilex_ws/src/limo_visions/src/traffic_light.cpp:2[m[K:
+[13.422s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.423s]   173 |     [01;36m[KConstPtr[m[K;
+[13.423s]       |     [01;36m[K^~~~~~~~[m[K
+[13.493s] [01m[K/home/agilex/agilex_ws/src/limo_visions/src/traffic_light.cpp:[m[K In member function ‘[01m[Kvoid TrafficLight::image_callback(const ConstPtr&)[m[K’:
+[13.494s] [01m[K/home/agilex/agilex_ws/src/limo_visions/src/traffic_light.cpp:127:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[13.494s]   127 |     sensor_msgs::msg::Image::ConstPtr [01;35m[Khsv_image_[m[K = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", cimg).toImageMsg();
+[13.494s]       |                                       [01;35m[K^~~~~~~~~~[m[K
+[13.495s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[13.498s]                  from [01m[K/home/agilex/agilex_ws/src/limo_visions/src/traffic_light.cpp:2[m[K:
+[13.498s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.498s]   173 |     [01;36m[KConstPtr[m[K;
+[13.498s]       |     [01;36m[K^~~~~~~~[m[K
+[13.503s] [01m[K/home/agilex/agilex_ws/src/limo_visions/src/traffic_light.cpp:79:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kh[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.503s]    79 |     int [01;35m[Kh[m[K = img.rows;
+[13.503s]       |         [01;35m[K^[m[K
+[13.503s] [01m[K/home/agilex/agilex_ws/src/limo_visions/src/traffic_light.cpp:80:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.503s]    80 |     int [01;35m[Kw[m[K = img.cols;
+[13.503s]       |         [01;35m[K^[m[K
+[16.591s] [ 80%] [32m[1mLinking CXX executable traffic_light[0m
+[19.034s] [ 80%] Built target traffic_light
+[19.650s] [01m[K/home/agilex/agilex_ws/src/limo_visions/src/object_detect.cpp:[m[K In member function ‘[01m[Kvoid FollowLine::image_callback(const ConstSharedPtr&)[m[K’:
+[19.650s] [01m[K/home/agilex/agilex_ws/src/limo_visions/src/object_detect.cpp:75:55:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[19.650s]    75 |                 cv::circle(image,cv::Point(cx,cy),10,([01;35m[K0[m[K,0,255));
+[19.650s]       |                                                       [01;35m[K^[m[K
+[19.650s] [01m[K/home/agilex/agilex_ws/src/limo_visions/src/object_detect.cpp:75:59:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[19.650s]    75 |                 cv::circle(image,cv::Point(cx,cy),10,(0,0,[01;35m[K255[m[K));
+[19.651s]       |                                                           [01;35m[K^~~[m[K
+[19.651s] [01m[K/home/agilex/agilex_ws/src/limo_visions/src/object_detect.cpp:84:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.651s]    84 |             sensor_msgs::msg::Image::ConstPtr [01;35m[Khsv_image_[m[K = cv_bridge::CvImage(std_msgs::msg::Header(),"bgr8",image).toImageMsg();
+[19.651s]       |                                               [01;35m[K^~~~~~~~~~[m[K
+[19.657s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[19.657s]                  from [01m[K/home/agilex/agilex_ws/src/limo_visions/src/object_detect.cpp:5[m[K:
+[19.657s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.657s]   173 |     [01;36m[KConstPtr[m[K;
+[19.657s]       |     [01;36m[K^~~~~~~~[m[K
+[28.369s] [ 90%] [32m[1mLinking CXX executable object_detect[0m
+[29.905s] [ 90%] Built target object_detect
+[40.706s] [100%] [32m[1mLinking CXX executable move_to_ar[0m
+[41.191s] [100%] Built target move_to_ar
+[41.221s] Invoked command in '/home/agilex/agilex_ws/build/limo_visions' returned '0': /usr/bin/cmake --build /home/agilex/agilex_ws/build/limo_visions -- -j16 -l16
+[41.251s] Invoking command in '/home/agilex/agilex_ws/build/limo_visions': /usr/bin/cmake --install /home/agilex/agilex_ws/build/limo_visions
+[41.259s] -- Install configuration: ""
+[41.260s] -- Installing: /home/agilex/agilex_ws/install/limo_visions/lib/limo_visions/move_to_ar
+[41.264s] -- Set runtime path of "/home/agilex/agilex_ws/install/limo_visions/lib/limo_visions/move_to_ar" to ""
+[41.264s] -- Installing: /home/agilex/agilex_ws/install/limo_visions/lib/limo_visions/object_detect
+[41.268s] -- Set runtime path of "/home/agilex/agilex_ws/install/limo_visions/lib/limo_visions/object_detect" to ""
+[41.268s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/lib/limo_visions/detect_line
+[41.269s] -- Installing: /home/agilex/agilex_ws/install/limo_visions/lib/limo_visions/traffic_light
+[41.270s] -- Set runtime path of "/home/agilex/agilex_ws/install/limo_visions/lib/limo_visions/traffic_light" to ""
+[41.271s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/lib/limo_visions/detect_rgb
+[41.272s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/ament_index/resource_index/package_run_dependencies/limo_visions
+[41.272s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/ament_index/resource_index/parent_prefix_path/limo_visions
+[41.272s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/environment/ament_prefix_path.sh
+[41.272s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/environment/ament_prefix_path.dsv
+[41.272s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/environment/path.sh
+[41.273s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/environment/path.dsv
+[41.273s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/local_setup.bash
+[41.273s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/local_setup.sh
+[41.273s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/local_setup.zsh
+[41.273s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/local_setup.dsv
+[41.273s] -- Installing: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/package.dsv
+[41.274s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/ament_index/resource_index/packages/limo_visions
+[41.274s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/cmake/ament_cmake_export_include_directories-extras.cmake
+[41.274s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.274s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/cmake/limo_visionsConfig.cmake
+[41.274s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/cmake/limo_visionsConfig-version.cmake
+[41.275s] -- Up-to-date: /home/agilex/agilex_ws/install/limo_visions/share/limo_visions/package.xml
+[41.278s] Invoked command in '/home/agilex/agilex_ws/build/limo_visions' returned '0': /usr/bin/cmake --install /home/agilex/agilex_ws/build/limo_visions

@@ -1,0 +1,406 @@
+[0.000000] (-) TimerEvent: {}
+[0.000087] (aruco) JobQueued: {'identifier': 'aruco', 'dependencies': OrderedDict()}
+[0.000116] (aruco_msgs) JobQueued: {'identifier': 'aruco_msgs', 'dependencies': OrderedDict()}
+[0.000135] (astra_camera_msgs) JobQueued: {'identifier': 'astra_camera_msgs', 'dependencies': OrderedDict()}
+[0.000152] (costmap_converter_msgs) JobQueued: {'identifier': 'costmap_converter_msgs', 'dependencies': OrderedDict()}
+[0.000171] (csm) JobQueued: {'identifier': 'csm', 'dependencies': OrderedDict()}
+[0.000189] (glog) JobQueued: {'identifier': 'glog', 'dependencies': OrderedDict()}
+[0.000204] (libuvc) JobQueued: {'identifier': 'libuvc', 'dependencies': OrderedDict()}
+[0.000497] (limo_car) JobQueued: {'identifier': 'limo_car', 'dependencies': OrderedDict()}
+[0.000588] (limo_description) JobQueued: {'identifier': 'limo_description', 'dependencies': OrderedDict()}
+[0.000617] (limo_msgs) JobQueued: {'identifier': 'limo_msgs', 'dependencies': OrderedDict()}
+[0.000641] (limo_visions) JobQueued: {'identifier': 'limo_visions', 'dependencies': OrderedDict()}
+[0.000658] (magic_enum) JobQueued: {'identifier': 'magic_enum', 'dependencies': OrderedDict()}
+[0.000674] (nav2_common) JobQueued: {'identifier': 'nav2_common', 'dependencies': OrderedDict()}
+[0.000690] (nav_2d_msgs) JobQueued: {'identifier': 'nav_2d_msgs', 'dependencies': OrderedDict()}
+[0.000705] (rf2o_laser_odometry) JobQueued: {'identifier': 'rf2o_laser_odometry', 'dependencies': OrderedDict()}
+[0.000721] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.000736] (ydlidar_sdk) JobQueued: {'identifier': 'ydlidar_sdk', 'dependencies': OrderedDict()}
+[0.000751] (yolov5_ros2) JobQueued: {'identifier': 'yolov5_ros2', 'dependencies': OrderedDict()}
+[0.000766] (aruco_ros) JobQueued: {'identifier': 'aruco_ros', 'dependencies': OrderedDict([('aruco', '/home/agilex/agilex_ws/install/aruco'), ('aruco_msgs', '/home/agilex/agilex_ws/install/aruco_msgs')])}
+[0.000788] (astra_camera) JobQueued: {'identifier': 'astra_camera', 'dependencies': OrderedDict([('astra_camera_msgs', '/home/agilex/agilex_ws/install/astra_camera_msgs')])}
+[0.000806] (dwb_msgs) JobQueued: {'identifier': 'dwb_msgs', 'dependencies': OrderedDict([('nav_2d_msgs', '/home/agilex/agilex_ws/install/nav_2d_msgs')])}
+[0.000824] (limo_base) JobQueued: {'identifier': 'limo_base', 'dependencies': OrderedDict([('limo_msgs', '/home/agilex/agilex_ws/install/limo_msgs')])}
+[0.001162] (nav2_msgs) JobQueued: {'identifier': 'nav2_msgs', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common')])}
+[0.001191] (nav2_voxel_grid) JobQueued: {'identifier': 'nav2_voxel_grid', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common')])}
+[0.001211] (teb_msgs) JobQueued: {'identifier': 'teb_msgs', 'dependencies': OrderedDict([('costmap_converter_msgs', '/home/agilex/agilex_ws/install/costmap_converter_msgs')])}
+[0.001229] (nav2_simple_commander) JobQueued: {'identifier': 'nav2_simple_commander', 'dependencies': OrderedDict([('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs')])}
+[0.001246] (nav2_util) JobQueued: {'identifier': 'nav2_util', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs')])}
+[0.001264] (nav2_amcl) JobQueued: {'identifier': 'nav2_amcl', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util')])}
+[0.001419] (nav2_behavior_tree) JobQueued: {'identifier': 'nav2_behavior_tree', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util')])}
+[0.001441] (nav2_lifecycle_manager) JobQueued: {'identifier': 'nav2_lifecycle_manager', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util')])}
+[0.001467] (nav2_map_server) JobQueued: {'identifier': 'nav2_map_server', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util')])}
+[0.001487] (nav_2d_utils) JobQueued: {'identifier': 'nav_2d_utils', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav_2d_msgs', '/home/agilex/agilex_ws/install/nav_2d_msgs'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util')])}
+[0.002297] (nav2_costmap_2d) JobQueued: {'identifier': 'nav2_costmap_2d', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav2_lifecycle_manager', '/home/agilex/agilex_ws/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/agilex/agilex_ws/install/nav2_map_server')])}
+[0.002350] (nav2_rviz_plugins) JobQueued: {'identifier': 'nav2_rviz_plugins', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav2_lifecycle_manager', '/home/agilex/agilex_ws/install/nav2_lifecycle_manager')])}
+[0.002484] (costmap_converter) JobQueued: {'identifier': 'costmap_converter', 'dependencies': OrderedDict([('costmap_converter_msgs', '/home/agilex/agilex_ws/install/costmap_converter_msgs'), ('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d')])}
+[0.002514] (costmap_queue) JobQueued: {'identifier': 'costmap_queue', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d')])}
+[0.002537] (nav2_core) JobQueued: {'identifier': 'nav2_core', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d')])}
+[0.002557] (dwb_core) JobQueued: {'identifier': 'dwb_core', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav_2d_msgs', '/home/agilex/agilex_ws/install/nav_2d_msgs'), ('dwb_msgs', '/home/agilex/agilex_ws/install/dwb_msgs'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav_2d_utils', '/home/agilex/agilex_ws/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core')])}
+[0.002591] (nav2_behaviors) JobQueued: {'identifier': 'nav2_behaviors', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav2_behavior_tree', '/home/agilex/agilex_ws/install/nav2_behavior_tree'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core')])}
+[0.002619] (nav2_bt_navigator) JobQueued: {'identifier': 'nav2_bt_navigator', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav2_behavior_tree', '/home/agilex/agilex_ws/install/nav2_behavior_tree'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core')])}
+[0.002648] (nav2_constrained_smoother) JobQueued: {'identifier': 'nav2_constrained_smoother', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core')])}
+[0.002701] (nav2_controller) JobQueued: {'identifier': 'nav2_controller', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav_2d_msgs', '/home/agilex/agilex_ws/install/nav_2d_msgs'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav_2d_utils', '/home/agilex/agilex_ws/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core')])}
+[0.002775] (nav2_navfn_planner) JobQueued: {'identifier': 'nav2_navfn_planner', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core')])}
+[0.002801] (nav2_planner) JobQueued: {'identifier': 'nav2_planner', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core')])}
+[0.002826] (nav2_regulated_pure_pursuit_controller) JobQueued: {'identifier': 'nav2_regulated_pure_pursuit_controller', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core')])}
+[0.002897] (nav2_smac_planner) JobQueued: {'identifier': 'nav2_smac_planner', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core')])}
+[0.002919] (nav2_smoother) JobQueued: {'identifier': 'nav2_smoother', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav_2d_msgs', '/home/agilex/agilex_ws/install/nav_2d_msgs'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav_2d_utils', '/home/agilex/agilex_ws/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core')])}
+[0.002957] (nav2_theta_star_planner) JobQueued: {'identifier': 'nav2_theta_star_planner', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core')])}
+[0.003012] (nav2_waypoint_follower) JobQueued: {'identifier': 'nav2_waypoint_follower', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core')])}
+[0.003042] (dwb_critics) JobQueued: {'identifier': 'dwb_critics', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav_2d_msgs', '/home/agilex/agilex_ws/install/nav_2d_msgs'), ('dwb_msgs', '/home/agilex/agilex_ws/install/dwb_msgs'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav_2d_utils', '/home/agilex/agilex_ws/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('costmap_queue', '/home/agilex/agilex_ws/install/costmap_queue'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core'), ('dwb_core', '/home/agilex/agilex_ws/install/dwb_core')])}
+[0.003068] (dwb_plugins) JobQueued: {'identifier': 'dwb_plugins', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav_2d_msgs', '/home/agilex/agilex_ws/install/nav_2d_msgs'), ('dwb_msgs', '/home/agilex/agilex_ws/install/dwb_msgs'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav_2d_utils', '/home/agilex/agilex_ws/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core'), ('dwb_core', '/home/agilex/agilex_ws/install/dwb_core')])}
+[0.003091] (limo_bringup) JobQueued: {'identifier': 'limo_bringup', 'dependencies': OrderedDict([('limo_msgs', '/home/agilex/agilex_ws/install/limo_msgs'), ('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav_2d_msgs', '/home/agilex/agilex_ws/install/nav_2d_msgs'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav2_amcl', '/home/agilex/agilex_ws/install/nav2_amcl'), ('nav2_behavior_tree', '/home/agilex/agilex_ws/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/agilex/agilex_ws/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/agilex/agilex_ws/install/nav2_map_server'), ('nav_2d_utils', '/home/agilex/agilex_ws/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core'), ('nav2_bt_navigator', '/home/agilex/agilex_ws/install/nav2_bt_navigator'), ('nav2_controller', '/home/agilex/agilex_ws/install/nav2_controller'), ('nav2_planner', '/home/agilex/agilex_ws/install/nav2_planner'), ('nav2_waypoint_follower', '/home/agilex/agilex_ws/install/nav2_waypoint_follower')])}
+[0.003122] (nav2_rotation_shim_controller) JobQueued: {'identifier': 'nav2_rotation_shim_controller', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav_2d_msgs', '/home/agilex/agilex_ws/install/nav_2d_msgs'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav_2d_utils', '/home/agilex/agilex_ws/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core'), ('nav2_controller', '/home/agilex/agilex_ws/install/nav2_controller'), ('nav2_regulated_pure_pursuit_controller', '/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller')])}
+[0.003144] (nav2_dwb_controller) JobQueued: {'identifier': 'nav2_dwb_controller', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav_2d_msgs', '/home/agilex/agilex_ws/install/nav_2d_msgs'), ('dwb_msgs', '/home/agilex/agilex_ws/install/dwb_msgs'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav_2d_utils', '/home/agilex/agilex_ws/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('costmap_queue', '/home/agilex/agilex_ws/install/costmap_queue'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core'), ('dwb_core', '/home/agilex/agilex_ws/install/dwb_core'), ('dwb_critics', '/home/agilex/agilex_ws/install/dwb_critics'), ('dwb_plugins', '/home/agilex/agilex_ws/install/dwb_plugins')])}
+[0.003169] (navigation2) JobQueued: {'identifier': 'navigation2', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav_2d_msgs', '/home/agilex/agilex_ws/install/nav_2d_msgs'), ('dwb_msgs', '/home/agilex/agilex_ws/install/dwb_msgs'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_simple_commander', '/home/agilex/agilex_ws/install/nav2_simple_commander'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav2_amcl', '/home/agilex/agilex_ws/install/nav2_amcl'), ('nav2_behavior_tree', '/home/agilex/agilex_ws/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/agilex/agilex_ws/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/agilex/agilex_ws/install/nav2_map_server'), ('nav_2d_utils', '/home/agilex/agilex_ws/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('nav2_rviz_plugins', '/home/agilex/agilex_ws/install/nav2_rviz_plugins'), ('costmap_queue', '/home/agilex/agilex_ws/install/costmap_queue'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core'), ('dwb_core', '/home/agilex/agilex_ws/install/dwb_core'), ('nav2_behaviors', '/home/agilex/agilex_ws/install/nav2_behaviors'), ('nav2_bt_navigator', '/home/agilex/agilex_ws/install/nav2_bt_navigator'), ('nav2_controller', '/home/agilex/agilex_ws/install/nav2_controller'), ('nav2_navfn_planner', '/home/agilex/agilex_ws/install/nav2_navfn_planner'), ('nav2_planner', '/home/agilex/agilex_ws/install/nav2_planner'), ('nav2_regulated_pure_pursuit_controller', '/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller'), ('nav2_smac_planner', '/home/agilex/agilex_ws/install/nav2_smac_planner'), ('nav2_smoother', '/home/agilex/agilex_ws/install/nav2_smoother'), ('nav2_theta_star_planner', '/home/agilex/agilex_ws/install/nav2_theta_star_planner'), ('nav2_waypoint_follower', '/home/agilex/agilex_ws/install/nav2_waypoint_follower'), ('dwb_critics', '/home/agilex/agilex_ws/install/dwb_critics'), ('dwb_plugins', '/home/agilex/agilex_ws/install/dwb_plugins'), ('nav2_rotation_shim_controller', '/home/agilex/agilex_ws/install/nav2_rotation_shim_controller'), ('nav2_dwb_controller', '/home/agilex/agilex_ws/install/nav2_dwb_controller')])}
+[0.003208] (nav2_bringup) JobQueued: {'identifier': 'nav2_bringup', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav_2d_msgs', '/home/agilex/agilex_ws/install/nav_2d_msgs'), ('dwb_msgs', '/home/agilex/agilex_ws/install/dwb_msgs'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_simple_commander', '/home/agilex/agilex_ws/install/nav2_simple_commander'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav2_amcl', '/home/agilex/agilex_ws/install/nav2_amcl'), ('nav2_behavior_tree', '/home/agilex/agilex_ws/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/agilex/agilex_ws/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/agilex/agilex_ws/install/nav2_map_server'), ('nav_2d_utils', '/home/agilex/agilex_ws/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('nav2_rviz_plugins', '/home/agilex/agilex_ws/install/nav2_rviz_plugins'), ('costmap_queue', '/home/agilex/agilex_ws/install/costmap_queue'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core'), ('dwb_core', '/home/agilex/agilex_ws/install/dwb_core'), ('nav2_behaviors', '/home/agilex/agilex_ws/install/nav2_behaviors'), ('nav2_bt_navigator', '/home/agilex/agilex_ws/install/nav2_bt_navigator'), ('nav2_controller', '/home/agilex/agilex_ws/install/nav2_controller'), ('nav2_navfn_planner', '/home/agilex/agilex_ws/install/nav2_navfn_planner'), ('nav2_planner', '/home/agilex/agilex_ws/install/nav2_planner'), ('nav2_regulated_pure_pursuit_controller', '/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller'), ('nav2_smac_planner', '/home/agilex/agilex_ws/install/nav2_smac_planner'), ('nav2_smoother', '/home/agilex/agilex_ws/install/nav2_smoother'), ('nav2_theta_star_planner', '/home/agilex/agilex_ws/install/nav2_theta_star_planner'), ('nav2_waypoint_follower', '/home/agilex/agilex_ws/install/nav2_waypoint_follower'), ('dwb_critics', '/home/agilex/agilex_ws/install/dwb_critics'), ('dwb_plugins', '/home/agilex/agilex_ws/install/dwb_plugins'), ('nav2_rotation_shim_controller', '/home/agilex/agilex_ws/install/nav2_rotation_shim_controller'), ('nav2_dwb_controller', '/home/agilex/agilex_ws/install/nav2_dwb_controller'), ('navigation2', '/home/agilex/agilex_ws/install/navigation2')])}
+[0.003243] (nav2_system_tests) JobQueued: {'identifier': 'nav2_system_tests', 'dependencies': OrderedDict([('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav_2d_msgs', '/home/agilex/agilex_ws/install/nav_2d_msgs'), ('dwb_msgs', '/home/agilex/agilex_ws/install/dwb_msgs'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('nav2_simple_commander', '/home/agilex/agilex_ws/install/nav2_simple_commander'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav2_amcl', '/home/agilex/agilex_ws/install/nav2_amcl'), ('nav2_behavior_tree', '/home/agilex/agilex_ws/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/agilex/agilex_ws/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/agilex/agilex_ws/install/nav2_map_server'), ('nav_2d_utils', '/home/agilex/agilex_ws/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('nav2_rviz_plugins', '/home/agilex/agilex_ws/install/nav2_rviz_plugins'), ('costmap_queue', '/home/agilex/agilex_ws/install/costmap_queue'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core'), ('dwb_core', '/home/agilex/agilex_ws/install/dwb_core'), ('nav2_behaviors', '/home/agilex/agilex_ws/install/nav2_behaviors'), ('nav2_bt_navigator', '/home/agilex/agilex_ws/install/nav2_bt_navigator'), ('nav2_controller', '/home/agilex/agilex_ws/install/nav2_controller'), ('nav2_navfn_planner', '/home/agilex/agilex_ws/install/nav2_navfn_planner'), ('nav2_planner', '/home/agilex/agilex_ws/install/nav2_planner'), ('nav2_regulated_pure_pursuit_controller', '/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller'), ('nav2_smac_planner', '/home/agilex/agilex_ws/install/nav2_smac_planner'), ('nav2_smoother', '/home/agilex/agilex_ws/install/nav2_smoother'), ('nav2_theta_star_planner', '/home/agilex/agilex_ws/install/nav2_theta_star_planner'), ('nav2_waypoint_follower', '/home/agilex/agilex_ws/install/nav2_waypoint_follower'), ('dwb_critics', '/home/agilex/agilex_ws/install/dwb_critics'), ('dwb_plugins', '/home/agilex/agilex_ws/install/dwb_plugins'), ('nav2_rotation_shim_controller', '/home/agilex/agilex_ws/install/nav2_rotation_shim_controller'), ('nav2_dwb_controller', '/home/agilex/agilex_ws/install/nav2_dwb_controller'), ('navigation2', '/home/agilex/agilex_ws/install/navigation2'), ('nav2_bringup', '/home/agilex/agilex_ws/install/nav2_bringup')])}
+[0.003280] (teb_local_planner) JobQueued: {'identifier': 'teb_local_planner', 'dependencies': OrderedDict([('costmap_converter_msgs', '/home/agilex/agilex_ws/install/costmap_converter_msgs'), ('nav2_common', '/home/agilex/agilex_ws/install/nav2_common'), ('nav_2d_msgs', '/home/agilex/agilex_ws/install/nav_2d_msgs'), ('dwb_msgs', '/home/agilex/agilex_ws/install/dwb_msgs'), ('nav2_msgs', '/home/agilex/agilex_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/agilex/agilex_ws/install/nav2_voxel_grid'), ('teb_msgs', '/home/agilex/agilex_ws/install/teb_msgs'), ('nav2_simple_commander', '/home/agilex/agilex_ws/install/nav2_simple_commander'), ('nav2_util', '/home/agilex/agilex_ws/install/nav2_util'), ('nav2_amcl', '/home/agilex/agilex_ws/install/nav2_amcl'), ('nav2_behavior_tree', '/home/agilex/agilex_ws/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/agilex/agilex_ws/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/agilex/agilex_ws/install/nav2_map_server'), ('nav_2d_utils', '/home/agilex/agilex_ws/install/nav_2d_utils'), ('nav2_costmap_2d', '/home/agilex/agilex_ws/install/nav2_costmap_2d'), ('nav2_rviz_plugins', '/home/agilex/agilex_ws/install/nav2_rviz_plugins'), ('costmap_converter', '/home/agilex/agilex_ws/install/costmap_converter'), ('costmap_queue', '/home/agilex/agilex_ws/install/costmap_queue'), ('nav2_core', '/home/agilex/agilex_ws/install/nav2_core'), ('dwb_core', '/home/agilex/agilex_ws/install/dwb_core'), ('nav2_behaviors', '/home/agilex/agilex_ws/install/nav2_behaviors'), ('nav2_bt_navigator', '/home/agilex/agilex_ws/install/nav2_bt_navigator'), ('nav2_controller', '/home/agilex/agilex_ws/install/nav2_controller'), ('nav2_navfn_planner', '/home/agilex/agilex_ws/install/nav2_navfn_planner'), ('nav2_planner', '/home/agilex/agilex_ws/install/nav2_planner'), ('nav2_regulated_pure_pursuit_controller', '/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller'), ('nav2_smac_planner', '/home/agilex/agilex_ws/install/nav2_smac_planner'), ('nav2_smoother', '/home/agilex/agilex_ws/install/nav2_smoother'), ('nav2_theta_star_planner', '/home/agilex/agilex_ws/install/nav2_theta_star_planner'), ('nav2_waypoint_follower', '/home/agilex/agilex_ws/install/nav2_waypoint_follower'), ('dwb_critics', '/home/agilex/agilex_ws/install/dwb_critics'), ('dwb_plugins', '/home/agilex/agilex_ws/install/dwb_plugins'), ('nav2_rotation_shim_controller', '/home/agilex/agilex_ws/install/nav2_rotation_shim_controller'), ('nav2_dwb_controller', '/home/agilex/agilex_ws/install/nav2_dwb_controller'), ('navigation2', '/home/agilex/agilex_ws/install/navigation2'), ('nav2_bringup', '/home/agilex/agilex_ws/install/nav2_bringup')])}
+[0.003317] (nav2_common) JobStarted: {'identifier': 'nav2_common'}
+[0.006403] (nav_2d_msgs) JobStarted: {'identifier': 'nav_2d_msgs'}
+[0.008813] (costmap_converter_msgs) JobStarted: {'identifier': 'costmap_converter_msgs'}
+[0.012461] (limo_msgs) JobStarted: {'identifier': 'limo_msgs'}
+[0.012971] (aruco) JobStarted: {'identifier': 'aruco'}
+[0.015009] (aruco_msgs) JobStarted: {'identifier': 'aruco_msgs'}
+[0.017146] (astra_camera_msgs) JobStarted: {'identifier': 'astra_camera_msgs'}
+[0.021743] (csm) JobStarted: {'identifier': 'csm'}
+[0.025059] (nav2_common) JobProgress: {'identifier': 'nav2_common', 'progress': 'cmake'}
+[0.025223] (nav2_common) Command: {'cmd': ['/usr/bin/cmake', '/home/agilex/agilex_ws/src/navigation2/nav2_common', '-DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/nav2_common'], 'cwd': '/home/agilex/agilex_ws/build/nav2_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('container_uuid', 'dba8f6ba-bb51-4531-b62c-55e7b7787e3a'), ('USER', 'root'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/home/agilex'), ('LC_CTYPE', 'C.UTF-8'), ('NOTIFY_SOCKET', '/run/systemd/nspawn/notify'), ('container', 'systemd-nspawn'), ('DEBUGINFOD_URLS', ''), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/agilex/agilex_ws/build/nav2_common'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.027746] (nav_2d_msgs) JobProgress: {'identifier': 'nav_2d_msgs', 'progress': 'cmake'}
+[0.028181] (nav_2d_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/agilex/agilex_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs', '-DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/nav_2d_msgs'], 'cwd': '/home/agilex/agilex_ws/build/nav_2d_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('container_uuid', 'dba8f6ba-bb51-4531-b62c-55e7b7787e3a'), ('USER', 'root'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/home/agilex'), ('LC_CTYPE', 'C.UTF-8'), ('NOTIFY_SOCKET', '/run/systemd/nspawn/notify'), ('container', 'systemd-nspawn'), ('DEBUGINFOD_URLS', ''), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/agilex/agilex_ws/build/nav_2d_msgs'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.029384] (costmap_converter_msgs) JobProgress: {'identifier': 'costmap_converter_msgs', 'progress': 'cmake'}
+[0.029530] (costmap_converter_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/agilex/agilex_ws/src/costmap_converter/costmap_converter_msgs', '-DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/costmap_converter_msgs'], 'cwd': '/home/agilex/agilex_ws/build/costmap_converter_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('container_uuid', 'dba8f6ba-bb51-4531-b62c-55e7b7787e3a'), ('USER', 'root'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/home/agilex'), ('LC_CTYPE', 'C.UTF-8'), ('NOTIFY_SOCKET', '/run/systemd/nspawn/notify'), ('container', 'systemd-nspawn'), ('DEBUGINFOD_URLS', ''), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/agilex/agilex_ws/build/costmap_converter_msgs'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.030901] (limo_msgs) JobProgress: {'identifier': 'limo_msgs', 'progress': 'cmake'}
+[0.030963] (limo_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/agilex/agilex_ws/src/limo_ros2/limo_msgs', '-DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/limo_msgs'], 'cwd': '/home/agilex/agilex_ws/build/limo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('container_uuid', 'dba8f6ba-bb51-4531-b62c-55e7b7787e3a'), ('USER', 'root'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/home/agilex'), ('LC_CTYPE', 'C.UTF-8'), ('NOTIFY_SOCKET', '/run/systemd/nspawn/notify'), ('container', 'systemd-nspawn'), ('DEBUGINFOD_URLS', ''), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/agilex/agilex_ws/build/limo_msgs'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.032968] (aruco) JobProgress: {'identifier': 'aruco', 'progress': 'cmake'}
+[0.033078] (aruco) Command: {'cmd': ['/usr/bin/cmake', '/home/agilex/agilex_ws/src/aruco_ros/aruco', '-DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/aruco'], 'cwd': '/home/agilex/agilex_ws/build/aruco', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('container_uuid', 'dba8f6ba-bb51-4531-b62c-55e7b7787e3a'), ('USER', 'root'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/home/agilex'), ('LC_CTYPE', 'C.UTF-8'), ('NOTIFY_SOCKET', '/run/systemd/nspawn/notify'), ('container', 'systemd-nspawn'), ('DEBUGINFOD_URLS', ''), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/agilex/agilex_ws/build/aruco'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.034549] (aruco_msgs) JobProgress: {'identifier': 'aruco_msgs', 'progress': 'cmake'}
+[0.034579] (aruco_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/agilex/agilex_ws/src/aruco_ros/aruco_msgs', '-DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/aruco_msgs'], 'cwd': '/home/agilex/agilex_ws/build/aruco_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('container_uuid', 'dba8f6ba-bb51-4531-b62c-55e7b7787e3a'), ('USER', 'root'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/home/agilex'), ('LC_CTYPE', 'C.UTF-8'), ('NOTIFY_SOCKET', '/run/systemd/nspawn/notify'), ('container', 'systemd-nspawn'), ('DEBUGINFOD_URLS', ''), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/agilex/agilex_ws/build/aruco_msgs'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.035689] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'cmake'}
+[0.035722] (astra_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/agilex/agilex_ws/src/ros2_astra_camera/astra_camera_msgs', '-DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/astra_camera_msgs'], 'cwd': '/home/agilex/agilex_ws/build/astra_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('container_uuid', 'dba8f6ba-bb51-4531-b62c-55e7b7787e3a'), ('USER', 'root'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/home/agilex'), ('LC_CTYPE', 'C.UTF-8'), ('NOTIFY_SOCKET', '/run/systemd/nspawn/notify'), ('container', 'systemd-nspawn'), ('DEBUGINFOD_URLS', ''), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/agilex/agilex_ws/build/astra_camera_msgs'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.036158] (csm) JobProgress: {'identifier': 'csm', 'progress': 'cmake'}
+[0.036187] (csm) Command: {'cmd': ['/usr/bin/cmake', '/home/agilex/agilex_ws/src/csm', '-DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/csm'], 'cwd': '/home/agilex/agilex_ws/build/csm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('container_uuid', 'dba8f6ba-bb51-4531-b62c-55e7b7787e3a'), ('USER', 'root'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/home/agilex'), ('LC_CTYPE', 'C.UTF-8'), ('NOTIFY_SOCKET', '/run/systemd/nspawn/notify'), ('container', 'systemd-nspawn'), ('DEBUGINFOD_URLS', ''), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/agilex/agilex_ws/build/csm'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.077806] (nav2_common) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[0.077976] (nav2_common) StderrLine: {'line': b'  By not providing "Findament_cmake_core.cmake" in CMAKE_MODULE_PATH this\n'}
+[0.078060] (nav2_common) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[0.078134] (nav2_common) StderrLine: {'line': b'  "ament_cmake_core", but CMake did not find one.\n'}
+[0.078204] (nav2_common) StderrLine: {'line': b'\n'}
+[0.078273] (nav2_common) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake_core"\n'}
+[0.078343] (nav2_common) StderrLine: {'line': b'  with any of the following names:\n'}
+[0.078412] (nav2_common) StderrLine: {'line': b'\n'}
+[0.078478] (nav2_common) StderrLine: {'line': b'    ament_cmake_coreConfig.cmake\n'}
+[0.078547] (nav2_common) StderrLine: {'line': b'    ament_cmake_core-config.cmake\n'}
+[0.078614] (nav2_common) StderrLine: {'line': b'\n'}
+[0.078681] (nav2_common) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake_core" to CMAKE_PREFIX_PATH or\n'}
+[0.078749] (nav2_common) StderrLine: {'line': b'  set "ament_cmake_core_DIR" to a directory containing one of the above\n'}
+[0.078816] (nav2_common) StderrLine: {'line': b'  files.  If "ament_cmake_core" provides a separate development package or\n'}
+[0.078883] (nav2_common) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[0.078950] (nav2_common) StderrLine: {'line': b'\n'}
+[0.079018] (nav2_common) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.079099] (nav2_common) StdoutLine: {'line': b'See also "/home/agilex/agilex_ws/build/nav2_common/CMakeFiles/CMakeOutput.log".\n'}
+[0.079466] (nav2_common) StderrLine: {'line': b'\x1b[0m\n'}
+[0.080385] (nav2_common) CommandEnded: {'returncode': 1}
+[0.098455] (-) TimerEvent: {}
+[0.159036] (nav2_common) JobEnded: {'identifier': 'nav2_common', 'rc': 1}
+[0.198595] (-) TimerEvent: {}
+[0.202446] (astra_camera_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.202622] (costmap_converter_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.202825] (nav_2d_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.204582] (aruco_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.204862] (limo_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.208863] (aruco) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.298727] (-) TimerEvent: {}
+[0.361349] (costmap_converter_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.363982] (limo_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.364864] (astra_camera_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.365812] (nav_2d_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.371322] (aruco_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.372230] (aruco) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.372586] (limo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.372724] (costmap_converter_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.372877] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.373160] (nav_2d_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.378686] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.378955] (aruco) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.398896] (-) TimerEvent: {}
+[0.436138] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.437300] (nav_2d_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.438281] (limo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.438421] (costmap_converter_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.444312] (aruco) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.444484] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.447911] (astra_camera_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.448048] (nav_2d_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.448143] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.448228] (nav_2d_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.448307] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.448385] (nav_2d_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.448462] (limo_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.448542] (limo_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.448618] (limo_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.450037] (limo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.450138] (nav_2d_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.450219] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.452754] (costmap_converter_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.453107] (costmap_converter_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.453224] (costmap_converter_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.453312] (costmap_converter_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.453416] (aruco_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.453527] (aruco) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.453610] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.453700] (aruco) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.453780] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.453864] (aruco) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.457002] (aruco) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.457201] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499027] (-) TimerEvent: {}
+[0.523511] (limo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.526946] (nav_2d_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.531619] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.532100] (costmap_converter_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.532321] (limo_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.532883] (limo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.533466] (limo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.534008] (aruco) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.535259] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.536207] (nav_2d_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.536582] (nav_2d_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.537261] (nav_2d_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.540387] (aruco_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.540583] (costmap_converter_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.540722] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.540850] (costmap_converter_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.541190] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.541313] (costmap_converter_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.543471] (aruco) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.543725] (aruco) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.544238] (aruco) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.544894] (astra_camera_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.545265] (limo_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[0.545388] (limo_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.545491] (limo_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.545586] (limo_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.545665] (limo_msgs) StderrLine: {'line': b'\n'}
+[0.545743] (limo_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.545822] (limo_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.545967] (limo_msgs) StderrLine: {'line': b'\n'}
+[0.546136] (limo_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.546222] (limo_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.546301] (limo_msgs) StderrLine: {'line': b'\n'}
+[0.546373] (limo_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.546481] (limo_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.546603] (limo_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.546706] (limo_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.546782] (limo_msgs) StderrLine: {'line': b'\n'}
+[0.546859] (limo_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.546969] (limo_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.547084] (limo_msgs) StdoutLine: {'line': b'See also "/home/agilex/agilex_ws/build/limo_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[0.547199] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.547301] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.550416] (csm) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[0.550571] (csm) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.550687] (csm) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.550802] (csm) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.550895] (csm) StderrLine: {'line': b'\n'}
+[0.550983] (csm) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.551086] (csm) StderrLine: {'line': b'  any of the following names:\n'}
+[0.551185] (csm) StderrLine: {'line': b'\n'}
+[0.551290] (csm) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.551396] (csm) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.551459] (csm) StderrLine: {'line': b'\n'}
+[0.551542] (csm) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.551943] (csm) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.552247] (csm) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.552414] (csm) StderrLine: {'line': b'  has been installed.\n'}
+[0.552787] (csm) StderrLine: {'line': b'\n'}
+[0.552899] (csm) StderrLine: {'line': b'\x1b[0m\n'}
+[0.552996] (limo_msgs) JobEnded: {'identifier': 'limo_msgs', 'rc': 'SIGINT'}
+[0.553512] (csm) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.553637] (csm) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.553751] (csm) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.553830] (csm) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.553907] (csm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.553983] (csm) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.554059] (csm) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.554134] (csm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.554208] (csm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.554283] (csm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.554358] (csm) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.554432] (csm) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.554506] (csm) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.554581] (csm) StdoutLine: {'line': b'See also "/home/agilex/agilex_ws/build/csm/CMakeFiles/CMakeOutput.log".\n'}
+[0.554656] (csm) JobEnded: {'identifier': 'csm', 'rc': 'SIGINT'}
+[0.555360] (nav_2d_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[0.555504] (nav_2d_msgs) StderrLine: {'line': b'  By not providing "Findgeometry_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[0.555593] (nav_2d_msgs) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[0.555671] (nav_2d_msgs) StderrLine: {'line': b'  "geometry_msgs", but CMake did not find one.\n'}
+[0.555747] (nav_2d_msgs) StderrLine: {'line': b'\n'}
+[0.555821] (nav_2d_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "geometry_msgs"\n'}
+[0.555909] (nav_2d_msgs) StderrLine: {'line': b'  with any of the following names:\n'}
+[0.555983] (nav_2d_msgs) StderrLine: {'line': b'\n'}
+[0.556055] (nav_2d_msgs) StderrLine: {'line': b'    geometry_msgsConfig.cmake\n'}
+[0.556127] (nav_2d_msgs) StderrLine: {'line': b'    geometry_msgs-config.cmake\n'}
+[0.556199] (nav_2d_msgs) StderrLine: {'line': b'\n'}
+[0.556270] (nav_2d_msgs) StderrLine: {'line': b'  Add the installation prefix of "geometry_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[0.556344] (nav_2d_msgs) StderrLine: {'line': b'  "geometry_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[0.556482] (nav_2d_msgs) StderrLine: {'line': b'  "geometry_msgs" provides a separate development package or SDK, be sure it\n'}
+[0.556564] (nav_2d_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.556638] (nav_2d_msgs) StderrLine: {'line': b'\n'}
+[0.556711] (nav_2d_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.556785] (nav_2d_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.556865] (nav_2d_msgs) StdoutLine: {'line': b'See also "/home/agilex/agilex_ws/build/nav_2d_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[0.558699] (nav_2d_msgs) JobEnded: {'identifier': 'nav_2d_msgs', 'rc': 'SIGINT'}
+[0.559650] (aruco_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:9 (find_package):\n'}
+[0.559777] (aruco_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.559981] (aruco_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.560064] (aruco_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.560320] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.560406] (aruco_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.560487] (aruco_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.560562] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.560636] (aruco_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.560710] (aruco_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.560784] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.560855] (aruco_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.560937] (aruco_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.561010] (aruco_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.561082] (aruco_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.561153] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.561224] (aruco_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.561295] (costmap_converter_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[0.561382] (costmap_converter_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.561461] (costmap_converter_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.561535] (costmap_converter_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.561608] (costmap_converter_msgs) StderrLine: {'line': b'\n'}
+[0.561680] (costmap_converter_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.561754] (costmap_converter_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.561828] (costmap_converter_msgs) StderrLine: {'line': b'\n'}
+[0.561900] (costmap_converter_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.561973] (costmap_converter_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.562047] (costmap_converter_msgs) StderrLine: {'line': b'\n'}
+[0.562120] (costmap_converter_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.562193] (costmap_converter_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.562265] (costmap_converter_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.562338] (costmap_converter_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.562410] (costmap_converter_msgs) StderrLine: {'line': b'\n'}
+[0.562480] (costmap_converter_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.562553] (aruco) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:14 (find_package):\n'}
+[0.563047] (aruco) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.563607] (aruco) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.563708] (aruco) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.563788] (aruco) StderrLine: {'line': b'\n'}
+[0.563871] (aruco) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.563946] (aruco) StderrLine: {'line': b'  any of the following names:\n'}
+[0.564018] (aruco) StderrLine: {'line': b'\n'}
+[0.564092] (aruco) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.564166] (aruco) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.564239] (aruco) StderrLine: {'line': b'\n'}
+[0.564312] (aruco) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.564386] (aruco) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.564459] (aruco) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.564532] (aruco) StderrLine: {'line': b'  has been installed.\n'}
+[0.564605] (aruco) StderrLine: {'line': b'\n'}
+[0.564677] (aruco) StderrLine: {'line': b'\x1b[0m\n'}
+[0.564749] (costmap_converter_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.564835] (costmap_converter_msgs) StdoutLine: {'line': b'See also "/home/agilex/agilex_ws/build/costmap_converter_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[0.564914] (astra_camera_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.565001] (astra_camera_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.565087] (astra_camera_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.565160] (astra_camera_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.565232] (astra_camera_msgs) StderrLine: {'line': b'\n'}
+[0.565328] (astra_camera_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.565543] (astra_camera_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.565775] (astra_camera_msgs) StderrLine: {'line': b'\n'}
+[0.565996] (astra_camera_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.566070] (astra_camera_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.566143] (astra_camera_msgs) StderrLine: {'line': b'\n'}
+[0.566216] (astra_camera_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.566363] (astra_camera_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.566439] (astra_camera_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.566542] (astra_camera_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.566615] (astra_camera_msgs) StderrLine: {'line': b'\n'}
+[0.566687] (astra_camera_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.566761] (astra_camera_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.566838] (astra_camera_msgs) StdoutLine: {'line': b'See also "/home/agilex/agilex_ws/build/astra_camera_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[0.566916] (costmap_converter_msgs) JobEnded: {'identifier': 'costmap_converter_msgs', 'rc': 'SIGINT'}
+[0.567162] (astra_camera_msgs) JobEnded: {'identifier': 'astra_camera_msgs', 'rc': 'SIGINT'}
+[0.567370] (aruco_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[0.567463] (aruco_msgs) StderrLine: {'line': b'  By not providing "Findstd_msgs.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.567540] (aruco_msgs) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "std_msgs",\n'}
+[0.567614] (aruco_msgs) StderrLine: {'line': b'  but CMake did not find one.\n'}
+[0.567686] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.567758] (aruco_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "std_msgs" with any\n'}
+[0.567831] (aruco_msgs) StderrLine: {'line': b'  of the following names:\n'}
+[0.567909] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.567982] (aruco_msgs) StderrLine: {'line': b'    std_msgsConfig.cmake\n'}
+[0.568053] (aruco_msgs) StderrLine: {'line': b'    std_msgs-config.cmake\n'}
+[0.568125] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.568196] (aruco_msgs) StderrLine: {'line': b'  Add the installation prefix of "std_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[0.568267] (aruco_msgs) StderrLine: {'line': b'  "std_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[0.568339] (aruco_msgs) StderrLine: {'line': b'  "std_msgs" provides a separate development package or SDK, be sure it has\n'}
+[0.568410] (aruco_msgs) StderrLine: {'line': b'  been installed.\n'}
+[0.568481] (aruco_msgs) StderrLine: {'line': b'\n'}
+[0.568553] (aruco_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.568624] (aruco_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.568700] (aruco_msgs) StdoutLine: {'line': b'See also "/home/agilex/agilex_ws/build/aruco_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[0.569629] (aruco_msgs) JobEnded: {'identifier': 'aruco_msgs', 'rc': 'SIGINT'}
+[0.573835] (aruco) StdoutLine: {'line': b'-- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4.2.0") \n'}
+[0.574130] (aruco) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:71 (ament_export_include_directories):\n'}
+[0.574251] (aruco) StderrLine: {'line': b'  Unknown CMake command "ament_export_include_directories".\n'}
+[0.574346] (aruco) StderrLine: {'line': b'\n'}
+[0.574424] (aruco) StderrLine: {'line': b'\x1b[0m\n'}
+[0.574499] (aruco) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.574578] (aruco) StdoutLine: {'line': b'See also "/home/agilex/agilex_ws/build/aruco/CMakeFiles/CMakeOutput.log".\n'}
+[0.577233] (aruco) JobEnded: {'identifier': 'aruco', 'rc': 'SIGINT'}
+[0.587729] (glog) JobSkipped: {'identifier': 'glog'}
+[0.587796] (libuvc) JobSkipped: {'identifier': 'libuvc'}
+[0.587843] (limo_car) JobSkipped: {'identifier': 'limo_car'}
+[0.587875] (limo_description) JobSkipped: {'identifier': 'limo_description'}
+[0.587898] (limo_visions) JobSkipped: {'identifier': 'limo_visions'}
+[0.587919] (magic_enum) JobSkipped: {'identifier': 'magic_enum'}
+[0.587962] (rf2o_laser_odometry) JobSkipped: {'identifier': 'rf2o_laser_odometry'}
+[0.588009] (ydlidar_ros2_driver) JobSkipped: {'identifier': 'ydlidar_ros2_driver'}
+[0.588051] (ydlidar_sdk) JobSkipped: {'identifier': 'ydlidar_sdk'}
+[0.588074] (yolov5_ros2) JobSkipped: {'identifier': 'yolov5_ros2'}
+[0.588094] (aruco_ros) JobSkipped: {'identifier': 'aruco_ros'}
+[0.588114] (astra_camera) JobSkipped: {'identifier': 'astra_camera'}
+[0.588153] (dwb_msgs) JobSkipped: {'identifier': 'dwb_msgs'}
+[0.588197] (limo_base) JobSkipped: {'identifier': 'limo_base'}
+[0.588239] (nav2_msgs) JobSkipped: {'identifier': 'nav2_msgs'}
+[0.588262] (nav2_voxel_grid) JobSkipped: {'identifier': 'nav2_voxel_grid'}
+[0.588282] (teb_msgs) JobSkipped: {'identifier': 'teb_msgs'}
+[0.588303] (nav2_simple_commander) JobSkipped: {'identifier': 'nav2_simple_commander'}
+[0.588323] (nav2_util) JobSkipped: {'identifier': 'nav2_util'}
+[0.588343] (nav2_amcl) JobSkipped: {'identifier': 'nav2_amcl'}
+[0.588363] (nav2_behavior_tree) JobSkipped: {'identifier': 'nav2_behavior_tree'}
+[0.588404] (nav2_lifecycle_manager) JobSkipped: {'identifier': 'nav2_lifecycle_manager'}
+[0.588444] (nav2_map_server) JobSkipped: {'identifier': 'nav2_map_server'}
+[0.588481] (nav_2d_utils) JobSkipped: {'identifier': 'nav_2d_utils'}
+[0.588503] (nav2_costmap_2d) JobSkipped: {'identifier': 'nav2_costmap_2d'}
+[0.588523] (nav2_rviz_plugins) JobSkipped: {'identifier': 'nav2_rviz_plugins'}
+[0.588543] (costmap_converter) JobSkipped: {'identifier': 'costmap_converter'}
+[0.588580] (costmap_queue) JobSkipped: {'identifier': 'costmap_queue'}
+[0.588602] (nav2_core) JobSkipped: {'identifier': 'nav2_core'}
+[0.588621] (dwb_core) JobSkipped: {'identifier': 'dwb_core'}
+[0.588640] (nav2_behaviors) JobSkipped: {'identifier': 'nav2_behaviors'}
+[0.588659] (nav2_bt_navigator) JobSkipped: {'identifier': 'nav2_bt_navigator'}
+[0.588678] (nav2_constrained_smoother) JobSkipped: {'identifier': 'nav2_constrained_smoother'}
+[0.588697] (nav2_controller) JobSkipped: {'identifier': 'nav2_controller'}
+[0.588716] (nav2_navfn_planner) JobSkipped: {'identifier': 'nav2_navfn_planner'}
+[0.588736] (nav2_planner) JobSkipped: {'identifier': 'nav2_planner'}
+[0.588754] (nav2_regulated_pure_pursuit_controller) JobSkipped: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.588774] (nav2_smac_planner) JobSkipped: {'identifier': 'nav2_smac_planner'}
+[0.588793] (nav2_smoother) JobSkipped: {'identifier': 'nav2_smoother'}
+[0.588812] (nav2_theta_star_planner) JobSkipped: {'identifier': 'nav2_theta_star_planner'}
+[0.588831] (nav2_waypoint_follower) JobSkipped: {'identifier': 'nav2_waypoint_follower'}
+[0.588850] (dwb_critics) JobSkipped: {'identifier': 'dwb_critics'}
+[0.588869] (dwb_plugins) JobSkipped: {'identifier': 'dwb_plugins'}
+[0.588888] (limo_bringup) JobSkipped: {'identifier': 'limo_bringup'}
+[0.588907] (nav2_rotation_shim_controller) JobSkipped: {'identifier': 'nav2_rotation_shim_controller'}
+[0.588926] (nav2_dwb_controller) JobSkipped: {'identifier': 'nav2_dwb_controller'}
+[0.588946] (navigation2) JobSkipped: {'identifier': 'navigation2'}
+[0.588965] (nav2_bringup) JobSkipped: {'identifier': 'nav2_bringup'}
+[0.588984] (nav2_system_tests) JobSkipped: {'identifier': 'nav2_system_tests'}
+[0.589003] (teb_local_planner) JobSkipped: {'identifier': 'teb_local_planner'}
+[0.589023] (-) EventReactorShutdown: {}

@@ -1,0 +1,21 @@
+[0.019s] Invoking command in '/home/agilex/agilex_ws/build/nav_2d_msgs': /usr/bin/cmake /home/agilex/agilex_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/nav_2d_msgs
+[0.045s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.045s]   By not providing "Findgeometry_msgs.cmake" in CMAKE_MODULE_PATH this
+[0.045s]   project has asked CMake to find a package configuration file provided by
+[0.045s]   "geometry_msgs", but CMake did not find one.
+[0.045s] 
+[0.045s]   Could not find a package configuration file provided by "geometry_msgs"
+[0.045s]   with any of the following names:
+[0.045s] 
+[0.045s]     geometry_msgsConfig.cmake
+[0.046s]     geometry_msgs-config.cmake
+[0.046s] 
+[0.046s]   Add the installation prefix of "geometry_msgs" to CMAKE_PREFIX_PATH or set
+[0.046s]   "geometry_msgs_DIR" to a directory containing one of the above files.  If
+[0.046s]   "geometry_msgs" provides a separate development package or SDK, be sure it
+[0.046s]   has been installed.
+[0.046s] 
+[0.046s] [0m
+[0.046s] -- Configuring incomplete, errors occurred!
+[0.046s] See also "/home/agilex/agilex_ws/build/nav_2d_msgs/CMakeFiles/CMakeOutput.log".
+[0.047s] Invoked command in '/home/agilex/agilex_ws/build/nav_2d_msgs' returned '1': /usr/bin/cmake /home/agilex/agilex_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/nav_2d_msgs

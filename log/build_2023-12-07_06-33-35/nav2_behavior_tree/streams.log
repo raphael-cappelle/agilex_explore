@@ -1,0 +1,574 @@
+[0.252s] Invoking command in '/home/agilex/agilex_ws/build/nav2_behavior_tree': CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/home/agilex/agilex_ws/install/ydlidar_sdk:/home/agilex/agilex_ws/install/ydlidar_ros2_driver:/home/agilex/agilex_ws/install/teb_local_planner:/home/agilex/agilex_ws/install/teb_msgs:/home/agilex/agilex_ws/install/rf2o_laser_odometry:/home/agilex/agilex_ws/install/nav2_system_tests:/home/agilex/agilex_ws/install/nav2_bringup:/home/agilex/agilex_ws/install/navigation2:/home/agilex/agilex_ws/install/nav2_smoother:/home/agilex/agilex_ws/install/nav2_dwb_controller:/home/agilex/agilex_ws/install/limo_bringup:/home/agilex/agilex_ws/install/nav2_controller:/home/agilex/agilex_ws/install/dwb_plugins:/home/agilex/agilex_ws/install/dwb_critics:/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_waypoint_follower:/home/agilex/agilex_ws/install/nav2_theta_star_planner:/home/agilex/agilex_ws/install/nav2_smac_planner:/home/agilex/agilex_ws/install/nav2_rotation_shim_controller:/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/agilex_ws/install/nav2_planner:/home/agilex/agilex_ws/install/nav2_navfn_planner:/home/agilex/agilex_ws/install/nav2_constrained_smoother:/home/agilex/agilex_ws/install/nav2_bt_navigator:/home/agilex/agilex_ws/install/nav2_behaviors:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/costmap_converter:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_rviz_plugins:/home/agilex/agilex_ws/install/nav2_map_server:/home/agilex/agilex_ws/install/nav2_lifecycle_manager:/home/agilex/agilex_ws/install/nav2_behavior_tree:/home/agilex/agilex_ws/install/nav2_amcl:/home/agilex/agilex_ws/install/magic_enum:/home/agilex/agilex_ws/install/limo_visions:/home/agilex/agilex_ws/install/limo_base:/home/agilex/agilex_ws/install/limo_msgs:/home/agilex/agilex_ws/install/limo_description:/home/agilex/agilex_ws/install/limo_car:/home/agilex/agilex_ws/install/libuvc:/home/agilex/agilex_ws/install/glog:/home/agilex/agilex_ws/install/csm:/home/agilex/agilex_ws/install/costmap_converter_msgs:/home/agilex/agilex_ws/install/astra_camera:/home/agilex/agilex_ws/install/astra_camera_msgs:/home/agilex/agilex_ws/install/aruco_ros:/home/agilex/agilex_ws/install/aruco_msgs:/home/agilex/agilex_ws/install/aruco:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:/home/agilex/agilex_ws/install/teb_local_planner/lib:/home/agilex/agilex_ws/install/teb_msgs/lib:/home/agilex/agilex_ws/install/nav2_smoother/lib:/home/agilex/agilex_ws/install/nav2_controller/lib:/home/agilex/agilex_ws/install/dwb_plugins/lib:/home/agilex/agilex_ws/install/dwb_critics/lib:/home/agilex/agilex_ws/install/dwb_core/lib:/home/agilex/agilex_ws/install/nav_2d_utils/lib:/home/agilex/agilex_ws/install/dwb_msgs/lib:/home/agilex/agilex_ws/install/nav_2d_msgs/lib:/home/agilex/agilex_ws/install/nav2_waypoint_follower/lib:/home/agilex/agilex_ws/install/nav2_theta_star_planner/lib:/home/agilex/agilex_ws/install/nav2_smac_planner/lib:/home/agilex/agilex_ws/install/nav2_rotation_shim_controller/lib:/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/agilex/agilex_ws/install/nav2_planner/lib:/home/agilex/agilex_ws/install/nav2_navfn_planner/lib:/home/agilex/agilex_ws/install/nav2_constrained_smoother/lib:/home/agilex/agilex_ws/install/nav2_bt_navigator/lib:/home/agilex/agilex_ws/install/nav2_behaviors/lib:/home/agilex/agilex_ws/install/costmap_queue/lib:/home/agilex/agilex_ws/install/costmap_converter/lib:/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_rviz_plugins/lib:/home/agilex/agilex_ws/install/nav2_map_server/lib:/home/agilex/agilex_ws/install/nav2_lifecycle_manager/lib:/home/agilex/agilex_ws/install/nav2_behavior_tree/lib:/home/agilex/agilex_ws/install/nav2_amcl/lib:/home/agilex/agilex_ws/install/limo_msgs/lib:/home/agilex/agilex_ws/install/libuvc/lib:/home/agilex/agilex_ws/install/glog/lib:/home/agilex/agilex_ws/install/csm/lib:/home/agilex/agilex_ws/install/costmap_converter_msgs/lib:/home/agilex/agilex_ws/install/astra_camera/lib:/home/agilex/agilex_ws/install/astra_camera_msgs/lib:/home/agilex/agilex_ws/install/aruco_ros/lib:/home/agilex/agilex_ws/install/aruco_msgs/lib:/home/agilex/agilex_ws/install/aruco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_behavior_tree -- -j8 -l8
+[0.292s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.379s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.460s] -- Found nav2_common: 1.1.0 (/home/agilex/agilex_ws/install/nav2_common/share/nav2_common/cmake)
+[0.461s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.490s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.492s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.498s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.513s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.531s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.594s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.598s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.737s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.914s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.014s] -- Found rclcpp_lifecycle: 16.0.7 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.053s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.099s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.192s] -- Found nav2_msgs: 1.1.0 (/home/agilex/agilex_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[1.491s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.750s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.753s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.755s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.765s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.782s] -- Found nav2_util: 1.1.0 (/home/agilex/agilex_ws/install/nav2_util/share/nav2_util/cmake)
+[36.902s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[37.210s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[68.038s] -- Added test 'copyright' to check source files copyright and LICENSE
+[68.055s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[68.069s] -- Configured cppcheck include dirs: /home/agilex/agilex_ws/src/navigation2/nav2_behavior_tree/include
+[68.069s] -- Configured cppcheck exclude dirs and/or files: 
+[68.074s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[68.075s] -- Configured cpplint exclude dirs and/or files: 
+[68.077s] -- Added test 'lint_cmake' to check CMake code style
+[68.084s] -- Added test 'uncrustify' to check C / C++ code style
+[68.084s] -- Configured uncrustify additional arguments: 
+[68.086s] -- Added test 'xmllint' to check XML markup files
+[68.090s] -- Configuring done
+[71.731s] -- Generating done
+[71.751s] -- Build files have been written to: /home/agilex/agilex_ws/build/nav2_behavior_tree
+[71.821s] [35m[1mConsolidate compiler generated dependencies of target nav2_behavior_tree[0m
+[71.821s] [35m[1mConsolidate compiler generated dependencies of target nav2_compute_path_to_pose_action_bt_node[0m
+[71.849s] [  0%] [32mBuilding CXX object CMakeFiles/nav2_behavior_tree.dir/src/behavior_tree_engine.cpp.o[0m
+[71.853s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_compute_path_to_pose_action_bt_node.dir/plugins/action/compute_path_to_pose_action.cpp.o[0m
+[72.853s] [35m[1mConsolidate compiler generated dependencies of target nav2_drive_on_heading_cancel_bt_node[0m
+[72.881s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_cancel_bt_node.dir/plugins/action/drive_on_heading_cancel_node.cpp.o[0m
+[73.878s] [35m[1mConsolidate compiler generated dependencies of target nav2_back_up_cancel_bt_node[0m
+[73.904s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_back_up_cancel_bt_node.dir/plugins/action/back_up_cancel_node.cpp.o[0m
+[74.903s] [35m[1mConsolidate compiler generated dependencies of target nav2_wait_cancel_bt_node[0m
+[74.903s] [35m[1mConsolidate compiler generated dependencies of target nav2_spin_cancel_bt_node[0m
+[74.931s] [  2%] [32mBuilding CXX object CMakeFiles/nav2_spin_cancel_bt_node.dir/plugins/action/spin_cancel_node.cpp.o[0m
+[74.931s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_wait_cancel_bt_node.dir/plugins/action/wait_cancel_node.cpp.o[0m
+[75.975s] [35m[1mConsolidate compiler generated dependencies of target nav2_controller_cancel_bt_node[0m
+[76.031s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_controller_cancel_bt_node.dir/plugins/action/controller_cancel_node.cpp.o[0m
+[76.761s] [  5%] [32m[1mLinking CXX shared library libnav2_behavior_tree.so[0m
+[77.018s] [  5%] Built target nav2_behavior_tree
+[77.032s] [35m[1mConsolidate compiler generated dependencies of target nav2_compute_path_through_poses_action_bt_node[0m
+[77.040s] [35m[1mConsolidate compiler generated dependencies of target nav2_smooth_path_action_bt_node[0m
+[77.078s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_compute_path_through_poses_action_bt_node.dir/plugins/action/compute_path_through_poses_action.cpp.o[0m
+[77.103s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_smooth_path_action_bt_node.dir/plugins/action/smooth_path_action.cpp.o[0m
+[80.004s] [  8%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_cancel_bt_node.so[0m
+[80.501s] [  8%] Built target nav2_drive_on_heading_cancel_bt_node
+[80.541s] [35m[1mConsolidate compiler generated dependencies of target nav2_follow_path_action_bt_node[0m
+[80.620s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_follow_path_action_bt_node.dir/plugins/action/follow_path_action.cpp.o[0m
+[81.003s] [  9%] [32m[1mLinking CXX shared library libnav2_back_up_cancel_bt_node.so[0m
+[81.398s] [  9%] Built target nav2_back_up_cancel_bt_node
+[81.409s] [  9%] [32m[1mLinking CXX shared library libnav2_compute_path_to_pose_action_bt_node.so[0m
+[81.428s] [35m[1mConsolidate compiler generated dependencies of target nav2_back_up_action_bt_node[0m
+[81.509s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_back_up_action_bt_node.dir/plugins/action/back_up_action.cpp.o[0m
+[81.641s] [  9%] Built target nav2_compute_path_to_pose_action_bt_node
+[81.660s] [35m[1mConsolidate compiler generated dependencies of target nav2_drive_on_heading_bt_node[0m
+[81.744s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_bt_node.dir/plugins/action/drive_on_heading_action.cpp.o[0m
+[82.298s] [  9%] [32m[1mLinking CXX shared library libnav2_spin_cancel_bt_node.so[0m
+[82.515s] [  9%] [32m[1mLinking CXX shared library libnav2_wait_cancel_bt_node.so[0m
+[82.648s] [  9%] Built target nav2_spin_cancel_bt_node
+[82.666s] [35m[1mConsolidate compiler generated dependencies of target nav2_spin_action_bt_node[0m
+[82.751s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_spin_action_bt_node.dir/plugins/action/spin_action.cpp.o[0m
+[82.872s] [ 10%] Built target nav2_wait_cancel_bt_node
+[82.940s] [35m[1mConsolidate compiler generated dependencies of target nav2_wait_action_bt_node[0m
+[83.014s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_wait_action_bt_node.dir/plugins/action/wait_action.cpp.o[0m
+[83.701s] [ 10%] [32m[1mLinking CXX shared library libnav2_controller_cancel_bt_node.so[0m
+[84.162s] [ 10%] Built target nav2_controller_cancel_bt_node
+[84.224s] [35m[1mConsolidate compiler generated dependencies of target nav2_clear_costmap_service_bt_node[0m
+[84.309s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_clear_costmap_service_bt_node.dir/plugins/action/clear_costmap_service.cpp.o[0m
+[87.310s] [ 11%] [32m[1mLinking CXX shared library libnav2_smooth_path_action_bt_node.so[0m
+[87.553s] [ 11%] Built target nav2_smooth_path_action_bt_node
+[87.571s] [35m[1mConsolidate compiler generated dependencies of target nav2_is_stuck_condition_bt_node[0m
+[87.669s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_is_stuck_condition_bt_node.dir/plugins/condition/is_stuck_condition.cpp.o[0m
+[88.073s] [ 11%] [32m[1mLinking CXX shared library libnav2_compute_path_through_poses_action_bt_node.so[0m
+[88.389s] [ 11%] Built target nav2_compute_path_through_poses_action_bt_node
+[88.449s] [35m[1mConsolidate compiler generated dependencies of target nav2_transform_available_condition_bt_node[0m
+[88.516s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_transform_available_condition_bt_node.dir/plugins/condition/transform_available_condition.cpp.o[0m
+[90.027s] [ 12%] [32m[1mLinking CXX shared library libnav2_follow_path_action_bt_node.so[0m
+[90.349s] [ 12%] Built target nav2_follow_path_action_bt_node
+[90.406s] [35m[1mConsolidate compiler generated dependencies of target nav2_goal_reached_condition_bt_node[0m
+[90.430s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_goal_reached_condition_bt_node.dir/plugins/condition/goal_reached_condition.cpp.o[0m
+[90.447s] [ 14%] [32m[1mLinking CXX shared library libnav2_back_up_action_bt_node.so[0m
+[90.832s] [ 14%] Built target nav2_back_up_action_bt_node
+[90.897s] [35m[1mConsolidate compiler generated dependencies of target nav2_globally_updated_goal_condition_bt_node[0m
+[90.921s] [ 15%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_bt_node.so[0m
+[90.948s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_globally_updated_goal_condition_bt_node.dir/plugins/condition/globally_updated_goal_condition.cpp.o[0m
+[91.231s] [ 16%] Built target nav2_drive_on_heading_bt_node
+[91.303s] [35m[1mConsolidate compiler generated dependencies of target nav2_goal_updated_condition_bt_node[0m
+[91.368s] [ 17%] [32mBuilding CXX object CMakeFiles/nav2_goal_updated_condition_bt_node.dir/plugins/condition/goal_updated_condition.cpp.o[0m
+[91.972s] [ 18%] [32m[1mLinking CXX shared library libnav2_wait_action_bt_node.so[0m
+[92.132s] [ 18%] [32m[1mLinking CXX shared library libnav2_spin_action_bt_node.so[0m
+[92.254s] [ 18%] Built target nav2_wait_action_bt_node
+[92.271s] [35m[1mConsolidate compiler generated dependencies of target nav2_is_path_valid_condition_bt_node[0m
+[92.346s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_is_path_valid_condition_bt_node.dir/plugins/condition/is_path_valid_condition.cpp.o[0m
+[92.441s] [ 18%] Built target nav2_spin_action_bt_node
+[92.499s] [35m[1mConsolidate compiler generated dependencies of target nav2_time_expired_condition_bt_node[0m
+[92.579s] [ 19%] [32mBuilding CXX object CMakeFiles/nav2_time_expired_condition_bt_node.dir/plugins/condition/time_expired_condition.cpp.o[0m
+[94.416s] [ 20%] [32m[1mLinking CXX shared library libnav2_transform_available_condition_bt_node.so[0m
+[94.471s] [ 20%] [32m[1mLinking CXX shared library libnav2_goal_updated_condition_bt_node.so[0m
+[94.695s] [ 20%] Built target nav2_transform_available_condition_bt_node
+[94.744s] [35m[1mConsolidate compiler generated dependencies of target nav2_path_expiring_timer_condition[0m
+[94.766s] [ 20%] Built target nav2_goal_updated_condition_bt_node
+[94.803s] [ 21%] [32mBuilding CXX object CMakeFiles/nav2_path_expiring_timer_condition.dir/plugins/condition/path_expiring_timer_condition.cpp.o[0m
+[95.859s] [ 21%] [32m[1mLinking CXX shared library libnav2_clear_costmap_service_bt_node.so[0m
+[96.327s] [ 21%] Built target nav2_clear_costmap_service_bt_node
+[96.628s] [ 21%] [32m[1mLinking CXX shared library libnav2_globally_updated_goal_condition_bt_node.so[0m
+[96.846s] [ 21%] Built target nav2_globally_updated_goal_condition_bt_node
+[97.153s] [ 21%] [32m[1mLinking CXX shared library libnav2_goal_reached_condition_bt_node.so[0m
+[97.358s] [ 21%] Built target nav2_goal_reached_condition_bt_node
+[98.746s] [ 22%] [32m[1mLinking CXX shared library libnav2_time_expired_condition_bt_node.so[0m
+[98.780s] [ 23%] [32m[1mLinking CXX shared library libnav2_is_path_valid_condition_bt_node.so[0m
+[98.934s] [ 23%] Built target nav2_time_expired_condition_bt_node
+[98.958s] [ 23%] Built target nav2_is_path_valid_condition_bt_node
+[99.660s] [ 24%] [32m[1mLinking CXX shared library libnav2_is_stuck_condition_bt_node.so[0m
+[99.856s] [ 24%] Built target nav2_is_stuck_condition_bt_node
+[100.214s] [ 24%] [32m[1mLinking CXX shared library libnav2_path_expiring_timer_condition.so[0m
+[100.363s] [ 24%] Built target nav2_path_expiring_timer_condition
+[100.375s] [35m[1mConsolidate compiler generated dependencies of target nav2_speed_controller_bt_node[0m
+[100.395s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_speed_controller_bt_node.dir/plugins/decorator/speed_controller.cpp.o[0m
+[104.978s] [ 25%] [32m[1mLinking CXX shared library libnav2_speed_controller_bt_node.so[0m
+[105.146s] [ 25%] Built target nav2_speed_controller_bt_node
+[105.148s] [35m[1mConsolidate compiler generated dependencies of target nav2_distance_controller_bt_node[0m
+[105.149s] [35m[1mConsolidate compiler generated dependencies of target nav2_truncate_path_action_bt_node[0m
+[105.159s] [35m[1mConsolidate compiler generated dependencies of target nav2_rate_controller_bt_node[0m
+[105.172s] [ 26%] [32mBuilding CXX object CMakeFiles/nav2_truncate_path_action_bt_node.dir/plugins/action/truncate_path_action.cpp.o[0m
+[105.172s] [ 26%] [32mBuilding CXX object CMakeFiles/nav2_distance_controller_bt_node.dir/plugins/decorator/distance_controller.cpp.o[0m
+[105.175s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_rate_controller_bt_node.dir/plugins/decorator/rate_controller.cpp.o[0m
+[106.217s] [35m[1mConsolidate compiler generated dependencies of target nav2_truncate_path_local_action_bt_node[0m
+[106.309s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_truncate_path_local_action_bt_node.dir/plugins/action/truncate_path_local_action.cpp.o[0m
+[107.299s] [35m[1mConsolidate compiler generated dependencies of target nav2_reinitialize_global_localization_service_bt_node[0m
+[107.307s] [35m[1mConsolidate compiler generated dependencies of target nav2_is_battery_low_condition_bt_node[0m
+[107.372s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_reinitialize_global_localization_service_bt_node.dir/plugins/action/reinitialize_global_localization_service.cpp.o[0m
+[107.387s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_is_battery_low_condition_bt_node.dir/plugins/condition/is_battery_low_condition.cpp.o[0m
+[107.720s] [ 28%] [32m[1mLinking CXX shared library libnav2_rate_controller_bt_node.so[0m
+[108.107s] [ 28%] Built target nav2_rate_controller_bt_node
+[108.144s] [35m[1mConsolidate compiler generated dependencies of target nav2_initial_pose_received_condition_bt_node[0m
+[108.175s] [35m[1mConsolidate compiler generated dependencies of target nav2_distance_traveled_condition_bt_node[0m
+[108.215s] [ 29%] [32mBuilding CXX object CMakeFiles/nav2_initial_pose_received_condition_bt_node.dir/plugins/condition/initial_pose_received_condition.cpp.o[0m
+[108.254s] [ 29%] [32mBuilding CXX object CMakeFiles/nav2_distance_traveled_condition_bt_node.dir/plugins/condition/distance_traveled_condition.cpp.o[0m
+[109.272s] [35m[1mConsolidate compiler generated dependencies of target nav2_goal_updater_node_bt_node[0m
+[109.352s] [ 30%] [32mBuilding CXX object CMakeFiles/nav2_goal_updater_node_bt_node.dir/plugins/decorator/goal_updater_node.cpp.o[0m
+[110.621s] [ 31%] [32m[1mLinking CXX shared library libnav2_initial_pose_received_condition_bt_node.so[0m
+[110.986s] [ 31%] Built target nav2_initial_pose_received_condition_bt_node
+[115.125s] [ 32%] [32m[1mLinking CXX shared library libnav2_distance_controller_bt_node.so[0m
+[115.546s] [ 33%] [32m[1mLinking CXX shared library libnav2_truncate_path_action_bt_node.so[0m
+[115.661s] [ 33%] Built target nav2_distance_controller_bt_node
+[116.031s] [ 33%] Built target nav2_truncate_path_action_bt_node
+[117.401s] [ 34%] [32m[1mLinking CXX shared library libnav2_truncate_path_local_action_bt_node.so[0m
+[117.958s] [ 34%] Built target nav2_truncate_path_local_action_bt_node
+[118.781s] [ 35%] [32m[1mLinking CXX shared library libnav2_distance_traveled_condition_bt_node.so[0m
+[119.044s] [ 35%] Built target nav2_distance_traveled_condition_bt_node
+[119.429s] [ 36%] [32m[1mLinking CXX shared library libnav2_reinitialize_global_localization_service_bt_node.so[0m
+[119.638s] [ 36%] Built target nav2_reinitialize_global_localization_service_bt_node
+[125.498s] [ 37%] [32m[1mLinking CXX shared library libnav2_is_battery_low_condition_bt_node.so[0m
+[125.774s] [ 37%] Built target nav2_is_battery_low_condition_bt_node
+[127.332s] [ 37%] [32m[1mLinking CXX shared library libnav2_goal_updater_node_bt_node.so[0m
+[127.527s] [ 37%] Built target nav2_goal_updater_node_bt_node
+[127.541s] [35m[1mConsolidate compiler generated dependencies of target nav2_round_robin_node_bt_node[0m
+[127.556s] [ 37%] [32mBuilding CXX object CMakeFiles/nav2_round_robin_node_bt_node.dir/plugins/control/round_robin_node.cpp.o[0m
+[128.891s] [ 38%] [32m[1mLinking CXX shared library libnav2_round_robin_node_bt_node.so[0m
+[129.017s] [ 38%] Built target nav2_round_robin_node_bt_node
+[129.029s] [35m[1mConsolidate compiler generated dependencies of target nav2_single_trigger_bt_node[0m
+[129.045s] [ 39%] [32mBuilding CXX object CMakeFiles/nav2_single_trigger_bt_node.dir/plugins/decorator/single_trigger_node.cpp.o[0m
+[130.316s] [ 39%] [32m[1mLinking CXX shared library libnav2_single_trigger_bt_node.so[0m
+[130.431s] [ 39%] Built target nav2_single_trigger_bt_node
+[130.443s] [35m[1mConsolidate compiler generated dependencies of target nav2_planner_selector_bt_node[0m
+[130.461s] [ 40%] [32mBuilding CXX object CMakeFiles/nav2_planner_selector_bt_node.dir/plugins/action/planner_selector_node.cpp.o[0m
+[135.467s] [35m[1mConsolidate compiler generated dependencies of target nav2_pipeline_sequence_bt_node[0m
+[135.468s] [35m[1mConsolidate compiler generated dependencies of target nav2_controller_selector_bt_node[0m
+[135.486s] [ 41%] [32mBuilding CXX object CMakeFiles/nav2_pipeline_sequence_bt_node.dir/plugins/control/pipeline_sequence.cpp.o[0m
+[135.491s] [ 42%] [32mBuilding CXX object CMakeFiles/nav2_controller_selector_bt_node.dir/plugins/action/controller_selector_node.cpp.o[0m
+[136.611s] [35m[1mConsolidate compiler generated dependencies of target nav2_remove_passed_goals_action_bt_node[0m
+[136.679s] [ 42%] [32mBuilding CXX object CMakeFiles/nav2_remove_passed_goals_action_bt_node.dir/plugins/action/remove_passed_goals_action.cpp.o[0m
+[137.195s] [ 42%] [32m[1mLinking CXX shared library libnav2_pipeline_sequence_bt_node.so[0m
+[137.528s] [ 42%] Built target nav2_pipeline_sequence_bt_node
+[137.562s] [35m[1mConsolidate compiler generated dependencies of target nav2_navigate_through_poses_action_bt_node[0m
+[137.591s] [35m[1mConsolidate compiler generated dependencies of target nav2_navigate_to_pose_action_bt_node[0m
+[137.640s] [ 42%] [32mBuilding CXX object CMakeFiles/nav2_navigate_through_poses_action_bt_node.dir/plugins/action/navigate_through_poses_action.cpp.o[0m
+[137.679s] [ 43%] [32mBuilding CXX object CMakeFiles/nav2_navigate_to_pose_action_bt_node.dir/plugins/action/navigate_to_pose_action.cpp.o[0m
+[138.672s] [35m[1mConsolidate compiler generated dependencies of target nav2_goal_checker_selector_bt_node[0m
+[138.763s] [ 44%] [32mBuilding CXX object CMakeFiles/nav2_goal_checker_selector_bt_node.dir/plugins/action/goal_checker_selector_node.cpp.o[0m
+[139.778s] [35m[1mConsolidate compiler generated dependencies of target nav2_recovery_node_bt_node[0m
+[139.865s] [ 44%] [32mBuilding CXX object CMakeFiles/nav2_recovery_node_bt_node.dir/plugins/control/recovery_node.cpp.o[0m
+[144.042s] [ 44%] [32m[1mLinking CXX shared library libnav2_planner_selector_bt_node.so[0m
+[144.145s] [ 45%] [32m[1mLinking CXX shared library libnav2_recovery_node_bt_node.so[0m
+[144.435s] [ 45%] Built target nav2_planner_selector_bt_node
+[144.536s] [ 45%] Built target nav2_recovery_node_bt_node
+[146.603s] [ 46%] [32m[1mLinking CXX shared library libnav2_remove_passed_goals_action_bt_node.so[0m
+[146.938s] [ 46%] Built target nav2_remove_passed_goals_action_bt_node
+[147.512s] [ 46%] [32m[1mLinking CXX shared library libnav2_navigate_to_pose_action_bt_node.so[0m
+[147.717s] [ 46%] Built target nav2_navigate_to_pose_action_bt_node
+[148.317s] [ 47%] [32m[1mLinking CXX shared library libnav2_navigate_through_poses_action_bt_node.so[0m
+[148.496s] [ 47%] Built target nav2_navigate_through_poses_action_bt_node
+[149.416s] [ 47%] [32m[1mLinking CXX shared library libnav2_controller_selector_bt_node.so[0m
+[149.611s] [ 47%] Built target nav2_controller_selector_bt_node
+[151.943s] [ 47%] [32m[1mLinking CXX shared library libnav2_goal_checker_selector_bt_node.so[0m
+[152.123s] [ 47%] Built target nav2_goal_checker_selector_bt_node
+[152.136s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[152.136s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[152.154s] [ 47%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[152.154s] [ 47%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[153.014s] [ 48%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[153.052s] [ 48%] Built target gtest_main
+[153.065s] [35m[1mConsolidate compiler generated dependencies of target nav2_path_longer_on_approach_bt_node[0m
+[153.086s] [ 49%] [32mBuilding CXX object CMakeFiles/nav2_path_longer_on_approach_bt_node.dir/plugins/decorator/path_longer_on_approach.cpp.o[0m
+[157.481s] [ 49%] [32m[1mLinking CXX shared library libnav2_path_longer_on_approach_bt_node.so[0m
+[157.605s] [ 49%] Built target nav2_path_longer_on_approach_bt_node
+[159.035s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[159.069s] [ 50%] Built target gtest
+[159.082s] [35m[1mConsolidate compiler generated dependencies of target test_bt_conversions[0m
+[159.083s] [35m[1mConsolidate compiler generated dependencies of target test_condition_time_expired[0m
+[159.083s] [35m[1mConsolidate compiler generated dependencies of target test_condition_distance_traveled[0m
+[159.101s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_bt_conversions.dir/test_bt_conversions.cpp.o[0m
+[159.107s] [ 50%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_distance_traveled.dir/test_distance_traveled.cpp.o[0m
+[159.107s] [ 50%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_time_expired.dir/test_time_expired.cpp.o[0m
+[160.110s] [35m[1mConsolidate compiler generated dependencies of target test_condition_globally_updated_goal[0m
+[160.110s] [35m[1mConsolidate compiler generated dependencies of target test_condition_initial_pose_received[0m
+[160.138s] [ 51%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_globally_updated_goal.dir/test_globally_updated_goal.cpp.o[0m
+[160.138s] [ 52%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_initial_pose_received.dir/test_initial_pose_received.cpp.o[0m
+[161.185s] [35m[1mConsolidate compiler generated dependencies of target test_condition_goal_updated[0m
+[161.205s] [35m[1mConsolidate compiler generated dependencies of target test_condition_goal_reached[0m
+[161.260s] [ 53%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_goal_updated.dir/test_goal_updated.cpp.o[0m
+[161.269s] [ 54%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_goal_reached.dir/test_goal_reached.cpp.o[0m
+[162.300s] [35m[1mConsolidate compiler generated dependencies of target test_condition_path_expiring_timer[0m
+[162.380s] [ 54%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_path_expiring_timer.dir/test_path_expiring_timer.cpp.o[0m
+[164.398s] [ 55%] [32m[1mLinking CXX executable test_bt_conversions[0m
+[165.099s] [ 55%] Built target test_bt_conversions
+[165.168s] [35m[1mConsolidate compiler generated dependencies of target test_condition_transform_available[0m
+[165.254s] [ 55%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_transform_available.dir/test_transform_available.cpp.o[0m
+[170.572s] [ 56%] [32m[1mLinking CXX executable test_condition_time_expired[0m
+[171.464s] [ 56%] Built target test_condition_time_expired
+[171.919s] [ 57%] [32m[1mLinking CXX executable test_condition_distance_traveled[0m
+[172.171s] [ 57%] [32m[1mLinking CXX executable test_condition_globally_updated_goal[0m
+[172.503s] [ 57%] Built target test_condition_distance_traveled
+[172.720s] [ 57%] Built target test_condition_globally_updated_goal
+[173.261s] [ 57%] [32m[1mLinking CXX executable test_condition_initial_pose_received[0m
+[173.773s] [ 57%] Built target test_condition_initial_pose_received
+[174.490s] [ 57%] [32m[1mLinking CXX executable test_condition_goal_reached[0m
+[174.603s] [ 57%] [32m[1mLinking CXX executable test_condition_goal_updated[0m
+[174.855s] [ 57%] Built target test_condition_goal_reached
+[174.941s] [ 57%] Built target test_condition_goal_updated
+[176.208s] [ 58%] [32m[1mLinking CXX executable test_condition_path_expiring_timer[0m
+[176.544s] [ 58%] Built target test_condition_path_expiring_timer
+[177.509s] [ 59%] [32m[1mLinking CXX executable test_condition_transform_available[0m
+[177.792s] [ 59%] Built target test_condition_transform_available
+[177.811s] [35m[1mConsolidate compiler generated dependencies of target test_goal_updater_node[0m
+[177.836s] [ 59%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_goal_updater_node.dir/test_goal_updater_node.cpp.o[0m
+[179.834s] [35m[1mConsolidate compiler generated dependencies of target test_single_trigger_node[0m
+[179.835s] [35m[1mConsolidate compiler generated dependencies of target test_decorator_rate_controller[0m
+[179.858s] [ 60%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_rate_controller.dir/test_rate_controller.cpp.o[0m
+[179.858s] [ 60%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_single_trigger_node.dir/test_single_trigger_node.cpp.o[0m
+[180.858s] [35m[1mConsolidate compiler generated dependencies of target test_decorator_speed_controller[0m
+[180.886s] [ 60%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_speed_controller.dir/test_speed_controller.cpp.o[0m
+[181.885s] [35m[1mConsolidate compiler generated dependencies of target test_condition_is_path_valid[0m
+[181.906s] [35m[1mConsolidate compiler generated dependencies of target test_decorator_distance_controller[0m
+[181.915s] [ 60%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_path_valid.dir/test_is_path_valid.cpp.o[0m
+[181.930s] [ 61%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_distance_controller.dir/test_distance_controller.cpp.o[0m
+[182.975s] [35m[1mConsolidate compiler generated dependencies of target test_condition_is_battery_low[0m
+[183.052s] [ 62%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_battery_low.dir/test_is_battery_low.cpp.o[0m
+[184.070s] [35m[1mConsolidate compiler generated dependencies of target test_condition_is_stuck[0m
+[184.152s] [ 62%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_stuck.dir/test_is_stuck.cpp.o[0m
+[186.995s] [ 63%] [32m[1mLinking CXX executable test_goal_updater_node[0m
+[187.429s] [ 63%] Built target test_goal_updater_node
+[189.020s] [ 63%] [32m[1mLinking CXX executable test_single_trigger_node[0m
+[189.643s] [ 63%] Built target test_single_trigger_node
+[189.960s] [ 64%] [32m[1mLinking CXX executable test_decorator_speed_controller[0m
+[190.562s] [ 64%] Built target test_decorator_speed_controller
+[191.458s] [ 65%] [32m[1mLinking CXX executable test_decorator_rate_controller[0m
+[192.034s] [ 65%] Built target test_decorator_rate_controller
+[192.759s] [ 66%] [32m[1mLinking CXX executable test_decorator_distance_controller[0m
+[193.025s] [ 67%] [32m[1mLinking CXX executable test_condition_is_path_valid[0m
+[193.468s] [ 67%] Built target test_decorator_distance_controller
+[193.579s] [ 67%] Built target test_condition_is_path_valid
+[195.493s] [ 68%] [32m[1mLinking CXX executable test_condition_is_battery_low[0m
+[195.874s] [ 68%] Built target test_condition_is_battery_low
+[197.974s] [ 69%] [32m[1mLinking CXX executable test_condition_is_stuck[0m
+[198.378s] [ 69%] Built target test_condition_is_stuck
+[198.395s] [35m[1mConsolidate compiler generated dependencies of target test_action_back_up_action[0m
+[198.424s] [ 70%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_back_up_action.dir/test_back_up_action.cpp.o[0m
+[208.781s] [ 70%] [32m[1mLinking CXX executable test_action_back_up_action[0m
+[209.074s] [ 70%] Built target test_action_back_up_action
+[209.093s] [35m[1mConsolidate compiler generated dependencies of target test_action_drive_on_heading[0m
+[209.132s] [ 70%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_drive_on_heading.dir/test_drive_on_heading_action.cpp.o[0m
+[219.123s] [ 71%] [32m[1mLinking CXX executable test_action_drive_on_heading[0m
+[219.462s] [ 71%] Built target test_action_drive_on_heading
+[219.482s] [35m[1mConsolidate compiler generated dependencies of target test_action_wait_action[0m
+[219.516s] [ 71%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_wait_action.dir/test_wait_action.cpp.o[0m
+[228.247s] [ 72%] [32m[1mLinking CXX executable test_action_wait_action[0m
+[228.522s] [ 72%] Built target test_action_wait_action
+[228.540s] [35m[1mConsolidate compiler generated dependencies of target test_action_controller_cancel_action[0m
+[228.567s] [ 72%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_controller_cancel_action.dir/test_controller_cancel_node.cpp.o[0m
+[237.239s] [ 73%] [32m[1mLinking CXX executable test_action_controller_cancel_action[0m
+[237.494s] [ 73%] Built target test_action_controller_cancel_action
+[237.509s] [35m[1mConsolidate compiler generated dependencies of target test_action_wait_cancel_action[0m
+[237.534s] [ 73%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_wait_cancel_action.dir/test_wait_cancel_node.cpp.o[0m
+[247.063s] [ 74%] [32m[1mLinking CXX executable test_action_wait_cancel_action[0m
+[247.477s] [ 74%] Built target test_action_wait_cancel_action
+[247.495s] [35m[1mConsolidate compiler generated dependencies of target test_action_spin_cancel_action[0m
+[247.535s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_spin_cancel_action.dir/test_spin_cancel_node.cpp.o[0m
+[257.590s] [ 76%] [32m[1mLinking CXX executable test_action_spin_cancel_action[0m
+[257.901s] [ 76%] Built target test_action_spin_cancel_action
+[257.936s] [35m[1mConsolidate compiler generated dependencies of target test_action_back_up_cancel_action[0m
+[257.963s] [ 77%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_back_up_cancel_action.dir/test_back_up_cancel_node.cpp.o[0m
+[268.134s] [ 77%] [32m[1mLinking CXX executable test_action_back_up_cancel_action[0m
+[268.431s] [ 77%] Built target test_action_back_up_cancel_action
+[268.448s] [35m[1mConsolidate compiler generated dependencies of target test_action_drive_on_heading_cancel_action[0m
+[268.475s] [ 77%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_drive_on_heading_cancel_action.dir/test_drive_on_heading_cancel_node.cpp.o[0m
+[277.336s] [ 78%] [32m[1mLinking CXX executable test_action_drive_on_heading_cancel_action[0m
+[277.584s] [ 78%] Built target test_action_drive_on_heading_cancel_action
+[277.599s] [35m[1mConsolidate compiler generated dependencies of target test_action_clear_costmap_service[0m
+[277.623s] [ 79%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_clear_costmap_service.dir/test_clear_costmap_service.cpp.o[0m
+[286.503s] [ 79%] [32m[1mLinking CXX executable test_action_clear_costmap_service[0m
+[286.779s] [ 79%] Built target test_action_clear_costmap_service
+[286.794s] [35m[1mConsolidate compiler generated dependencies of target test_action_reinitialize_global_localization_service[0m
+[286.817s] [ 80%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_reinitialize_global_localization_service.dir/test_reinitialize_global_localization_service.cpp.o[0m
+[293.480s] [ 80%] [32m[1mLinking CXX executable test_action_reinitialize_global_localization_service[0m
+[293.721s] [ 80%] Built target test_action_reinitialize_global_localization_service
+[293.737s] [35m[1mConsolidate compiler generated dependencies of target test_action_compute_path_to_pose_action[0m
+[293.762s] [ 81%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_compute_path_to_pose_action.dir/test_compute_path_to_pose_action.cpp.o[0m
+[303.774s] [ 82%] [32m[1mLinking CXX executable test_action_compute_path_to_pose_action[0m
+[304.090s] [ 82%] Built target test_action_compute_path_to_pose_action
+[304.112s] [35m[1mConsolidate compiler generated dependencies of target test_action_compute_path_through_poses_action[0m
+[304.137s] [ 83%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_compute_path_through_poses_action.dir/test_compute_path_through_poses_action.cpp.o[0m
+[314.601s] [ 83%] [32m[1mLinking CXX executable test_action_compute_path_through_poses_action[0m
+[314.925s] [ 83%] Built target test_action_compute_path_through_poses_action
+[314.943s] [35m[1mConsolidate compiler generated dependencies of target test_action_smooth_path_action[0m
+[314.972s] [ 84%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_smooth_path_action.dir/test_smooth_path_action.cpp.o[0m
+[323.508s] [ 84%] [32m[1mLinking CXX executable test_action_smooth_path_action[0m
+[323.744s] [ 84%] Built target test_action_smooth_path_action
+[323.759s] [35m[1mConsolidate compiler generated dependencies of target test_action_follow_path_action[0m
+[323.784s] [ 84%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_follow_path_action.dir/test_follow_path_action.cpp.o[0m
+[332.124s] [ 85%] [32m[1mLinking CXX executable test_action_follow_path_action[0m
+[332.396s] [ 85%] Built target test_action_follow_path_action
+[332.411s] [35m[1mConsolidate compiler generated dependencies of target test_action_navigate_to_pose_action[0m
+[332.436s] [ 86%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_navigate_to_pose_action.dir/test_navigate_to_pose_action.cpp.o[0m
+[341.525s] [ 86%] [32m[1mLinking CXX executable test_action_navigate_to_pose_action[0m
+[341.825s] [ 86%] Built target test_action_navigate_to_pose_action
+[341.845s] [35m[1mConsolidate compiler generated dependencies of target test_action_navigate_through_poses_action[0m
+[341.872s] [ 86%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_navigate_through_poses_action.dir/test_navigate_through_poses_action.cpp.o[0m
+[345.873s] [35m[1mConsolidate compiler generated dependencies of target test_truncate_path_action[0m
+[345.901s] [ 87%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o[0m
+[346.900s] [35m[1mConsolidate compiler generated dependencies of target test_action_spin_action[0m
+[346.931s] [ 88%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_spin_action.dir/test_spin_action.cpp.o[0m
+[347.985s] [35m[1mConsolidate compiler generated dependencies of target test_bt_action_node[0m
+[348.094s] [ 88%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_bt_action_node.dir/test_bt_action_node.cpp.o[0m
+[349.082s] [35m[1mConsolidate compiler generated dependencies of target test_control_round_robin_node[0m
+[349.171s] [ 89%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_round_robin_node.dir/test_round_robin_node.cpp.o[0m
+[352.102s] [ 90%] [32m[1mLinking CXX executable test_action_navigate_through_poses_action[0m
+[352.554s] [ 90%] Built target test_action_navigate_through_poses_action
+[353.629s] [ 90%] [32m[1mLinking CXX executable test_truncate_path_action[0m
+[354.160s] [ 90%] Built target test_truncate_path_action
+[358.471s] [ 90%] [32m[1mLinking CXX executable test_action_spin_action[0m
+[358.900s] [ 90%] Built target test_action_spin_action
+[360.431s] [ 90%] [32m[1mLinking CXX executable test_control_round_robin_node[0m
+[360.742s] [ 90%] Built target test_control_round_robin_node
+[362.329s] [ 91%] [32m[1mLinking CXX executable test_bt_action_node[0m
+[362.637s] [ 91%] Built target test_bt_action_node
+[362.653s] [35m[1mConsolidate compiler generated dependencies of target test_controller_selector_node[0m
+[362.682s] [ 92%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_controller_selector_node.dir/test_controller_selector_node.cpp.o[0m
+[371.836s] [ 92%] [32m[1mLinking CXX executable test_controller_selector_node[0m
+[372.172s] [ 92%] Built target test_controller_selector_node
+[372.194s] [35m[1mConsolidate compiler generated dependencies of target test_goal_checker_selector_node[0m
+[372.222s] [ 92%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_goal_checker_selector_node.dir/test_goal_checker_selector_node.cpp.o[0m
+[380.832s] [ 93%] [32m[1mLinking CXX executable test_goal_checker_selector_node[0m
+[381.153s] [ 93%] Built target test_goal_checker_selector_node
+[381.175s] [35m[1mConsolidate compiler generated dependencies of target test_planner_selector_node[0m
+[381.201s] [ 94%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_planner_selector_node.dir/test_planner_selector_node.cpp.o[0m
+[389.994s] [ 94%] [32m[1mLinking CXX executable test_planner_selector_node[0m
+[390.298s] [ 94%] Built target test_planner_selector_node
+[390.317s] [35m[1mConsolidate compiler generated dependencies of target test_remove_passed_goals_action[0m
+[390.343s] [ 95%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_remove_passed_goals_action.dir/test_remove_passed_goals_action.cpp.o[0m
+[399.410s] [ 95%] [32m[1mLinking CXX executable test_remove_passed_goals_action[0m
+[399.698s] [ 95%] Built target test_remove_passed_goals_action
+[399.714s] [35m[1mConsolidate compiler generated dependencies of target test_control_pipeline_sequence[0m
+[399.714s] [35m[1mConsolidate compiler generated dependencies of target test_truncate_path_local_action[0m
+[399.744s] [ 96%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_truncate_path_local_action.dir/test_truncate_path_local_action.cpp.o[0m
+[399.744s] [ 97%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_pipeline_sequence.dir/test_pipeline_sequence.cpp.o[0m
+[408.964s] [ 97%] [32m[1mLinking CXX executable test_control_pipeline_sequence[0m
+[409.317s] [ 97%] Built target test_control_pipeline_sequence
+[409.334s] [35m[1mConsolidate compiler generated dependencies of target test_decorator_path_longer_on_approach[0m
+[409.340s] [35m[1mConsolidate compiler generated dependencies of target test_control_recovery_node[0m
+[409.367s] [ 98%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_recovery_node.dir/test_recovery_node.cpp.o[0m
+[409.368s] [ 98%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_path_longer_on_approach.dir/test_path_longer_on_approach.cpp.o[0m
+[411.236s] [ 99%] [32m[1mLinking CXX executable test_truncate_path_local_action[0m
+[411.573s] [ 99%] Built target test_truncate_path_local_action
+[417.343s] [100%] [32m[1mLinking CXX executable test_decorator_path_longer_on_approach[0m
+[417.595s] [100%] Built target test_decorator_path_longer_on_approach
+[418.617s] [100%] [32m[1mLinking CXX executable test_control_recovery_node[0m
+[418.952s] [100%] Built target test_control_recovery_node
+[419.010s] Invoked command in '/home/agilex/agilex_ws/build/nav2_behavior_tree' returned '0': CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/home/agilex/agilex_ws/install/ydlidar_sdk:/home/agilex/agilex_ws/install/ydlidar_ros2_driver:/home/agilex/agilex_ws/install/teb_local_planner:/home/agilex/agilex_ws/install/teb_msgs:/home/agilex/agilex_ws/install/rf2o_laser_odometry:/home/agilex/agilex_ws/install/nav2_system_tests:/home/agilex/agilex_ws/install/nav2_bringup:/home/agilex/agilex_ws/install/navigation2:/home/agilex/agilex_ws/install/nav2_smoother:/home/agilex/agilex_ws/install/nav2_dwb_controller:/home/agilex/agilex_ws/install/limo_bringup:/home/agilex/agilex_ws/install/nav2_controller:/home/agilex/agilex_ws/install/dwb_plugins:/home/agilex/agilex_ws/install/dwb_critics:/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_waypoint_follower:/home/agilex/agilex_ws/install/nav2_theta_star_planner:/home/agilex/agilex_ws/install/nav2_smac_planner:/home/agilex/agilex_ws/install/nav2_rotation_shim_controller:/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/agilex_ws/install/nav2_planner:/home/agilex/agilex_ws/install/nav2_navfn_planner:/home/agilex/agilex_ws/install/nav2_constrained_smoother:/home/agilex/agilex_ws/install/nav2_bt_navigator:/home/agilex/agilex_ws/install/nav2_behaviors:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/costmap_converter:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_rviz_plugins:/home/agilex/agilex_ws/install/nav2_map_server:/home/agilex/agilex_ws/install/nav2_lifecycle_manager:/home/agilex/agilex_ws/install/nav2_behavior_tree:/home/agilex/agilex_ws/install/nav2_amcl:/home/agilex/agilex_ws/install/magic_enum:/home/agilex/agilex_ws/install/limo_visions:/home/agilex/agilex_ws/install/limo_base:/home/agilex/agilex_ws/install/limo_msgs:/home/agilex/agilex_ws/install/limo_description:/home/agilex/agilex_ws/install/limo_car:/home/agilex/agilex_ws/install/libuvc:/home/agilex/agilex_ws/install/glog:/home/agilex/agilex_ws/install/csm:/home/agilex/agilex_ws/install/costmap_converter_msgs:/home/agilex/agilex_ws/install/astra_camera:/home/agilex/agilex_ws/install/astra_camera_msgs:/home/agilex/agilex_ws/install/aruco_ros:/home/agilex/agilex_ws/install/aruco_msgs:/home/agilex/agilex_ws/install/aruco:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:/home/agilex/agilex_ws/install/teb_local_planner/lib:/home/agilex/agilex_ws/install/teb_msgs/lib:/home/agilex/agilex_ws/install/nav2_smoother/lib:/home/agilex/agilex_ws/install/nav2_controller/lib:/home/agilex/agilex_ws/install/dwb_plugins/lib:/home/agilex/agilex_ws/install/dwb_critics/lib:/home/agilex/agilex_ws/install/dwb_core/lib:/home/agilex/agilex_ws/install/nav_2d_utils/lib:/home/agilex/agilex_ws/install/dwb_msgs/lib:/home/agilex/agilex_ws/install/nav_2d_msgs/lib:/home/agilex/agilex_ws/install/nav2_waypoint_follower/lib:/home/agilex/agilex_ws/install/nav2_theta_star_planner/lib:/home/agilex/agilex_ws/install/nav2_smac_planner/lib:/home/agilex/agilex_ws/install/nav2_rotation_shim_controller/lib:/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/agilex/agilex_ws/install/nav2_planner/lib:/home/agilex/agilex_ws/install/nav2_navfn_planner/lib:/home/agilex/agilex_ws/install/nav2_constrained_smoother/lib:/home/agilex/agilex_ws/install/nav2_bt_navigator/lib:/home/agilex/agilex_ws/install/nav2_behaviors/lib:/home/agilex/agilex_ws/install/costmap_queue/lib:/home/agilex/agilex_ws/install/costmap_converter/lib:/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_rviz_plugins/lib:/home/agilex/agilex_ws/install/nav2_map_server/lib:/home/agilex/agilex_ws/install/nav2_lifecycle_manager/lib:/home/agilex/agilex_ws/install/nav2_behavior_tree/lib:/home/agilex/agilex_ws/install/nav2_amcl/lib:/home/agilex/agilex_ws/install/limo_msgs/lib:/home/agilex/agilex_ws/install/libuvc/lib:/home/agilex/agilex_ws/install/glog/lib:/home/agilex/agilex_ws/install/csm/lib:/home/agilex/agilex_ws/install/costmap_converter_msgs/lib:/home/agilex/agilex_ws/install/astra_camera/lib:/home/agilex/agilex_ws/install/astra_camera_msgs/lib:/home/agilex/agilex_ws/install/aruco_ros/lib:/home/agilex/agilex_ws/install/aruco_msgs/lib:/home/agilex/agilex_ws/install/aruco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_behavior_tree -- -j8 -l8
+[420.548s] Invoking command in '/home/agilex/agilex_ws/build/nav2_behavior_tree': CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/home/agilex/agilex_ws/install/ydlidar_sdk:/home/agilex/agilex_ws/install/ydlidar_ros2_driver:/home/agilex/agilex_ws/install/teb_local_planner:/home/agilex/agilex_ws/install/teb_msgs:/home/agilex/agilex_ws/install/rf2o_laser_odometry:/home/agilex/agilex_ws/install/nav2_system_tests:/home/agilex/agilex_ws/install/nav2_bringup:/home/agilex/agilex_ws/install/navigation2:/home/agilex/agilex_ws/install/nav2_smoother:/home/agilex/agilex_ws/install/nav2_dwb_controller:/home/agilex/agilex_ws/install/limo_bringup:/home/agilex/agilex_ws/install/nav2_controller:/home/agilex/agilex_ws/install/dwb_plugins:/home/agilex/agilex_ws/install/dwb_critics:/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_waypoint_follower:/home/agilex/agilex_ws/install/nav2_theta_star_planner:/home/agilex/agilex_ws/install/nav2_smac_planner:/home/agilex/agilex_ws/install/nav2_rotation_shim_controller:/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/agilex_ws/install/nav2_planner:/home/agilex/agilex_ws/install/nav2_navfn_planner:/home/agilex/agilex_ws/install/nav2_constrained_smoother:/home/agilex/agilex_ws/install/nav2_bt_navigator:/home/agilex/agilex_ws/install/nav2_behaviors:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/costmap_converter:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_rviz_plugins:/home/agilex/agilex_ws/install/nav2_map_server:/home/agilex/agilex_ws/install/nav2_lifecycle_manager:/home/agilex/agilex_ws/install/nav2_behavior_tree:/home/agilex/agilex_ws/install/nav2_amcl:/home/agilex/agilex_ws/install/magic_enum:/home/agilex/agilex_ws/install/limo_visions:/home/agilex/agilex_ws/install/limo_base:/home/agilex/agilex_ws/install/limo_msgs:/home/agilex/agilex_ws/install/limo_description:/home/agilex/agilex_ws/install/limo_car:/home/agilex/agilex_ws/install/libuvc:/home/agilex/agilex_ws/install/glog:/home/agilex/agilex_ws/install/csm:/home/agilex/agilex_ws/install/costmap_converter_msgs:/home/agilex/agilex_ws/install/astra_camera:/home/agilex/agilex_ws/install/astra_camera_msgs:/home/agilex/agilex_ws/install/aruco_ros:/home/agilex/agilex_ws/install/aruco_msgs:/home/agilex/agilex_ws/install/aruco:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:/home/agilex/agilex_ws/install/teb_local_planner/lib:/home/agilex/agilex_ws/install/teb_msgs/lib:/home/agilex/agilex_ws/install/nav2_smoother/lib:/home/agilex/agilex_ws/install/nav2_controller/lib:/home/agilex/agilex_ws/install/dwb_plugins/lib:/home/agilex/agilex_ws/install/dwb_critics/lib:/home/agilex/agilex_ws/install/dwb_core/lib:/home/agilex/agilex_ws/install/nav_2d_utils/lib:/home/agilex/agilex_ws/install/dwb_msgs/lib:/home/agilex/agilex_ws/install/nav_2d_msgs/lib:/home/agilex/agilex_ws/install/nav2_waypoint_follower/lib:/home/agilex/agilex_ws/install/nav2_theta_star_planner/lib:/home/agilex/agilex_ws/install/nav2_smac_planner/lib:/home/agilex/agilex_ws/install/nav2_rotation_shim_controller/lib:/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/agilex/agilex_ws/install/nav2_planner/lib:/home/agilex/agilex_ws/install/nav2_navfn_planner/lib:/home/agilex/agilex_ws/install/nav2_constrained_smoother/lib:/home/agilex/agilex_ws/install/nav2_bt_navigator/lib:/home/agilex/agilex_ws/install/nav2_behaviors/lib:/home/agilex/agilex_ws/install/costmap_queue/lib:/home/agilex/agilex_ws/install/costmap_converter/lib:/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_rviz_plugins/lib:/home/agilex/agilex_ws/install/nav2_map_server/lib:/home/agilex/agilex_ws/install/nav2_lifecycle_manager/lib:/home/agilex/agilex_ws/install/nav2_behavior_tree/lib:/home/agilex/agilex_ws/install/nav2_amcl/lib:/home/agilex/agilex_ws/install/limo_msgs/lib:/home/agilex/agilex_ws/install/libuvc/lib:/home/agilex/agilex_ws/install/glog/lib:/home/agilex/agilex_ws/install/csm/lib:/home/agilex/agilex_ws/install/costmap_converter_msgs/lib:/home/agilex/agilex_ws/install/astra_camera/lib:/home/agilex/agilex_ws/install/astra_camera_msgs/lib:/home/agilex/agilex_ws/install/aruco_ros/lib:/home/agilex/agilex_ws/install/aruco_msgs/lib:/home/agilex/agilex_ws/install/aruco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_behavior_tree
+[420.574s] -- Install configuration: "Release"
+[420.583s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+[420.585s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so" to ""
+[420.585s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+[420.586s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so" to ""
+[420.587s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so
+[420.588s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so" to ""
+[420.589s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so
+[420.591s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so" to ""
+[420.591s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so
+[420.592s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so" to ""
+[420.593s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so
+[420.594s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so" to ""
+[420.595s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so
+[420.596s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so" to ""
+[420.597s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so
+[420.598s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so" to ""
+[420.599s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so
+[420.600s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so" to ""
+[420.601s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+[420.602s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so" to ""
+[420.603s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+[420.604s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so" to ""
+[420.605s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so
+[420.607s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so" to ""
+[420.608s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+[420.609s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so" to ""
+[420.610s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+[420.612s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so" to ""
+[420.613s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+[420.614s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so" to ""
+[420.615s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+[420.616s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so" to ""
+[420.618s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+[420.618s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so" to ""
+[420.619s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+[420.621s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so" to ""
+[420.622s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so
+[420.623s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so" to ""
+[420.624s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+[420.625s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so" to ""
+[420.626s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so
+[420.627s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so" to ""
+[420.628s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+[420.629s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so" to ""
+[420.630s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so
+[420.631s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so" to ""
+[420.632s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+[420.633s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so" to ""
+[420.634s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+[420.635s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so" to ""
+[420.636s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+[420.637s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so" to ""
+[420.638s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+[420.639s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so" to ""
+[420.640s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+[420.641s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so" to ""
+[420.641s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+[420.642s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so" to ""
+[420.643s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+[420.645s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so" to ""
+[420.645s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+[420.646s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so" to ""
+[420.647s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so
+[420.654s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so" to ""
+[420.654s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+[420.654s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so" to ""
+[420.654s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so
+[420.654s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so" to ""
+[420.656s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+[420.656s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so" to ""
+[420.660s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+[420.660s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so" to ""
+[420.660s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so
+[420.661s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so" to ""
+[420.662s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so
+[420.663s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so" to ""
+[420.664s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+[420.665s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so" to ""
+[420.665s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+[420.666s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so" to ""
+[420.667s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so
+[420.668s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so" to ""
+[420.668s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so
+[420.669s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so" to ""
+[420.670s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so
+[420.671s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so" to ""
+[420.672s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so
+[420.673s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so" to ""
+[420.673s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include/
+[420.673s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree
+[420.673s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins
+[420.673s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control
+[420.674s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+[420.674s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp
+[420.674s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp
+[420.674s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator
+[420.674s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/path_longer_on_approach.hpp
+[420.674s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/single_trigger_node.hpp
+[420.674s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+[420.674s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+[420.674s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+[420.675s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+[420.675s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action
+[420.675s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+[420.675s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp
+[420.675s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_cancel_node.hpp
+[420.675s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_selector_node.hpp
+[420.675s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+[420.675s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_cancel_node.hpp
+[420.675s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_action.hpp
+[420.675s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_through_poses_action.hpp
+[420.675s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp
+[420.676s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+[420.676s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+[420.676s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/goal_checker_selector_node.hpp
+[420.676s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_cancel_node.hpp
+[420.676s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smooth_path_action.hpp
+[420.676s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp
+[420.676s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_cancel_node.hpp
+[420.676s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+[420.676s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp
+[420.677s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_local_action.hpp
+[420.677s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_cancel_node.hpp
+[420.677s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/planner_selector_node.hpp
+[420.677s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_through_poses_action.hpp
+[420.677s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/remove_passed_goals_action.hpp
+[420.677s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition
+[420.677s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+[420.677s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+[420.677s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/path_expiring_timer_condition.hpp
+[420.677s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+[420.677s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/globally_updated_goal_condition.hpp
+[420.678s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+[420.678s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+[420.678s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+[420.678s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+[420.678s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+[420.678s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp
+[420.678s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_conversions.hpp
+[420.678s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/ros_topic_logger.hpp
+[420.678s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp
+[420.678s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp
+[420.678s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server.hpp
+[420.678s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp
+[420.679s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_cancel_action_node.hpp
+[420.679s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server_impl.hpp
+[420.679s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+[420.679s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+[420.679s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+[420.679s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+[420.679s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+[420.679s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+[420.679s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+[420.679s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+[420.680s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+[420.680s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+[420.680s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+[420.680s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+[420.680s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+[420.680s] -- Installing: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+[420.680s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+[420.680s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[420.680s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[420.680s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[420.680s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+[420.681s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+[420.682s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml
+[420.682s] Invoked command in '/home/agilex/agilex_ws/build/nav2_behavior_tree' returned '0': CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/home/agilex/agilex_ws/install/ydlidar_sdk:/home/agilex/agilex_ws/install/ydlidar_ros2_driver:/home/agilex/agilex_ws/install/teb_local_planner:/home/agilex/agilex_ws/install/teb_msgs:/home/agilex/agilex_ws/install/rf2o_laser_odometry:/home/agilex/agilex_ws/install/nav2_system_tests:/home/agilex/agilex_ws/install/nav2_bringup:/home/agilex/agilex_ws/install/navigation2:/home/agilex/agilex_ws/install/nav2_smoother:/home/agilex/agilex_ws/install/nav2_dwb_controller:/home/agilex/agilex_ws/install/limo_bringup:/home/agilex/agilex_ws/install/nav2_controller:/home/agilex/agilex_ws/install/dwb_plugins:/home/agilex/agilex_ws/install/dwb_critics:/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_waypoint_follower:/home/agilex/agilex_ws/install/nav2_theta_star_planner:/home/agilex/agilex_ws/install/nav2_smac_planner:/home/agilex/agilex_ws/install/nav2_rotation_shim_controller:/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/agilex_ws/install/nav2_planner:/home/agilex/agilex_ws/install/nav2_navfn_planner:/home/agilex/agilex_ws/install/nav2_constrained_smoother:/home/agilex/agilex_ws/install/nav2_bt_navigator:/home/agilex/agilex_ws/install/nav2_behaviors:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/costmap_converter:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_rviz_plugins:/home/agilex/agilex_ws/install/nav2_map_server:/home/agilex/agilex_ws/install/nav2_lifecycle_manager:/home/agilex/agilex_ws/install/nav2_behavior_tree:/home/agilex/agilex_ws/install/nav2_amcl:/home/agilex/agilex_ws/install/magic_enum:/home/agilex/agilex_ws/install/limo_visions:/home/agilex/agilex_ws/install/limo_base:/home/agilex/agilex_ws/install/limo_msgs:/home/agilex/agilex_ws/install/limo_description:/home/agilex/agilex_ws/install/limo_car:/home/agilex/agilex_ws/install/libuvc:/home/agilex/agilex_ws/install/glog:/home/agilex/agilex_ws/install/csm:/home/agilex/agilex_ws/install/costmap_converter_msgs:/home/agilex/agilex_ws/install/astra_camera:/home/agilex/agilex_ws/install/astra_camera_msgs:/home/agilex/agilex_ws/install/aruco_ros:/home/agilex/agilex_ws/install/aruco_msgs:/home/agilex/agilex_ws/install/aruco:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:/home/agilex/agilex_ws/install/teb_local_planner/lib:/home/agilex/agilex_ws/install/teb_msgs/lib:/home/agilex/agilex_ws/install/nav2_smoother/lib:/home/agilex/agilex_ws/install/nav2_controller/lib:/home/agilex/agilex_ws/install/dwb_plugins/lib:/home/agilex/agilex_ws/install/dwb_critics/lib:/home/agilex/agilex_ws/install/dwb_core/lib:/home/agilex/agilex_ws/install/nav_2d_utils/lib:/home/agilex/agilex_ws/install/dwb_msgs/lib:/home/agilex/agilex_ws/install/nav_2d_msgs/lib:/home/agilex/agilex_ws/install/nav2_waypoint_follower/lib:/home/agilex/agilex_ws/install/nav2_theta_star_planner/lib:/home/agilex/agilex_ws/install/nav2_smac_planner/lib:/home/agilex/agilex_ws/install/nav2_rotation_shim_controller/lib:/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/agilex/agilex_ws/install/nav2_planner/lib:/home/agilex/agilex_ws/install/nav2_navfn_planner/lib:/home/agilex/agilex_ws/install/nav2_constrained_smoother/lib:/home/agilex/agilex_ws/install/nav2_bt_navigator/lib:/home/agilex/agilex_ws/install/nav2_behaviors/lib:/home/agilex/agilex_ws/install/costmap_queue/lib:/home/agilex/agilex_ws/install/costmap_converter/lib:/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_rviz_plugins/lib:/home/agilex/agilex_ws/install/nav2_map_server/lib:/home/agilex/agilex_ws/install/nav2_lifecycle_manager/lib:/home/agilex/agilex_ws/install/nav2_behavior_tree/lib:/home/agilex/agilex_ws/install/nav2_amcl/lib:/home/agilex/agilex_ws/install/limo_msgs/lib:/home/agilex/agilex_ws/install/libuvc/lib:/home/agilex/agilex_ws/install/glog/lib:/home/agilex/agilex_ws/install/csm/lib:/home/agilex/agilex_ws/install/costmap_converter_msgs/lib:/home/agilex/agilex_ws/install/astra_camera/lib:/home/agilex/agilex_ws/install/astra_camera_msgs/lib:/home/agilex/agilex_ws/install/aruco_ros/lib:/home/agilex/agilex_ws/install/aruco_msgs/lib:/home/agilex/agilex_ws/install/aruco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_behavior_tree

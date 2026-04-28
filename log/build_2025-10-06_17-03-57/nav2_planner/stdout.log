@@ -1,0 +1,42 @@
+[ 10%] [32mBuilding CXX object CMakeFiles/planner_server_core.dir/src/planner_server.cpp.o[0m
+[ 20%] [32m[1mLinking CXX shared library libplanner_server_core.so[0m
+[ 20%] Built target planner_server_core
+[ 40%] Built target gtest_main
+[ 50%] [32mBuilding CXX object CMakeFiles/planner_server.dir/src/main.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable planner_server[0m
+[ 60%] Built target planner_server
+[ 70%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 80%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 80%] Built target gtest
+[ 90%] [32mBuilding CXX object test/CMakeFiles/test_dynamic_parameters.dir/test_dynamic_parameters.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_dynamic_parameters[0m
+[100%] Built target test_dynamic_parameters
+-- Install configuration: "Release"
+-- Installing: /home/agilex/agilex_ws/install/nav2_planner/lib/libplanner_server_core.so
+-- Set runtime path of "/home/agilex/agilex_ws/install/nav2_planner/lib/libplanner_server_core.so" to ""
+-- Installing: /home/agilex/agilex_ws/install/nav2_planner/lib/nav2_planner/planner_server
+-- Set runtime path of "/home/agilex/agilex_ws/install/nav2_planner/lib/nav2_planner/planner_server" to ""
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/include/
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/include//nav2_planner
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/include//nav2_planner/planner_server.hpp
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/environment/library_path.sh
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/environment/library_path.dsv
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/ament_index/resource_index/package_run_dependencies/nav2_planner
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/ament_index/resource_index/parent_prefix_path/nav2_planner
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/environment/ament_prefix_path.sh
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/environment/path.sh
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/environment/path.dsv
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/local_setup.bash
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/local_setup.sh
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/local_setup.zsh
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/local_setup.dsv
+-- Installing: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/package.dsv
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/ament_index/resource_index/packages/nav2_planner
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/ament_index/resource_index/rclcpp_components/nav2_planner
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/cmake/nav2_plannerConfig.cmake
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/cmake/nav2_plannerConfig-version.cmake
+-- Up-to-date: /home/agilex/agilex_ws/install/nav2_planner/share/nav2_planner/package.xml

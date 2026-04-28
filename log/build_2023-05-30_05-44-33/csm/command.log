@@ -1,0 +1,1 @@
+Invoking command in '/home/agilex/agilex_ws/build/csm': /usr/bin/cmake /home/agilex/agilex_ws/src/csm -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/csm

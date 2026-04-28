@@ -1,0 +1,1 @@
+Invoking command in '/home/agilex/agilex_ws/build/astra_camera_msgs': /usr/bin/cmake /home/agilex/agilex_ws/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/astra_camera_msgs

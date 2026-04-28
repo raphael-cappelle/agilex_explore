@@ -1,0 +1,16 @@
+[ 11%] Built target example
+[ 22%] Built target example_custom_name
+[ 33%] Built target example_switch
+[ 55%] Built target test-cpp17
+[ 55%] Built target test-cpp20
+[ 66%] Built target enum_flag_example
+[ 77%] Built target example_nonascii_name
+[ 88%] Built target test_flags-cpp17
+[100%] Built target test_flags-cpp20
+-- Install configuration: ""
+-- Up-to-date: /home/agilex/agilex_ws/install/magic_enum/lib/cmake/magic_enum/magic_enumConfigVersion.cmake
+-- Up-to-date: /home/agilex/agilex_ws/install/magic_enum/lib/cmake/magic_enum/magic_enumConfig.cmake
+-- Up-to-date: /home/agilex/agilex_ws/install/magic_enum/./include
+-- Up-to-date: /home/agilex/agilex_ws/install/magic_enum/./include/magic_enum.hpp
+-- Up-to-date: /home/agilex/agilex_ws/install/magic_enum/./include/magic_enum_fuse.hpp
+-- Up-to-date: /home/agilex/agilex_ws/install/magic_enum/share/magic_enum/package.xml

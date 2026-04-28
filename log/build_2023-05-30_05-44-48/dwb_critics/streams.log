@@ -1,0 +1,133 @@
+[0.044s] Invoking command in '/home/agilex/agilex_ws/build/dwb_critics': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/dwb_core/lib:/home/agilex/agilex_ws/install/costmap_queue/lib:/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav_2d_utils/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:/home/agilex/agilex_ws/install/dwb_msgs/lib:/home/agilex/agilex_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agilex/agilex_ws/src/navigation2/nav2_dwb_controller/dwb_critics -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/dwb_critics
+[0.380s] -- The C compiler identification is GNU 11.3.0
+[0.380s] -- The CXX compiler identification is GNU 11.3.0
+[0.380s] -- Detecting C compiler ABI info
+[0.381s] -- Detecting C compiler ABI info - done
+[0.381s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.381s] -- Detecting C compile features
+[0.381s] -- Detecting C compile features - done
+[0.381s] -- Detecting CXX compiler ABI info
+[0.381s] -- Detecting CXX compiler ABI info - done
+[0.381s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.381s] -- Detecting CXX compile features
+[0.381s] -- Detecting CXX compile features - done
+[0.381s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.585s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.701s] -- Found nav2_common: 1.1.0 (/home/agilex/agilex_ws/install/nav2_common/share/nav2_common/cmake)
+[0.701s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.703s] -- Found nav2_costmap_2d: 1.1.0 (/home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[0.748s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.754s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.765s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.780s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.803s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.034s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.038s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.146s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.171s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.212s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.224s] -- Looking for pthread.h
+[1.307s] -- Looking for pthread.h - found
+[1.307s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.373s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.374s] -- Found Threads: TRUE  
+[2.596s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.596s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.557s] -- Found costmap_queue: 1.1.0 (/home/agilex/agilex_ws/install/costmap_queue/share/costmap_queue/cmake)
+[3.559s] -- Found dwb_core: 1.1.0 (/home/agilex/agilex_ws/install/dwb_core/share/dwb_core/cmake)
+[8.543s] -- Setting build type to Release as none was specified.
+[20.838s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[20.986s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[21.006s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[21.007s] -- Configured cppcheck include dirs: /home/agilex/agilex_ws/src/navigation2/nav2_dwb_controller/dwb_critics/include
+[21.007s] -- Configured cppcheck exclude dirs and/or files: 
+[21.009s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[21.009s] -- Configured cpplint exclude dirs and/or files: 
+[21.010s] -- Added test 'lint_cmake' to check CMake code style
+[21.012s] -- Added test 'uncrustify' to check C / C++ code style
+[21.012s] -- Configured uncrustify additional arguments: 
+[21.013s] -- Added test 'xmllint' to check XML markup files
+[21.017s] -- Configuring done
+[21.231s] -- Generating done
+[21.235s] -- Build files have been written to: /home/agilex/agilex_ws/build/dwb_critics
+[21.261s] Invoked command in '/home/agilex/agilex_ws/build/dwb_critics' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/dwb_core/lib:/home/agilex/agilex_ws/install/costmap_queue/lib:/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav_2d_utils/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:/home/agilex/agilex_ws/install/dwb_msgs/lib:/home/agilex/agilex_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agilex/agilex_ws/src/navigation2/nav2_dwb_controller/dwb_critics -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/dwb_critics
+[21.262s] Invoking command in '/home/agilex/agilex_ws/build/dwb_critics': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/dwb_core/lib:/home/agilex/agilex_ws/install/costmap_queue/lib:/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav_2d_utils/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:/home/agilex/agilex_ws/install/dwb_msgs/lib:/home/agilex/agilex_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agilex/agilex_ws/build/dwb_critics -- -j8 -l8
+[47.224s] [  3%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/alignment_util.cpp.o[0m
+[47.225s] [  7%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/path_align.cpp.o[0m
+[47.225s] [ 11%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/base_obstacle.cpp.o[0m
+[47.225s] [ 14%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/obstacle_footprint.cpp.o[0m
+[47.225s] [ 18%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/oscillation.cpp.o[0m
+[47.225s] [ 22%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/prefer_forward.cpp.o[0m
+[52.215s] [ 25%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/rotate_to_goal.cpp.o[0m
+[57.632s] [ 29%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/twirling.cpp.o[0m
+[63.605s] [ 33%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/goal_align.cpp.o[0m
+[69.820s] [ 37%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/path_dist.cpp.o[0m
+[75.767s] [ 40%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/goal_dist.cpp.o[0m
+[81.422s] [ 44%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/map_grid.cpp.o[0m
+[87.125s] [ 48%] [32m[1mLinking CXX shared library libdwb_critics.so[0m
+[87.414s] [ 48%] Built target dwb_critics
+[87.433s] [ 51%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[95.730s] [ 55%] [32m[1mLinking CXX static library libgtest.a[0m
+[95.766s] [ 55%] Built target gtest
+[95.786s] [ 59%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[96.713s] [ 62%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[96.743s] [ 62%] Built target gtest_main
+[96.763s] [ 66%] [32mBuilding CXX object test/CMakeFiles/prefer_forward_tests.dir/prefer_forward_test.cpp.o[0m
+[104.515s] [ 70%] [32m[1mLinking CXX executable prefer_forward_tests[0m
+[104.863s] [ 70%] Built target prefer_forward_tests
+[104.896s] [ 74%] [32mBuilding CXX object test/CMakeFiles/twirling_tests.dir/twirling_test.cpp.o[0m
+[104.916s] [ 77%] [32mBuilding CXX object test/CMakeFiles/alignment_util_tests.dir/alignment_util_test.cpp.o[0m
+[112.371s] [ 81%] [32m[1mLinking CXX executable alignment_util_tests[0m
+[113.230s] [ 81%] Built target alignment_util_tests
+[115.662s] [ 85%] [32m[1mLinking CXX executable twirling_tests[0m
+[116.431s] [ 85%] Built target twirling_tests
+[116.545s] [ 88%] [32mBuilding CXX object test/CMakeFiles/obstacle_footprint_tests.dir/obstacle_footprint_test.cpp.o[0m
+[123.855s] [ 92%] [32m[1mLinking CXX executable obstacle_footprint_tests[0m
+[124.144s] [ 92%] Built target obstacle_footprint_tests
+[124.164s] [ 96%] [32mBuilding CXX object test/CMakeFiles/base_obstacle_tests.dir/base_obstacle_test.cpp.o[0m
+[130.210s] [100%] [32m[1mLinking CXX executable base_obstacle_tests[0m
+[130.508s] [100%] Built target base_obstacle_tests
+[130.522s] Invoked command in '/home/agilex/agilex_ws/build/dwb_critics' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/dwb_core/lib:/home/agilex/agilex_ws/install/costmap_queue/lib:/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav_2d_utils/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:/home/agilex/agilex_ws/install/dwb_msgs/lib:/home/agilex/agilex_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agilex/agilex_ws/build/dwb_critics -- -j8 -l8
+[130.569s] Invoking command in '/home/agilex/agilex_ws/build/dwb_critics': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/dwb_core/lib:/home/agilex/agilex_ws/install/costmap_queue/lib:/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav_2d_utils/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:/home/agilex/agilex_ws/install/dwb_msgs/lib:/home/agilex/agilex_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agilex/agilex_ws/build/dwb_critics
+[130.575s] -- Install configuration: "Release"
+[130.575s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/lib/libdwb_critics.so
+[130.576s] -- Set runtime path of "/home/agilex/agilex_ws/install/dwb_critics/lib/libdwb_critics.so" to ""
+[130.576s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/include/
+[130.576s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/include//dwb_critics
+[130.576s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/include//dwb_critics/base_obstacle.hpp
+[130.577s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/include//dwb_critics/goal_dist.hpp
+[130.577s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/include//dwb_critics/alignment_util.hpp
+[130.577s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/include//dwb_critics/twirling.hpp
+[130.578s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/include//dwb_critics/rotate_to_goal.hpp
+[130.578s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/include//dwb_critics/path_dist.hpp
+[130.578s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/include//dwb_critics/goal_align.hpp
+[130.578s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/include//dwb_critics/oscillation.hpp
+[130.578s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/include//dwb_critics/map_grid.hpp
+[130.578s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/include//dwb_critics/path_align.hpp
+[130.579s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/include//dwb_critics/line_iterator.hpp
+[130.579s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/include//dwb_critics/prefer_forward.hpp
+[130.579s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/include//dwb_critics/obstacle_footprint.hpp
+[130.579s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/dwb_critics/default_critics.xml
+[130.580s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/dwb_critics/environment/library_path.sh
+[130.580s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/dwb_critics/environment/library_path.dsv
+[130.580s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_critics/share/dwb_critics/default_critics.xml
+[130.580s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/ament_index/resource_index/package_run_dependencies/dwb_critics
+[130.581s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/ament_index/resource_index/parent_prefix_path/dwb_critics
+[130.581s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/dwb_critics/environment/ament_prefix_path.sh
+[130.581s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/dwb_critics/environment/ament_prefix_path.dsv
+[130.581s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/dwb_critics/environment/path.sh
+[130.582s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/dwb_critics/environment/path.dsv
+[130.582s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/dwb_critics/local_setup.bash
+[130.582s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/dwb_critics/local_setup.sh
+[130.582s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/dwb_critics/local_setup.zsh
+[130.582s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/dwb_critics/local_setup.dsv
+[130.582s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/dwb_critics/package.dsv
+[130.582s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/ament_index/resource_index/packages/dwb_critics
+[130.583s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/ament_index/resource_index/dwb_core__pluginlib__plugin/dwb_critics
+[130.583s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/dwb_critics/cmake/ament_cmake_export_include_directories-extras.cmake
+[130.583s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/dwb_critics/cmake/ament_cmake_export_libraries-extras.cmake
+[130.583s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/dwb_critics/cmake/ament_cmake_export_dependencies-extras.cmake
+[130.583s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/dwb_critics/cmake/dwb_criticsConfig.cmake
+[130.583s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/dwb_critics/cmake/dwb_criticsConfig-version.cmake
+[130.583s] -- Installing: /home/agilex/agilex_ws/install/dwb_critics/share/dwb_critics/package.xml
+[130.588s] Invoked command in '/home/agilex/agilex_ws/build/dwb_critics' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/dwb_core/lib:/home/agilex/agilex_ws/install/costmap_queue/lib:/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav_2d_utils/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:/home/agilex/agilex_ws/install/dwb_msgs/lib:/home/agilex/agilex_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agilex/agilex_ws/build/dwb_critics

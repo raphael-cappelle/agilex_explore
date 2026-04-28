@@ -1,0 +1,24 @@
+[0.019s] Invoking command in '/home/agilex/agilex_ws/build/aruco': /usr/bin/cmake /home/agilex/agilex_ws/src/aruco_ros/aruco -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/aruco
+[0.069s] [33mCMake Warning at CMakeLists.txt:14 (find_package):
+[0.069s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.069s]   has asked CMake to find a package configuration file provided by
+[0.069s]   "ament_cmake", but CMake did not find one.
+[0.069s] 
+[0.070s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.070s]   any of the following names:
+[0.070s] 
+[0.070s]     ament_cmakeConfig.cmake
+[0.070s]     ament_cmake-config.cmake
+[0.070s] 
+[0.070s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.070s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.070s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.070s]   has been installed.
+[0.070s] 
+[0.070s] [0m
+[0.072s] -- Configuring incomplete, errors occurred!
+[0.072s] See also "/home/agilex/agilex_ws/build/aruco/CMakeFiles/CMakeOutput.log".
+[0.072s] [31mCMake Error at CMakeLists.txt:71 (ament_export_include_directories):
+[0.073s]   Unknown CMake command "ament_export_include_directories".
+[0.073s] 
+[0.073s] [0m

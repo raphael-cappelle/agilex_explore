@@ -1,0 +1,75 @@
+[0.021s] Invoking command in '/home/agilex/agilex_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_util -- -j16 -l16
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.065s] [  5%] Built target gtest_main
+[0.066s] [ 10%] Built target gtest
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target nav2_util_core[0m
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target test_execution_timer[0m
+[0.086s] [ 15%] Built target test_execution_timer
+[0.090s] [ 42%] Built target nav2_util_core
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target test_string_utils[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target test_service_client[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_node[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target test_node_utils[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_bringup[0m
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target test_odometry_utils[0m
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_cli_node[0m
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_utils[0m
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target test_actions[0m
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target test_robot_utils[0m
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target test_geometry_utils[0m
+[0.117s] [ 47%] Built target test_service_client
+[0.117s] [ 57%] Built target test_node_utils
+[0.117s] [ 57%] Built target test_string_utils
+[0.117s] [ 63%] Built target lifecycle_bringup
+[0.118s] [ 68%] Built target test_lifecycle_node
+[0.120s] [ 73%] Built target test_odometry_utils
+[0.121s] [ 78%] Built target test_actions
+[0.121s] [ 86%] Built target test_lifecycle_cli_node
+[0.121s] [ 89%] Built target test_lifecycle_utils
+[0.123s] [ 94%] Built target test_robot_utils
+[0.124s] [100%] Built target test_geometry_utils
+[0.152s] Invoked command in '/home/agilex/agilex_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_util -- -j16 -l16
+[0.174s] Invoking command in '/home/agilex/agilex_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_util
+[0.180s] -- Install configuration: "Release"
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/include/
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/include//nav2_util
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/include//nav2_util/string_utils.hpp
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/include//nav2_util/geometry_utils.hpp
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/include//nav2_util/lifecycle_service_client.hpp
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/include//nav2_util/lifecycle_utils.hpp
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/include//nav2_util/execution_timer.hpp
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/include//nav2_util/odometry_utils.hpp
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/include//nav2_util/robot_utils.hpp
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/include//nav2_util/occ_grid_values.hpp
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/include//nav2_util/lifecycle_node.hpp
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/include//nav2_util/line_iterator.hpp
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/include//nav2_util/service_client.hpp
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/include//nav2_util/simple_action_server.hpp
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/include//nav2_util/clear_entirely_costmap_service_client.hpp
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/include//nav2_util/node_utils.hpp
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/include//nav2_util/node_thread.hpp
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/include//nav2_util/costmap.hpp
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/share/nav2_util/environment/library_path.sh
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/share/nav2_util/environment/library_path.dsv
+[0.180s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+[0.181s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+[0.181s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+[0.181s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+[0.181s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/share/nav2_util/environment/path.sh
+[0.181s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/share/nav2_util/environment/path.dsv
+[0.181s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/share/nav2_util/local_setup.bash
+[0.181s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/share/nav2_util/local_setup.sh
+[0.181s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/share/nav2_util/local_setup.zsh
+[0.181s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/share/nav2_util/local_setup.dsv
+[0.181s] -- Installing: /home/agilex/agilex_ws/install/nav2_util/share/nav2_util/package.dsv
+[0.181s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+[0.181s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.181s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+[0.181s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.182s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+[0.182s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+[0.182s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/share/nav2_util/package.xml
+[0.183s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/lib/libnav2_util_core.so
+[0.183s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_util/lib/nav2_util/lifecycle_bringup
+[0.185s] Invoked command in '/home/agilex/agilex_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_util

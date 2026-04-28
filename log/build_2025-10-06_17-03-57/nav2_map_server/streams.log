@@ -1,0 +1,55 @@
+[0.029s] Invoking command in '/home/agilex/agilex_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_map_server -- -j16 -l16
+[0.086s] [  8%] Built target map_io
+[0.103s] [ 13%] Built target gtest
+[0.127s] [ 22%] Built target test_map_saver_publisher
+[0.150s] [ 33%] Built target map_server_core
+[0.167s] [ 38%] Built target gtest_main
+[0.189s] [ 44%] Built target costmap_filter_info_server
+[0.211s] [ 52%] Built target test_map_saver_cli
+[0.233s] [ 61%] Built target test_map_saver_node
+[0.258s] [ 69%] Built target test_map_server_node
+[0.282s] [ 75%] Built target test_costmap_filter_info_server
+[0.303s] [ 83%] Built target test_map_io
+[0.324s] [ 88%] Built target map_saver_server
+[0.346s] [ 94%] Built target map_saver_cli
+[0.367s] [100%] Built target map_server
+[0.413s] Invoked command in '/home/agilex/agilex_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_map_server -- -j16 -l16
+[0.447s] Invoking command in '/home/agilex/agilex_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_map_server
+[0.451s] -- Install configuration: "Release"
+[0.452s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/lib/libmap_server_core.so
+[0.452s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/lib/libmap_io.so
+[0.453s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/lib/nav2_map_server/map_server
+[0.453s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[0.453s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[0.454s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[0.454s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/include/
+[0.454s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/include//nav2_map_server
+[0.454s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[0.454s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[0.454s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[0.454s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[0.454s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[0.455s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/nav2_map_server/launch
+[0.455s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[0.455s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[0.455s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[0.455s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[0.455s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[0.455s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[0.455s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[0.455s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[0.455s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[0.455s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[0.455s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[0.456s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[0.456s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[0.456s] -- Installing: /home/agilex/agilex_ws/install/nav2_map_server/share/nav2_map_server/package.dsv
+[0.456s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[0.456s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[0.456s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.456s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[0.456s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.456s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[0.456s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[0.456s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_map_server/share/nav2_map_server/package.xml
+[0.458s] Invoked command in '/home/agilex/agilex_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_map_server

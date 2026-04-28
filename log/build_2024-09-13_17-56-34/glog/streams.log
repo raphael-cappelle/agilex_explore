@@ -1,0 +1,37 @@
+[0.236s] Invoking command in '/home/agilex/agilex_ws/build/glog': /usr/bin/cmake --build /home/agilex/agilex_ws/build/glog -- -j16 -l16
+[0.377s] [ 25%] Built target glogbase
+[0.429s] [ 28%] Built target glog
+[0.450s] [ 31%] Built target glogtest
+[0.531s] [ 37%] Built target logging_unittest
+[0.548s] [ 43%] Built target stl_logging_unittest
+[0.564s] [ 50%] Built target symbolize_unittest
+[0.580s] [ 56%] Built target logging_custom_prefix_unittest
+[0.606s] [ 62%] Built target demangle_unittest
+[0.631s] [ 68%] Built target stacktrace_unittest
+[0.632s] [ 75%] Built target utilities_unittest
+[0.636s] [ 81%] Built target cleanup_immediately_unittest
+[0.654s] [ 87%] Built target signalhandler_unittest
+[0.679s] [ 93%] Built target cleanup_with_absolute_prefix_unittest
+[0.679s] [100%] Built target cleanup_with_relative_prefix_unittest
+[0.896s] Invoked command in '/home/agilex/agilex_ws/build/glog' returned '0': /usr/bin/cmake --build /home/agilex/agilex_ws/build/glog -- -j16 -l16
+[1.540s] Invoking command in '/home/agilex/agilex_ws/build/glog': /usr/bin/cmake --install /home/agilex/agilex_ws/build/glog
+[1.552s] -- Install configuration: ""
+[1.552s] -- Up-to-date: /home/agilex/agilex_ws/install/glog/lib/libglog.so.0.6.0
+[1.552s] -- Up-to-date: /home/agilex/agilex_ws/install/glog/lib/libglog.so.1
+[1.552s] -- Up-to-date: /home/agilex/agilex_ws/install/glog/lib/libglog.so
+[1.555s] -- Up-to-date: /home/agilex/agilex_ws/install/glog/include/glog/export.h
+[1.555s] -- Up-to-date: /home/agilex/agilex_ws/install/glog/include/glog/logging.h
+[1.555s] -- Up-to-date: /home/agilex/agilex_ws/install/glog/include/glog/raw_logging.h
+[1.555s] -- Up-to-date: /home/agilex/agilex_ws/install/glog/include/glog/stl_logging.h
+[1.555s] -- Up-to-date: /home/agilex/agilex_ws/install/glog/include/glog/vlog_is_on.h
+[1.555s] -- Up-to-date: /home/agilex/agilex_ws/install/glog/include/glog/log_severity.h
+[1.555s] -- Up-to-date: /home/agilex/agilex_ws/install/glog/include/glog/platform.h
+[1.555s] -- Up-to-date: /home/agilex/agilex_ws/install/glog/lib/pkgconfig/libglog.pc
+[1.555s] -- Up-to-date: /home/agilex/agilex_ws/install/glog/lib/cmake/glog/glog-modules.cmake
+[1.555s] -- Up-to-date: /home/agilex/agilex_ws/install/glog/lib/cmake/glog/glog-config.cmake
+[1.555s] -- Up-to-date: /home/agilex/agilex_ws/install/glog/lib/cmake/glog/glog-config-version.cmake
+[1.555s] -- Up-to-date: /home/agilex/agilex_ws/install/glog/share/glog/cmake
+[1.555s] -- Up-to-date: /home/agilex/agilex_ws/install/glog/share/glog/cmake/FindUnwind.cmake
+[1.555s] -- Up-to-date: /home/agilex/agilex_ws/install/glog/lib/cmake/glog/glog-targets.cmake
+[1.555s] -- Up-to-date: /home/agilex/agilex_ws/install/glog/lib/cmake/glog/glog-targets-noconfig.cmake
+[1.900s] Invoked command in '/home/agilex/agilex_ws/build/glog' returned '0': /usr/bin/cmake --install /home/agilex/agilex_ws/build/glog

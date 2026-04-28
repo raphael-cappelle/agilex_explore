@@ -1,0 +1,57 @@
+[  5%] [32mBuilding CXX object CMakeFiles/standard_traj_generator.dir/src/standard_traj_generator.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/standard_traj_generator.dir/src/xy_theta_iterator.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/standard_traj_generator.dir/src/kinematic_parameters.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/standard_traj_generator.dir/src/limited_accel_generator.cpp.o[0m
+[ 29%] [32m[1mLinking CXX shared library libstandard_traj_generator.so[0m
+[ 29%] Built target standard_traj_generator
+[ 35%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 41%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 41%] Built target gtest
+[ 47%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 52%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 52%] Built target gtest_main
+[ 58%] [32mBuilding CXX object test/CMakeFiles/vtest.dir/velocity_iterator_test.cpp.o[0m
+[ 70%] [32mBuilding CXX object test/CMakeFiles/twist_gen_test.dir/twist_gen.cpp.o[0m
+[ 70%] [32mBuilding CXX object test/CMakeFiles/kinematic_parameters_test.dir/kinematic_parameters_test.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable vtest[0m
+[ 76%] Built target vtest
+[ 82%] [32mBuilding CXX object test/CMakeFiles/speed_limit_test.dir/speed_limit_test.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable kinematic_parameters_test[0m
+[ 88%] Built target kinematic_parameters_test
+[ 94%] [32m[1mLinking CXX executable speed_limit_test[0m
+[ 94%] Built target speed_limit_test
+[100%] [32m[1mLinking CXX executable twist_gen_test[0m
+[100%] Built target twist_gen_test
+-- Install configuration: "Release"
+-- Installing: /home/agilex/agilex_ws/install/dwb_plugins/lib/libstandard_traj_generator.so
+-- Set runtime path of "/home/agilex/agilex_ws/install/dwb_plugins/lib/libstandard_traj_generator.so" to ""
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/include/
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/include//dwb_plugins
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/include//dwb_plugins/kinematic_parameters.hpp
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/include//dwb_plugins/xy_theta_iterator.hpp
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/include//dwb_plugins/standard_traj_generator.hpp
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/include//dwb_plugins/one_d_velocity_iterator.hpp
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/include//dwb_plugins/limited_accel_generator.hpp
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/include//dwb_plugins/velocity_iterator.hpp
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/dwb_plugins/plugins.xml
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/dwb_plugins/environment/library_path.sh
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/dwb_plugins/environment/library_path.dsv
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/dwb_plugins/plugins.xml
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/ament_index/resource_index/package_run_dependencies/dwb_plugins
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/ament_index/resource_index/parent_prefix_path/dwb_plugins
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/dwb_plugins/environment/ament_prefix_path.sh
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/dwb_plugins/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/dwb_plugins/environment/path.sh
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/dwb_plugins/environment/path.dsv
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/dwb_plugins/local_setup.bash
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/dwb_plugins/local_setup.sh
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/dwb_plugins/local_setup.zsh
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/dwb_plugins/local_setup.dsv
+-- Installing: /home/agilex/agilex_ws/install/dwb_plugins/share/dwb_plugins/package.dsv
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/ament_index/resource_index/packages/dwb_plugins
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/ament_index/resource_index/dwb_core__pluginlib__plugin/dwb_plugins
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/dwb_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/dwb_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/dwb_plugins/cmake/dwb_pluginsConfig.cmake
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/dwb_plugins/cmake/dwb_pluginsConfig-version.cmake
+-- Up-to-date: /home/agilex/agilex_ws/install/dwb_plugins/share/dwb_plugins/package.xml

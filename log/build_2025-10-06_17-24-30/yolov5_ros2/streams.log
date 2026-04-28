@@ -1,0 +1,23 @@
+[0.863s] Invoking command in '/home/agilex/agilex_ws/src/yolov5_ros2': PYTHONPATH=/home/agilex/agilex_ws/build/yolov5_ros2/prefix_override:/home/agilex/agilex_ws/install/yolov5_ros2/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov5_ros2 build --build-base /home/agilex/agilex_ws/build/yolov5_ros2/build install --record /home/agilex/agilex_ws/build/yolov5_ros2/install.log --single-version-externally-managed
+[0.974s] running egg_info
+[0.974s] writing ../../build/yolov5_ros2/yolov5_ros2.egg-info/PKG-INFO
+[0.974s] writing dependency_links to ../../build/yolov5_ros2/yolov5_ros2.egg-info/dependency_links.txt
+[0.974s] writing entry points to ../../build/yolov5_ros2/yolov5_ros2.egg-info/entry_points.txt
+[0.974s] writing requirements to ../../build/yolov5_ros2/yolov5_ros2.egg-info/requires.txt
+[0.974s] writing top-level names to ../../build/yolov5_ros2/yolov5_ros2.egg-info/top_level.txt
+[0.976s] reading manifest file '../../build/yolov5_ros2/yolov5_ros2.egg-info/SOURCES.txt'
+[0.976s] writing manifest file '../../build/yolov5_ros2/yolov5_ros2.egg-info/SOURCES.txt'
+[0.976s] running build
+[0.976s] running build_py
+[0.976s] running install
+[0.977s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.977s]   warnings.warn(
+[0.977s] running install_lib
+[0.977s] running install_data
+[0.977s] running install_egg_info
+[0.978s] removing '/home/agilex/agilex_ws/install/yolov5_ros2/lib/python3.10/site-packages/yolov5_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.979s] Copying ../../build/yolov5_ros2/yolov5_ros2.egg-info to /home/agilex/agilex_ws/install/yolov5_ros2/lib/python3.10/site-packages/yolov5_ros2-0.0.0-py3.10.egg-info
+[0.979s] running install_scripts
+[0.991s] Installing yolo_detect_2d script to /home/agilex/agilex_ws/install/yolov5_ros2/lib/yolov5_ros2
+[0.991s] writing list of installed files to '/home/agilex/agilex_ws/build/yolov5_ros2/install.log'
+[1.097s] Invoked command in '/home/agilex/agilex_ws/src/yolov5_ros2' returned '0': PYTHONPATH=/home/agilex/agilex_ws/build/yolov5_ros2/prefix_override:/home/agilex/agilex_ws/install/yolov5_ros2/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov5_ros2 build --build-base /home/agilex/agilex_ws/build/yolov5_ros2/build install --record /home/agilex/agilex_ws/build/yolov5_ros2/install.log --single-version-externally-managed

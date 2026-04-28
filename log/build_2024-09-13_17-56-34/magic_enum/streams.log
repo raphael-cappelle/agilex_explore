@@ -1,0 +1,20 @@
+[0.111s] Invoking command in '/home/agilex/agilex_ws/build/magic_enum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/agilex/agilex_ws/build/magic_enum -- -j16 -l16
+[0.303s] [ 22%] Built target example_nonascii_name
+[0.303s] [ 22%] Built target example_custom_name
+[0.303s] [ 33%] Built target enum_flag_example
+[0.303s] [ 44%] Built target example
+[0.303s] [ 55%] Built target example_switch
+[0.317s] [ 66%] Built target test-cpp17
+[0.319s] [ 77%] Built target test-cpp20
+[0.321s] [ 88%] Built target test_flags-cpp17
+[0.333s] [100%] Built target test_flags-cpp20
+[0.377s] Invoked command in '/home/agilex/agilex_ws/build/magic_enum' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/agilex/agilex_ws/build/magic_enum -- -j16 -l16
+[0.619s] Invoking command in '/home/agilex/agilex_ws/build/magic_enum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/agilex/agilex_ws/build/magic_enum
+[0.666s] -- Install configuration: ""
+[0.666s] -- Up-to-date: /home/agilex/agilex_ws/install/magic_enum/lib/cmake/magic_enum/magic_enumConfigVersion.cmake
+[0.666s] -- Up-to-date: /home/agilex/agilex_ws/install/magic_enum/lib/cmake/magic_enum/magic_enumConfig.cmake
+[0.666s] -- Up-to-date: /home/agilex/agilex_ws/install/magic_enum/./include
+[0.666s] -- Up-to-date: /home/agilex/agilex_ws/install/magic_enum/./include/magic_enum.hpp
+[0.666s] -- Up-to-date: /home/agilex/agilex_ws/install/magic_enum/./include/magic_enum_fuse.hpp
+[0.666s] -- Up-to-date: /home/agilex/agilex_ws/install/magic_enum/share/magic_enum/package.xml
+[0.752s] Invoked command in '/home/agilex/agilex_ws/build/magic_enum' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/agilex/agilex_ws/build/magic_enum

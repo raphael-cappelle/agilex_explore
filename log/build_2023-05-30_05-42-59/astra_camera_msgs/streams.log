@@ -1,0 +1,32 @@
+[0.017s] Invoking command in '/home/agilex/agilex_ws/build/astra_camera_msgs': /usr/bin/cmake /home/agilex/agilex_ws/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/astra_camera_msgs
+[0.184s] -- The C compiler identification is GNU 11.3.0
+[0.346s] -- The CXX compiler identification is GNU 11.3.0
+[0.354s] -- Detecting C compiler ABI info
+[0.418s] -- Detecting C compiler ABI info - done
+[0.429s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.429s] -- Detecting C compile features
+[0.430s] -- Detecting C compile features - done
+[0.432s] -- Detecting CXX compiler ABI info
+[0.517s] -- Detecting CXX compiler ABI info - done
+[0.526s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.528s] -- Detecting CXX compile features
+[0.529s] -- Detecting CXX compile features - done
+[0.546s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.546s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.546s]   has asked CMake to find a package configuration file provided by
+[0.546s]   "ament_cmake", but CMake did not find one.
+[0.547s] 
+[0.547s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.547s]   any of the following names:
+[0.547s] 
+[0.547s]     ament_cmakeConfig.cmake
+[0.547s]     ament_cmake-config.cmake
+[0.547s] 
+[0.548s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.548s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.548s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.548s]   has been installed.
+[0.548s] 
+[0.548s] [0m
+[0.548s] -- Configuring incomplete, errors occurred!
+[0.548s] See also "/home/agilex/agilex_ws/build/astra_camera_msgs/CMakeFiles/CMakeOutput.log".

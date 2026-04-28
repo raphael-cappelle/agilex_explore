@@ -1,0 +1,23 @@
+[0.210s] Invoking command in '/home/agilex/agilex_ws/build/libuvc': /usr/bin/cmake --build /home/agilex/agilex_ws/build/libuvc -- -j16 -l16
+[0.360s] [ 45%] Built target uvc
+[0.361s] [ 90%] Built target uvc_static
+[0.399s] [100%] Built target example
+[0.434s] Invoked command in '/home/agilex/agilex_ws/build/libuvc' returned '0': /usr/bin/cmake --build /home/agilex/agilex_ws/build/libuvc -- -j16 -l16
+[0.876s] Invoking command in '/home/agilex/agilex_ws/build/libuvc': /usr/bin/cmake --install /home/agilex/agilex_ws/build/libuvc
+[0.929s] -- Install configuration: "Release"
+[0.930s] -- Up-to-date: /home/agilex/agilex_ws/install/libuvc/lib/libuvc.so.0.0.6
+[0.930s] -- Up-to-date: /home/agilex/agilex_ws/install/libuvc/lib/libuvc.so.0
+[0.930s] -- Up-to-date: /home/agilex/agilex_ws/install/libuvc/lib/libuvc.so
+[0.930s] -- Up-to-date: /home/agilex/agilex_ws/install/libuvc/include/libuvc/libuvc.h
+[0.931s] -- Up-to-date: /home/agilex/agilex_ws/install/libuvc/include/libuvc/libuvc_config.h
+[0.931s] -- Up-to-date: /home/agilex/agilex_ws/install/libuvc/lib/libuvc.a
+[0.931s] -- Up-to-date: /home/agilex/agilex_ws/install/libuvc/include/libuvc/libuvc.h
+[0.931s] -- Up-to-date: /home/agilex/agilex_ws/install/libuvc/include/libuvc/libuvc_config.h
+[0.931s] -- Up-to-date: /home/agilex/agilex_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake
+[0.931s] -- Up-to-date: /home/agilex/agilex_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake
+[0.931s] -- Up-to-date: /home/agilex/agilex_ws/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake
+[0.931s] -- Up-to-date: /home/agilex/agilex_ws/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake
+[0.931s] -- Up-to-date: /home/agilex/agilex_ws/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake
+[0.932s] -- Up-to-date: /home/agilex/agilex_ws/install/libuvc/lib/pkgconfig/libuvc.pc
+[0.932s] -- Up-to-date: /home/agilex/agilex_ws/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake
+[1.066s] Invoked command in '/home/agilex/agilex_ws/build/libuvc' returned '0': /usr/bin/cmake --install /home/agilex/agilex_ws/build/libuvc

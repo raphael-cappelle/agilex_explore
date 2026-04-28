@@ -1,0 +1,478 @@
+[0.023s] Invoking command in '/home/agilex/agilex_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/agilex_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agilex/agilex_ws/src/navigation2/nav2_dwb_controller/dwb_msgs -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/dwb_msgs
+[1.785s] -- The C compiler identification is GNU 11.3.0
+[1.785s] -- The CXX compiler identification is GNU 11.3.0
+[1.785s] -- Detecting C compiler ABI info
+[1.785s] -- Detecting C compiler ABI info - done
+[1.785s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.785s] -- Detecting C compile features
+[1.785s] -- Detecting C compile features - done
+[1.785s] -- Detecting CXX compiler ABI info
+[1.785s] -- Detecting CXX compiler ABI info - done
+[1.786s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.786s] -- Detecting CXX compile features
+[1.786s] -- Detecting CXX compile features - done
+[1.786s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.786s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.786s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.786s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.786s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.786s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.786s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.786s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.787s] -- Found nav_2d_msgs: 1.1.0 (/home/agilex/agilex_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[1.787s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.787s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.787s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.008s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.226s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[2.227s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.257s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[2.257s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.258s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.258s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.282s] -- Found PythonExtra: .so  
+[2.410s] -- Configuring done
+[2.472s] -- Generating done
+[2.476s] -- Build files have been written to: /home/agilex/agilex_ws/build/dwb_msgs
+[2.490s] Invoked command in '/home/agilex/agilex_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/agilex_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agilex/agilex_ws/src/navigation2/nav2_dwb_controller/dwb_msgs -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/dwb_msgs
+[2.490s] Invoking command in '/home/agilex/agilex_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/agilex_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agilex/agilex_ws/build/dwb_msgs -- -j8 -l8
+[5.548s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.549s] [  1%] Built target dwb_msgs__cpp
+[5.549s] [  1%] Built target ament_cmake_python_copy_dwb_msgs
+[5.549s] [  2%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.549s] [  3%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/critic_score__type_support.cpp.o[0m
+[5.549s] [  4%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory_score__type_support.cpp.o[0m
+[5.932s] [  5%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp.o[0m
+[6.372s] [  6%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp.o[0m
+[6.788s] [  7%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_twists__type_support.cpp.o[0m
+[7.203s] [  8%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/get_critic_score__type_support.cpp.o[0m
+[7.614s] [  9%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/score_trajectory__type_support.cpp.o[0m
+[8.025s] [ 10%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp.o[0m
+[8.468s] [ 11%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp.o[0m
+[9.040s] [ 12%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.141s] [ 12%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[9.399s] running egg_info
+[9.400s] creating dwb_msgs.egg-info
+[9.400s] writing dwb_msgs.egg-info/PKG-INFO
+[9.400s] writing dependency_links to dwb_msgs.egg-info/dependency_links.txt
+[9.400s] writing top-level names to dwb_msgs.egg-info/top_level.txt
+[9.400s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[9.403s] reading manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[9.403s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[9.439s] [ 12%] Built target ament_cmake_python_build_dwb_msgs_egg
+[9.448s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.646s] [ 14%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/critic_score__type_support.cpp.o[0m
+[11.048s] [ 15%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_trajectory__type_support.cpp.o[0m
+[11.486s] [ 16%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_twists__type_support.cpp.o[0m
+[11.926s] [ 17%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/get_critic_score__type_support.cpp.o[0m
+[12.355s] [ 18%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/score_trajectory__type_support.cpp.o[0m
+[12.797s] [ 20%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/debug_local_plan__type_support.cpp.o[0m
+[13.219s] [ 21%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory_score__type_support.cpp.o[0m
+[13.658s] [ 22%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory2_d__type_support.cpp.o[0m
+[14.115s] [ 23%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/local_plan_evaluation__type_support.cpp.o[0m
+[14.587s] [ 24%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.675s] [ 24%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[14.684s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.557s] [ 26%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/critic_score__type_support.cpp.o[0m
+[15.799s] [ 27%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_twists__type_support.cpp.o[0m
+[16.068s] [ 28%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/get_critic_score__type_support.cpp.o[0m
+[16.322s] [ 29%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/score_trajectory__type_support.cpp.o[0m
+[16.579s] [ 30%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_trajectory__type_support.cpp.o[0m
+[16.831s] [ 31%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/debug_local_plan__type_support.cpp.o[0m
+[17.105s] [ 32%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory_score__type_support.cpp.o[0m
+[17.373s] [ 33%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory2_d__type_support.cpp.o[0m
+[17.631s] [ 34%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o[0m
+[17.894s] [ 35%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_cpp.so[0m
+[17.946s] [ 35%] Built target dwb_msgs__rosidl_typesupport_cpp
+[17.955s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[19.499s] [ 37%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/critic_score__functions.c.o[0m
+[19.545s] [ 38%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__functions.c.o[0m
+[19.604s] [ 40%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/score_trajectory__functions.c.o[0m
+[19.668s] [ 41%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__functions.c.o[0m
+[19.725s] [ 42%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__functions.c.o[0m
+[19.789s] [ 43%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__functions.c.o[0m
+[19.852s] [ 44%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__functions.c.o[0m
+[19.897s] [ 45%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__functions.c.o[0m
+[19.942s] [ 46%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__functions.c.o[0m
+[19.988s] [ 47%] [32m[1mLinking C shared library libdwb_msgs__rosidl_generator_c.so[0m
+[20.023s] [ 47%] Built target dwb_msgs__rosidl_generator_c
+[20.036s] [ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[21.198s] [ 49%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/critic_score__type_support_c.cpp.o[0m
+[21.532s] [ 50%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_trajectory__type_support_c.cpp.o[0m
+[21.861s] [ 51%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_twists__type_support_c.cpp.o[0m
+[22.187s] [ 52%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/get_critic_score__type_support_c.cpp.o[0m
+[22.540s] [ 53%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/score_trajectory__type_support_c.cpp.o[0m
+[22.874s] [ 54%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/debug_local_plan__type_support_c.cpp.o[0m
+[23.211s] [ 55%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory_score__type_support_c.cpp.o[0m
+[23.538s] [ 56%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory2_d__type_support_c.cpp.o[0m
+[23.856s] [ 57%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support_c.cpp.o[0m
+[24.174s] [ 58%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[24.268s] [ 58%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[24.278s] [ 60%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[25.134s] [ 61%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/critic_score__type_support.cpp.o[0m
+[25.159s] [ 62%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_twists__type_support.cpp.o[0m
+[25.188s] [ 63%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/get_critic_score__type_support.cpp.o[0m
+[25.223s] [ 64%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/score_trajectory__type_support.cpp.o[0m
+[25.253s] [ 65%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_trajectory__type_support.cpp.o[0m
+[25.279s] [ 66%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/debug_local_plan__type_support.cpp.o[0m
+[25.311s] [ 67%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory_score__type_support.cpp.o[0m
+[25.342s] [ 68%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory2_d__type_support.cpp.o[0m
+[25.368s] [ 69%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o[0m
+[25.395s] [ 70%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_c.so[0m
+[25.438s] [ 70%] Built target dwb_msgs__rosidl_typesupport_c
+[25.447s] [ 71%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[26.527s] [ 72%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/critic_score__type_support.c.o[0m
+[26.554s] [ 73%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/get_critic_score__type_support.c.o[0m
+[26.588s] [ 74%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/score_trajectory__type_support.c.o[0m
+[26.622s] [ 75%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_twists__type_support.c.o[0m
+[26.655s] [ 76%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_trajectory__type_support.c.o[0m
+[26.687s] [ 77%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/debug_local_plan__type_support.c.o[0m
+[26.722s] [ 78%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory_score__type_support.c.o[0m
+[26.756s] [ 80%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory2_d__type_support.c.o[0m
+[26.790s] [ 81%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c.o[0m
+[26.825s] [ 82%] [32m[1mLinking C shared library libdwb_msgs__rosidl_typesupport_introspection_c.so[0m
+[26.855s] [ 82%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[26.872s] [ 82%] Built target dwb_msgs
+[26.891s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[29.138s] [ 83%] Built target dwb_msgs__py
+[29.155s] [ 84%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_critic_score_s.c.o[0m
+[29.251s] [ 85%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_get_critic_score_s.c.o[0m
+[29.359s] [ 86%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_score_trajectory_s.c.o[0m
+[29.470s] [ 87%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_generate_twists_s.c.o[0m
+[29.579s] [ 88%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_generate_trajectory_s.c.o[0m
+[29.685s] [ 89%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_debug_local_plan_s.c.o[0m
+[29.788s] [ 90%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory_score_s.c.o[0m
+[29.888s] [ 91%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory2_d_s.c.o[0m
+[29.993s] [ 92%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_local_plan_evaluation_s.c.o[0m
+[30.104s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/libdwb_msgs__rosidl_generator_py.so[0m
+[30.146s] [ 93%] Built target dwb_msgs__rosidl_generator_py
+[30.165s] [ 94%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[30.301s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[30.346s] [ 95%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c__pyext
+[30.372s] [ 96%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[30.533s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[30.582s] [ 97%] Built target dwb_msgs__rosidl_typesupport_c__pyext
+[30.602s] [ 98%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[30.779s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[30.835s] [100%] Built target dwb_msgs__rosidl_typesupport_introspection_c__pyext
+[30.863s] Invoked command in '/home/agilex/agilex_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/agilex_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agilex/agilex_ws/build/dwb_msgs -- -j8 -l8
+[31.296s] Invoking command in '/home/agilex/agilex_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/agilex_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agilex/agilex_ws/build/dwb_msgs
+[36.542s] -- Install configuration: ""
+[36.542s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/ament_index/resource_index/rosidl_interfaces/dwb_msgs
+[36.542s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[36.542s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[36.542s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_c__visibility_control.h
+[36.543s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.h
+[36.543s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[36.543s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.c
+[36.543s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.h
+[36.543s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.h
+[36.543s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.h
+[36.543s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.c
+[36.543s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.h
+[36.543s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.h
+[36.543s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.h
+[36.543s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.c
+[36.543s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.h
+[36.543s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.h
+[36.543s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.h
+[36.544s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.c
+[36.544s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.h
+[36.544s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.h
+[36.544s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.h
+[36.544s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.h
+[36.544s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.h
+[36.544s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.h
+[36.544s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[36.544s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.h
+[36.544s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[36.544s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.c
+[36.544s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.h
+[36.544s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.h
+[36.544s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.h
+[36.544s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.c
+[36.545s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.h
+[36.545s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.h
+[36.545s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.h
+[36.545s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.c
+[36.545s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.h
+[36.545s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.h
+[36.545s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.h
+[36.545s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.c
+[36.545s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.h
+[36.545s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.h
+[36.546s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.h
+[36.546s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.c
+[36.546s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.h
+[36.546s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.h
+[36.546s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.h
+[36.546s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.h
+[36.546s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.h
+[36.546s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.h
+[36.546s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.h
+[36.546s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/environment/library_path.sh
+[36.546s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/environment/library_path.dsv
+[36.546s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so
+[36.546s] -- Set runtime path of "/home/agilex/agilex_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so" to ""
+[36.546s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[36.547s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[36.547s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[36.547s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[36.547s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_c.h
+[36.547s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_c.h
+[36.547s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_c.h
+[36.547s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_c.h
+[36.547s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[36.547s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[36.547s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_c.h
+[36.547s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_c.h
+[36.547s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_c.h
+[36.547s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_c.h
+[36.547s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_c.h
+[36.547s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so
+[36.548s] -- Set runtime path of "/home/agilex/agilex_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[36.548s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[36.548s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[36.548s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.hpp
+[36.548s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[36.548s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__builder.hpp
+[36.548s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.hpp
+[36.548s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__traits.hpp
+[36.548s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__builder.hpp
+[36.548s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.hpp
+[36.548s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__traits.hpp
+[36.548s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__builder.hpp
+[36.548s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.hpp
+[36.548s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__traits.hpp
+[36.549s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__builder.hpp
+[36.549s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.hpp
+[36.549s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__traits.hpp
+[36.549s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.hpp
+[36.549s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.hpp
+[36.549s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.hpp
+[36.549s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[36.549s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.hpp
+[36.549s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[36.549s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__builder.hpp
+[36.549s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.hpp
+[36.549s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__traits.hpp
+[36.549s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__builder.hpp
+[36.549s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.hpp
+[36.549s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__traits.hpp
+[36.550s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__builder.hpp
+[36.550s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.hpp
+[36.550s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__traits.hpp
+[36.550s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__builder.hpp
+[36.550s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.hpp
+[36.550s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__traits.hpp
+[36.550s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__builder.hpp
+[36.550s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.hpp
+[36.550s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__traits.hpp
+[36.550s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.hpp
+[36.550s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.hpp
+[36.550s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.hpp
+[36.550s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.hpp
+[36.551s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[36.551s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[36.551s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[36.551s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[36.551s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[36.551s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/dds_fastrtps
+[36.551s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_cpp.hpp
+[36.551s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[36.551s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_cpp.hpp
+[36.551s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[36.551s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[36.551s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[36.552s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/dds_fastrtps
+[36.552s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[36.552s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_cpp.hpp
+[36.552s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[36.552s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[36.552s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[36.552s] -- Set runtime path of "/home/agilex/agilex_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[36.552s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[36.552s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[36.552s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[36.552s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[36.552s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_c.h
+[36.552s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.c
+[36.556s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_c.h
+[36.556s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c
+[36.556s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_c.h
+[36.557s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.c
+[36.557s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_c.h
+[36.557s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.c
+[36.557s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[36.557s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[36.557s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_c.h
+[36.557s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.c
+[36.557s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_c.h
+[36.557s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.c
+[36.557s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_c.h
+[36.557s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.c
+[36.557s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_c.h
+[36.557s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.c
+[36.558s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_c.h
+[36.558s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.c
+[36.558s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so
+[36.558s] -- Set runtime path of "/home/agilex/agilex_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so" to ""
+[36.558s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so
+[36.558s] -- Set runtime path of "/home/agilex/agilex_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so" to ""
+[36.558s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[36.558s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[36.558s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[36.558s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_cpp.hpp
+[36.558s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.cpp
+[36.558s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_cpp.hpp
+[36.558s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp
+[36.558s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_cpp.hpp
+[36.559s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp
+[36.559s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_cpp.hpp
+[36.559s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.cpp
+[36.559s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[36.559s] -- Up-to-date: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[36.559s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_cpp.hpp
+[36.559s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp
+[36.559s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[36.559s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp
+[36.559s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_cpp.hpp
+[36.559s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.cpp
+[36.559s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_cpp.hpp
+[36.559s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.cpp
+[36.559s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[36.559s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.cpp
+[36.560s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so
+[36.560s] -- Set runtime path of "/home/agilex/agilex_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[36.560s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so
+[36.560s] -- Set runtime path of "/home/agilex/agilex_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so" to ""
+[36.560s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.sh
+[36.560s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.dsv
+[36.560s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.0-py3.10.egg-info
+[36.560s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.0-py3.10.egg-info/PKG-INFO
+[36.560s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.0-py3.10.egg-info/dependency_links.txt
+[36.560s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.0-py3.10.egg-info/top_level.txt
+[36.560s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.0-py3.10.egg-info/SOURCES.txt
+[36.560s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs
+[36.560s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/__init__.py
+[36.560s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg
+[36.569s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_critic_score.py
+[36.569s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_critic_score_s.c
+[36.569s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_local_plan_evaluation.py
+[36.569s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_local_plan_evaluation_s.c
+[36.569s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory2_d.py
+[36.570s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory2_d_s.c
+[36.570s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory_score.py
+[36.570s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory_score_s.c
+[36.570s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/__init__.py
+[36.570s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv
+[36.570s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_debug_local_plan.py
+[36.570s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_debug_local_plan_s.c
+[36.570s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_trajectory.py
+[36.570s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_trajectory_s.c
+[36.570s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_twists.py
+[36.570s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_twists_s.c
+[36.570s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_get_critic_score.py
+[36.570s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_get_critic_score_s.c
+[36.571s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_score_trajectory.py
+[36.571s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_score_trajectory_s.c
+[36.571s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/__init__.py
+[36.571s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[36.571s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[36.571s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c
+[36.571s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/libdwb_msgs__rosidl_generator_py.so
+[36.571s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[36.571s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[36.571s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[36.657s] Listing '/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs'...
+[36.657s] Compiling '/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/__init__.py'...
+[36.657s] Listing '/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg'...
+[36.657s] Compiling '/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/__init__.py'...
+[36.657s] Compiling '/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_critic_score.py'...
+[36.657s] Compiling '/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_local_plan_evaluation.py'...
+[36.657s] Compiling '/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory2_d.py'...
+[36.657s] Compiling '/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory_score.py'...
+[36.657s] Listing '/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv'...
+[36.658s] Compiling '/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/__init__.py'...
+[36.658s] Compiling '/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_debug_local_plan.py'...
+[36.658s] Compiling '/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_trajectory.py'...
+[36.658s] Compiling '/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_twists.py'...
+[36.658s] Compiling '/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_get_critic_score.py'...
+[36.658s] Compiling '/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_score_trajectory.py'...
+[36.670s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[36.671s] -- Set runtime path of "/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[36.672s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[36.672s] -- Set runtime path of "/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[36.673s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[36.673s] -- Set runtime path of "/home/agilex/agilex_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[36.674s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so
+[36.674s] -- Set runtime path of "/home/agilex/agilex_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so" to ""
+[36.675s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.idl
+[36.675s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.idl
+[36.675s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.idl
+[36.675s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.idl
+[36.675s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.idl
+[36.675s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.idl
+[36.675s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.idl
+[36.676s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.idl
+[36.676s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.idl
+[36.676s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.msg
+[36.676s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.msg
+[36.676s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.msg
+[36.676s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.msg
+[36.677s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.srv
+[36.677s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Request.msg
+[36.677s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Response.msg
+[36.677s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.srv
+[36.677s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Request.msg
+[36.677s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Response.msg
+[36.677s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.srv
+[36.677s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Request.msg
+[36.678s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Response.msg
+[36.678s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.srv
+[36.678s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Request.msg
+[36.678s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Response.msg
+[36.678s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.srv
+[36.678s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Request.msg
+[36.678s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Response.msg
+[36.678s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/ament_index/resource_index/package_run_dependencies/dwb_msgs
+[36.678s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/ament_index/resource_index/parent_prefix_path/dwb_msgs
+[36.679s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.sh
+[36.679s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.dsv
+[36.679s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/environment/path.sh
+[36.679s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/environment/path.dsv
+[36.679s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/local_setup.bash
+[36.679s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/local_setup.sh
+[36.679s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/local_setup.zsh
+[36.679s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/local_setup.dsv
+[36.679s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/package.dsv
+[36.679s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/ament_index/resource_index/packages/dwb_msgs
+[36.679s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport.cmake
+[36.679s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport-noconfig.cmake
+[36.679s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[36.680s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[36.680s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cppExport.cmake
+[36.680s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[36.680s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[36.680s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[36.680s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[36.680s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport.cmake
+[36.680s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[36.680s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[36.680s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[36.680s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport.cmake
+[36.681s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[36.681s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport.cmake
+[36.681s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport-noconfig.cmake
+[36.681s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake-extras.cmake
+[36.681s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.681s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.681s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[36.682s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[36.682s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[36.682s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[36.682s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig.cmake
+[36.682s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig-version.cmake
+[36.682s] -- Installing: /home/agilex/agilex_ws/install/dwb_msgs/share/dwb_msgs/package.xml
+[36.740s] Invoked command in '/home/agilex/agilex_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/agilex_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agilex/agilex_ws/build/dwb_msgs

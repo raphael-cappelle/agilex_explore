@@ -1,0 +1,522 @@
+[0.011s] Invoking command in '/home/agilex/agilex_ws/build/ydlidar_sdk': /usr/bin/cmake /home/agilex/agilex_ws/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/ydlidar_sdk
+[6.463s] -- The C compiler identification is GNU 11.3.0
+[6.464s] -- The CXX compiler identification is GNU 11.3.0
+[6.464s] -- Detecting C compiler ABI info
+[6.464s] -- Detecting C compiler ABI info - done
+[6.464s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.464s] -- Detecting C compile features
+[6.464s] -- Detecting C compile features - done
+[6.464s] -- Detecting CXX compiler ABI info
+[6.464s] -- Detecting CXX compiler ABI info - done
+[6.464s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.464s] -- Detecting CXX compile features
+[6.464s] -- Detecting CXX compile features - done
+[6.465s] -- Current platform: Linux
+[6.465s] -- Found SWIG: /usr/bin/swig4.0 (found version "4.0.2")  
+[6.465s] -- Found PythonInterp: /usr/bin/python3.10 (found version "3.10.6") 
+[6.465s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.6") 
+[6.465s] -- Found GTest: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.11.0")  
+[6.465s] -- build python API....
+[6.465s] -- build test is ON.....
+[6.465s] -- 
+[6.465s] -- +===========================================================================+
+[6.465s] -- |         Resulting configuration for                             |
+[6.465s] -- +===========================================================================+
+[6.466s] --  _________________________ PLATFORM _____________________________
+[6.466s] --  Host                        : Linux5.15.0-72-genericx86_64
+[6.466s] --  Is the system big endian?   :  No 
+[6.466s] --  Word size (32/64 bit)       : 64
+[6.466s] --  CMake version               : 3.22.1
+[6.466s] --  CMake generator             : Unix Makefiles
+[6.466s] --  CMake build tool            : /usr/bin/gmake
+[6.466s] --  Compiler                    : GNU
+[6.466s] --  Configuration               : 
+[6.466s] -- 
+[6.466s] --  __________________________ OPTIONS _____________________________
+[6.466s] --  Build YDLidar-SDK as a shared library?　　 :  No 
+[6.466s] --  Build Examples?　　　　　　　　　　　　　　 : Yes 
+[6.466s] --  Build C Sharp API?　　　　　　　　　　　　 :  No 
+[6.467s] --  Build TEST?  			　　　 : Yes 
+[6.467s] -- 
+[6.467s] --  _________________________ INSTALL _____________________
+[6.467s] --  Install prefix                    : /home/agilex/agilex_ws/install/ydlidar_sdk
+[6.467s] -- 
+[6.467s] --  _______________________ WRAPPERS/BINDINGS ______________________
+[6.467s] --  Python bindings (pyydlidar)   : Yes 
+[6.467s] --   - dep: Swig found?       : Yes [Version: 4.0.2]
+[6.467s] --   - dep: PythonLibs found?  : Yes [Version: 3.10.6]
+[6.467s] -- 
+[6.467s] -- Configuring done
+[6.467s] -- Generating done
+[6.467s] -- Build files have been written to: /home/agilex/agilex_ws/build/ydlidar_sdk
+[6.470s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[6.470s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[6.470s]   CMake.
+[6.470s] 
+[6.470s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[6.470s]   CMake that the project does not need compatibility with older versions.
+[6.470s] 
+[6.470s] [0m
+[6.470s] [0mCMake Deprecation Warning at CMakeLists.txt:50 (cmake_policy):
+[6.470s]   The OLD behavior for policy CMP0053 will be removed from a future version
+[6.471s]   of CMake.
+[6.471s] 
+[6.471s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[6.471s]   policies are deprecated and that a policy should be set to OLD only under
+[6.471s]   specific short-term circumstances.  Projects should be ported to the NEW
+[6.471s]   behavior and not rely on setting a policy to OLD.
+[6.471s] 
+[6.471s] [0m
+[6.471s] [0mCMake Deprecation Warning at CMakeLists.txt:53 (cmake_policy):
+[6.471s]   The OLD behavior for policy CMP0037 will be removed from a future version
+[6.471s]   of CMake.
+[6.471s] 
+[6.471s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[6.471s]   policies are deprecated and that a policy should be set to OLD only under
+[6.472s]   specific short-term circumstances.  Projects should be ported to the NEW
+[6.472s]   behavior and not rely on setting a policy to OLD.
+[6.472s] 
+[6.472s] [0m
+[6.472s] [0mCMake Deprecation Warning at CMakeLists.txt:56 (cmake_policy):
+[6.472s]   The OLD behavior for policy CMP0043 will be removed from a future version
+[6.472s]   of CMake.
+[6.472s] 
+[6.472s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[6.472s]   policies are deprecated and that a policy should be set to OLD only under
+[6.472s]   specific short-term circumstances.  Projects should be ported to the NEW
+[6.472s]   behavior and not rely on setting a policy to OLD.
+[6.472s] 
+[6.472s] [0m
+[6.473s] [0mCMake Deprecation Warning at core/CMakeLists.txt:1 (cmake_minimum_required):
+[6.473s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[6.473s]   CMake.
+[6.473s] 
+[6.473s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[6.473s]   CMake that the project does not need compatibility with older versions.
+[6.473s] 
+[6.473s] [0m
+[6.473s] [0mCMake Deprecation Warning at samples/CMakeLists.txt:2 (cmake_minimum_required):
+[6.473s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[6.473s]   CMake.
+[6.473s] 
+[6.473s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[6.473s]   CMake that the project does not need compatibility with older versions.
+[6.474s] 
+[6.474s] [0m
+[6.474s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/UseSWIG.cmake:775 (message):
+[6.474s]   Policy CMP0078 is not set: UseSWIG generates standard target names.  Run
+[6.474s]   "cmake --help-policy CMP0078" for policy details.  Use the cmake_policy
+[6.474s]   command to set the policy and suppress this warning.
+[6.474s] 
+[6.474s] Call Stack (most recent call first):
+[6.474s]   python/CMakeLists.txt:35 (swig_add_library)
+[6.474s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.474s] [0m
+[6.474s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/UseSWIG.cmake:617 (message):
+[6.474s]   Policy CMP0086 is not set: UseSWIG honors SWIG_MODULE_NAME via -module
+[6.474s]   flag.  Run "cmake --help-policy CMP0086" for policy details.  Use the
+[6.474s]   cmake_policy command to set the policy and suppress this warning.
+[6.475s] 
+[6.475s] Call Stack (most recent call first):
+[6.475s]   /usr/share/cmake-3.22/Modules/UseSWIG.cmake:888 (SWIG_ADD_SOURCE_TO_MODULE)
+[6.475s]   python/CMakeLists.txt:35 (swig_add_library)
+[6.475s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.475s] [0m
+[6.475s] <string>:2: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+[6.475s] <string>:2: DeprecationWarning: The distutils.sysconfig module is deprecated, use sysconfig instead
+[6.475s] [0mCMake Deprecation Warning at cmake/install_package.cmake:101 (cmake_policy):
+[6.475s]   The OLD behavior for policy CMP0026 will be removed from a future version
+[6.475s]   of CMake.
+[6.475s] 
+[6.475s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[6.476s]   policies are deprecated and that a policy should be set to OLD only under
+[6.476s]   specific short-term circumstances.  Projects should be ported to the NEW
+[6.476s]   behavior and not rely on setting a policy to OLD.
+[6.476s] Call Stack (most recent call first):
+[6.476s]   CMakeLists.txt:168 (install_package)
+[6.476s] 
+[6.476s] [0m
+[6.476s] [33mCMake Warning (dev) at cmake/install_package.cmake:191 (install):
+[6.476s]   Policy CMP0062 is not set: Disallow install() of export() result.  Run
+[6.476s]   "cmake --help-policy CMP0062" for policy details.  Use the cmake_policy
+[6.476s]   command to set the policy and suppress this warning.
+[6.476s] 
+[6.476s]   The file
+[6.476s] 
+[6.476s]     /home/agilex/agilex_ws/build/ydlidar_sdk/ydlidar_sdkTargets.cmake
+[6.476s] 
+[6.477s]   was generated by the export() command.  It should not be installed with the
+[6.477s]   install() command.  Use the install(EXPORT) mechanism instead.  See the
+[6.477s]   cmake-packages(7) manual for more.
+[6.477s] 
+[6.477s] Call Stack (most recent call first):
+[6.477s]   CMakeLists.txt:168 (install_package)
+[6.477s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.477s] [0m
+[6.480s] Invoked command in '/home/agilex/agilex_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake /home/agilex/agilex_ws/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/ydlidar_sdk
+[6.480s] Invoking command in '/home/agilex/agilex_ws/build/ydlidar_sdk': /usr/bin/cmake --build /home/agilex/agilex_ws/build/ydlidar_sdk -- -j8 -l8
+[6.563s] [  2%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/base/timer.cpp.o[0m
+[6.753s] [  5%] [32mBuilding C object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/lock.c.o[0m
+[6.823s] [  8%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/list_ports_linux.cpp.o[0m
+[7.233s] [ 11%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/unix_serial.cpp.o[0m
+[7.539s] [ 13%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o[0m
+[7.757s] In file included from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[7.757s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[7.757s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/CYdLidar.cpp:29[m[K:
+[7.757s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[7.758s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[7.758s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[7.758s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[7.758s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[7.758s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[7.758s]       |                 [32m[K%lX[m[K
+[7.992s] In file included from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/CYdLidar.cpp:33[m[K:
+[7.992s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/common/ydlidar_help.h:[m[K In function ‘[01m[Kbool ydlidar::core::common::ParseLaserDebugInfo(const LaserDebug&, device_info&)[m[K’:
+[7.992s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/common/ydlidar_help.h:942:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksprintf[m[K’ writing a terminating nul past the end of the destination [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-overflow=-Wformat-overflow=]8;;[m[K]
+[7.992s]   942 |       sprintf(reinterpret_cast<char *>(value.serialnum + 8), "%08d[01;35m[K"[m[K, Number);
+[7.992s]       |                                                                   [01;35m[K^[m[K
+[7.992s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/common/ydlidar_help.h:942:14:[m[K [01;36m[Knote: [m[K‘[01m[Ksprintf[m[K’ output 9 bytes into a destination of size 8
+[7.992s]   942 |       [01;36m[Ksprintf(reinterpret_cast<char *>(value.serialnum + 8), "%08d", Number)[m[K;
+[7.992s]       |       [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.299s] [ 16%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ETLidarDriver.cpp.o[0m
+[8.527s] In file included from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/ETLidarDriver.h:46[m[K,
+[8.527s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/ETLidarDriver.cpp:32[m[K:
+[8.527s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[8.527s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[8.527s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[8.528s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[8.528s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[8.528s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[8.528s]       |                 [32m[K%lX[m[K
+[8.834s] [ 19%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/serial.cpp.o[0m
+[8.834s] [ 22%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/GS1LidarDriver.cpp.o[0m
+[9.100s] In file included from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/core/serial/common.h:45[m[K,
+[9.100s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/core/serial/serial.cpp:12[m[K:
+[9.100s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[9.100s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.100s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[9.100s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[9.100s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[9.100s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[9.100s]       |                 [32m[K%lX[m[K
+[9.130s] In file included from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/GS1LidarDriver.h:57[m[K,
+[9.131s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/GS1LidarDriver.cpp:35[m[K:
+[9.131s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[9.131s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.131s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[9.131s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[9.131s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[9.131s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[9.131s]       |                 [32m[K%lX[m[K
+[9.169s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/GS1LidarDriver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::GS1LidarDriver::waitPackage(node_info*, uint32_t)[m[K’:
+[9.169s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/GS1LidarDriver.cpp:981:87:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[Knode_info[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[9.170s]   981 |               angTransform((*node).distance_q2, package_Sample_Index, &sampleAngle, [01;35m[K&(*node).distance_q2[m[K);
+[9.170s]       |                                                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[9.170s] 
+[9.291s] [ 25%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/GS2LidarDriver.cpp.o[0m
+[9.493s] [ 27%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/YDlidarDriver.cpp.o[0m
+[9.628s] In file included from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/GS2LidarDriver.h:57[m[K,
+[9.628s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/GS2LidarDriver.cpp:35[m[K:
+[9.628s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[9.628s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.628s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[9.628s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[9.628s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[9.628s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[9.628s]       |                 [32m[K%lX[m[K
+[9.674s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/GS2LidarDriver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::GS2LidarDriver::waitPackage(node_info*, uint32_t)[m[K’:
+[9.674s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/GS2LidarDriver.cpp:885:83:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[Knode_info[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[9.674s]   885 |             angTransform((*node).distance_q2, package_Sample_Index, &sampleAngle, [01;35m[K&(*node).distance_q2[m[K);
+[9.674s]       |                                                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[9.680s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/GS2LidarDriver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::GS2LidarDriver::createThread()[m[K’:
+[9.680s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/GS2LidarDriver.cpp:1480:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.680s]  1480 |     printf("[GS2Lidar] Create GS2 thread 0x[01;35m[K%X[m[K\n", [32m[K_thread.getHandle()[m[K);
+[9.680s]       |                                            [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+[9.680s]       |                                             [01;35m[K|[m[K                      [32m[K|[m[K
+[9.680s]       |                                             [01;35m[Kunsigned int[m[K           [32m[K_size_t {aka long unsigned int}[m[K
+[9.680s]       |                                            [32m[K%lX[m[K
+[9.846s] In file included from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/YDlidarDriver.h:46[m[K,
+[9.846s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/YDlidarDriver.cpp:26[m[K:
+[9.847s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[9.847s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.847s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[9.847s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[9.847s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[9.847s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[9.847s]       |                 [32m[K%lX[m[K
+[9.930s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/YDlidarDriver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::YDlidarDriver::createThread()[m[K’:
+[9.931s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/YDlidarDriver.cpp:1956:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.931s]  1956 |   printf("[YDlidar] Create thread 0x[01;35m[K%X[m[K\n", [32m[K_thread.getHandle()[m[K);
+[9.931s]       |                                     [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+[9.931s]       |                                      [01;35m[K|[m[K                      [32m[K|[m[K
+[9.931s]       |                                      [01;35m[Kunsigned int[m[K           [32m[K_size_t {aka long unsigned int}[m[K
+[9.931s]       |                                     [32m[K%lX[m[K
+[10.007s] [ 30%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ydlidar_sdk.cpp.o[0m
+[10.220s] In file included from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[10.220s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[10.220s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/ydlidar_sdk.cpp:27[m[K:
+[10.220s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[10.220s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[10.220s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[10.220s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[10.221s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[10.221s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[10.221s]       |                 [32m[K%lX[m[K
+[10.280s] [ 33%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/filters/NoiseFilter.cpp.o[0m
+[10.383s] [ 36%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/SimpleSocket.cpp.o[0m
+[10.704s] [ 38%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/PassiveSocket.cpp.o[0m
+[10.738s] [ 41%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/ActiveSocket.cpp.o[0m
+[10.926s] [ 44%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/common/ydlidar_def.cpp.o[0m
+[10.976s] [ 47%] [32m[1mLinking CXX static library libydlidar_sdk.a[0m
+[11.021s] [ 47%] Built target ydlidar_sdk
+[11.030s] [35m[1mScanning dependencies of target ydlidar_swig_compilation[0m
+[11.038s] [ 50%] [32mBuilding CXX object samples/CMakeFiles/et_test.dir/et_test.cpp.o[0m
+[11.040s] [ 52%] [34m[1mSwig compile ydlidar_sdk.i for python[0m
+[11.170s] In file included from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[11.170s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[11.171s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/samples/et_test.cpp:34[m[K:
+[11.171s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[11.171s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[11.171s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[11.171s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[11.171s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[11.171s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[11.171s]       |                 [32m[K%lX[m[K
+[11.369s] [ 55%] [32m[1mLinking CXX executable ../et_test[0m
+[11.488s] [ 55%] Built target et_test
+[11.503s] [ 58%] [32mBuilding CXX object samples/CMakeFiles/tri_test.dir/tri_test.cpp.o[0m
+[11.519s] [ 61%] [32mBuilding C object samples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o[0m
+[11.544s] [01m[Kcc1:[m[K [01;35m[Kwarning: [m[Kcommand-line option ‘[01m[K-std=c++11[m[K’ is valid for C++/ObjC++ but not for C
+[11.598s] [ 61%] Built target ydlidar_swig_compilation
+[11.602s] [ 63%] [32m[1mLinking CXX executable ../lidar_c_api_test[0m
+[11.622s] [ 66%] [32mBuilding CXX object test/CMakeFiles/lidar_test.dir/lidar_test.cpp.o[0m
+[11.668s] In file included from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[11.668s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[11.668s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/samples/tri_test.cpp:34[m[K:
+[11.668s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[11.668s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[11.668s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[11.668s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[11.668s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[11.668s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[11.669s]       |                 [32m[K%lX[m[K
+[11.790s] [ 66%] Built target lidar_c_api_test
+[11.881s] [ 69%] [32mBuilding CXX object python/CMakeFiles/_ydlidar.dir/CMakeFiles/_ydlidar.dir/ydlidar_sdkPYTHON_wrap.cxx.o[0m
+[11.978s] [ 72%] [32m[1mLinking CXX executable ../tri_test[0m
+[12.114s] [ 72%] Built target tri_test
+[12.130s] [ 75%] [32mBuilding CXX object samples/CMakeFiles/tri_and_gs_test.dir/tri_and_gs_test.cpp.o[0m
+[12.167s] In file included from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[12.167s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[12.167s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/test/lidar_test.h:5[m[K,
+[12.167s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/test/lidar_test.cpp:1[m[K:
+[12.168s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[12.170s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[12.171s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[12.171s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[12.171s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[12.171s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[12.171s]       |                 [32m[K%lX[m[K
+[12.269s] In file included from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[12.269s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[12.269s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/samples/tri_and_gs_test.cpp:1[m[K:
+[12.270s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[12.270s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[12.270s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[12.270s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[12.270s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[12.270s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[12.270s]       |                 [32m[K%lX[m[K
+[12.319s] In file included from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[12.319s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/core/../src/CYdLidar.h:48[m[K,
+[12.319s]                  from [01m[K/home/agilex/agilex_ws/build/ydlidar_sdk/python/CMakeFiles/_ydlidar.dir/ydlidar_sdkPYTHON_wrap.cxx:3363[m[K:
+[12.319s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[12.319s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[12.319s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[12.319s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[12.319s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[12.319s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[12.319s]       |                 [32m[K%lX[m[K
+[12.481s] [ 77%] [32m[1mLinking CXX executable lidar_test[0m
+[12.483s] [ 80%] [32m[1mLinking CXX executable ../tri_and_gs_test[0m
+[12.649s] [ 80%] Built target lidar_test
+[12.668s] [ 83%] [32mBuilding CXX object samples/CMakeFiles/tof_test.dir/tof_test.cpp.o[0m
+[12.689s] [ 83%] Built target tri_and_gs_test
+[12.706s] [ 86%] [32mBuilding CXX object samples/CMakeFiles/tmini_test.dir/tmini_test.cpp.o[0m
+[12.864s] In file included from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[12.865s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[12.865s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/samples/tmini_test.cpp:34[m[K:
+[12.865s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[12.865s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[12.865s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[12.865s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[12.865s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[12.865s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[12.865s]       |                 [32m[K%lX[m[K
+[12.880s] In file included from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[12.880s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[12.880s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/samples/tof_test.cpp:38[m[K:
+[12.880s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[12.880s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[12.881s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[12.881s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[12.881s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[12.881s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[12.881s]       |                 [32m[K%lX[m[K
+[13.137s] [ 88%] [32m[1mLinking CXX executable ../tof_test[0m
+[13.241s] [ 91%] [32m[1mLinking CXX executable ../tmini_test[0m
+[13.323s] [ 91%] Built target tof_test
+[13.401s] [ 91%] Built target tmini_test
+[13.668s] [ 94%] [32m[1mLinking CXX shared module _ydlidar.so[0m
+[13.824s] [ 94%] Built target _ydlidar
+[13.840s] [ 97%] [32mBuilding CXX object samples/CMakeFiles/gs_test.dir/gs_test.cpp.o[0m
+[13.972s] In file included from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[13.973s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[13.973s]                  from [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/samples/gs_test.cpp:34[m[K:
+[13.973s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[13.973s] [01m[K/home/agilex/agilex_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[13.973s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[13.973s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[13.973s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[13.973s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[13.973s]       |                 [32m[K%lX[m[K
+[14.297s] [100%] [32m[1mLinking CXX executable ../gs_test[0m
+[14.500s] [100%] Built target gs_test
+[14.517s] Invoked command in '/home/agilex/agilex_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/agilex/agilex_ws/build/ydlidar_sdk -- -j8 -l8
+[14.661s] Invoking command in '/home/agilex/agilex_ws/build/ydlidar_sdk': /usr/bin/cmake --install /home/agilex/agilex_ws/build/ydlidar_sdk
+[15.441s] -- Install configuration: ""
+[15.442s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/base/datatype.h
+[15.448s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/base/locker.h
+[15.448s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/base/thread.h
+[15.448s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/base/timer.h
+[15.448s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/base/typedef.h
+[15.448s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/base/utils.h
+[15.448s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/base/v8stdint.h
+[15.448s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/base/ydlidar.h
+[15.448s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/common/ChannelDevice.h
+[15.448s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h
+[15.449s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/common/ydlidar_datatype.h
+[15.449s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/common/ydlidar_def.h
+[15.449s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/common/ydlidar_help.h
+[15.449s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h
+[15.449s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/math/angles.h
+[15.449s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/network/ActiveSocket.h
+[15.449s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/network/PassiveSocket.h
+[15.449s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/network/SimpleSocket.h
+[15.449s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/network/StatTimer.h
+[15.449s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/serial/common.h
+[15.449s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/serial/serial.h
+[15.449s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/serial/impl/unix/lock.h
+[15.449s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix.h
+[15.449s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix_serial.h
+[15.450s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/src/CYdLidar.h
+[15.450s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/src/ETLidarDriver.h
+[15.450s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/src/GS1LidarDriver.h
+[15.450s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/src/GS2LidarDriver.h
+[15.450s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/src/YDlidarDriver.h
+[15.450s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/src/ydlidar_sdk.h
+[15.450s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/src/filters/FilterInterface.h
+[15.450s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/src/filters/NoiseFilter.h
+[15.450s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/include/ydlidar_config.h
+[15.450s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/lib/libydlidar_sdk.a
+[15.450s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/lib/pkgconfig/YDLIDAR_SDK.pc
+[15.450s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfig.cmake
+[15.450s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkTargets.cmake
+[15.451s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfigVersion.cmake
+[15.451s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindYDLIDAR_SDK.cmake
+[15.451s] -- Up-to-date: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK
+[15.451s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common
+[15.451s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_base.cmake
+[15.451s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_parse.cmake
+[15.451s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/install_package.cmake
+[15.451s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/script_show_final_summary.cmake
+[15.451s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfigVersion.cmake.in
+[15.451s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PkgConfig.pc.in
+[15.451s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/cmake_uninstall.cmake.in
+[15.451s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindPackage.cmake.in
+[15.451s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfig.cmake.in
+[15.451s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/LICENSE.txt
+[15.451s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/README.md
+[15.452s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc
+[15.452s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images
+[15.452s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame_intensity.png
+[15.452s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.png
+[15.452s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/EAI.png
+[15.452s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/angle_q2.png
+[15.452s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame.png
+[15.452s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.jpg
+[15.452s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_scanning.png
+[15.452s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/FlowChart.png
+[15.452s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_init.png
+[15.452s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_architecture.png
+[15.452s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/system_workflow.png
+[15.452s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sequence.png
+[15.452s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/communication_mechanism.png
+[15.453s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.md
+[15.453s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs
+[15.453s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs.md
+[15.453s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs_cn.md
+[15.453s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs_cn.md
+[15.453s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs.md
+[15.453s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/README.md
+[15.516s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs.md
+[15.516s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs_cn.md
+[15.516s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLIDAR_SDK_API_for_Developers.md
+[15.517s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar_SDK_Communication_Protocol.pdf
+[15.517s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.html
+[15.517s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Diagram.md
+[15.517s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart
+[15.518s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/README.md
+[15.520s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/ydlidar_sdk_software_installation_guide.md
+[15.520s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/README.md
+[15.539s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto
+[15.539s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images
+[15.539s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ydlidar_lidar_monitor.png
+[15.539s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_running.png
+[15.539s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_exception.png
+[15.539s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/cpack.png
+[15.539s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_library.png
+[15.539s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB1.png
+[15.539s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_build.png
+[15.540s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode
+[15.540s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/tasks.png
+[15.540s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/run_tasks.jpg
+[15.540s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_scanning.png
+[15.540s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_init.png
+[15.540s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sequence.png
+[15.540s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB0.png
+[15.540s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_project.png
+[15.540s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_udev_rules.md
+[15.540s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_solve_slow_pull_from_cn.md
+[15.540s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_install.md
+[15.540s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_csharp_project.md
+[15.540s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_gerenrate_vs_project_by_cmake.md
+[15.540s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/README.md
+[15.541s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_pull.md
+[15.541s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_debug_using_vscode.md
+[15.541s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/SDK.pdf
+[15.541s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.pdf
+[15.541s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Tutorials.md
+[15.541s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials
+[15.541s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c++.md
+[15.541s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/examine_the_simple_lidar_tutorial.md
+[15.541s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c.md
+[15.541s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_network_adapter_tutorial_c++.md
+[15.541s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_python.md
+[15.541s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Dataset.md
+[15.541s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/startup/initenv.sh
+[15.541s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/bin/et_test
+[15.542s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/bin/gs_test
+[15.542s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/bin/tmini_test
+[15.542s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/bin/tof_test
+[15.542s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/bin/tri_and_gs_test
+[15.542s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/bin/tri_test
+[15.542s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/bin/lidar_c_api_test
+[15.542s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/lib/python3/dist-packages/_ydlidar.so
+[15.542s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/lib/python3/dist-packages/ydlidar.py
+[15.542s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/bin/etlidar_test.py
+[15.542s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/bin/plot_tof_test.py
+[15.542s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/bin/plot_ydlidar_test.py
+[15.542s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/bin/test.py
+[15.543s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/bin/tof_test.py
+[15.543s] -- Installing: /home/agilex/agilex_ws/install/ydlidar_sdk/bin/ydlidar_test.py
+[15.544s] Invoked command in '/home/agilex/agilex_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/agilex/agilex_ws/build/ydlidar_sdk

@@ -1,0 +1,25 @@
+[0.340s] Invoking command in '/home/agilex/agilex_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/agilex/agilex_ws/build/rf2o_laser_odometry -- -j16 -l16
+[0.466s] [ 60%] Built target rf2o_laser_odometry_node
+[0.467s] [100%] Built target rf2o_laser_odometry
+[0.889s] Invoked command in '/home/agilex/agilex_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/agilex/agilex_ws/build/rf2o_laser_odometry -- -j16 -l16
+[1.244s] Invoking command in '/home/agilex/agilex_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/agilex/agilex_ws/build/rf2o_laser_odometry
+[1.335s] -- Install configuration: ""
+[1.336s] -- Up-to-date: /home/agilex/agilex_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[1.336s] -- Up-to-date: /home/agilex/agilex_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch
+[1.337s] -- Up-to-date: /home/agilex/agilex_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[1.337s] -- Up-to-date: /home/agilex/agilex_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[1.337s] -- Up-to-date: /home/agilex/agilex_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[1.337s] -- Up-to-date: /home/agilex/agilex_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[1.337s] -- Up-to-date: /home/agilex/agilex_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[1.337s] -- Up-to-date: /home/agilex/agilex_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[1.338s] -- Up-to-date: /home/agilex/agilex_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[1.338s] -- Up-to-date: /home/agilex/agilex_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[1.338s] -- Up-to-date: /home/agilex/agilex_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[1.338s] -- Up-to-date: /home/agilex/agilex_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[1.338s] -- Up-to-date: /home/agilex/agilex_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[1.338s] -- Installing: /home/agilex/agilex_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[1.339s] -- Up-to-date: /home/agilex/agilex_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[1.339s] -- Up-to-date: /home/agilex/agilex_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[1.339s] -- Up-to-date: /home/agilex/agilex_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[1.339s] -- Up-to-date: /home/agilex/agilex_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[1.551s] Invoked command in '/home/agilex/agilex_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/agilex/agilex_ws/build/rf2o_laser_odometry

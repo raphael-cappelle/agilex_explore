@@ -1,0 +1,6 @@
+Invoking command in '/home/agilex/agilex_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agilex/agilex_ws/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/ydlidar_ros2_driver
+Invoked command in '/home/agilex/agilex_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agilex/agilex_ws/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/agilex/agilex_ws/install/ydlidar_ros2_driver
+Invoking command in '/home/agilex/agilex_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agilex/agilex_ws/build/ydlidar_ros2_driver -- -j8 -l8
+Invoked command in '/home/agilex/agilex_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agilex/agilex_ws/build/ydlidar_ros2_driver -- -j8 -l8
+Invoking command in '/home/agilex/agilex_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agilex/agilex_ws/build/ydlidar_ros2_driver
+Invoked command in '/home/agilex/agilex_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agilex/agilex_ws/build/ydlidar_ros2_driver

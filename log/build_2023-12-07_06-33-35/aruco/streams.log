@@ -1,0 +1,109 @@
+[0.276s] Invoking command in '/home/agilex/agilex_ws/build/aruco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/agilex/agilex_ws/build/aruco -- -j8 -l8
+[0.380s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.481s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.673s] -- Configuring done
+[0.687s] -- Generating done
+[0.689s] -- Build files have been written to: /home/agilex/agilex_ws/build/aruco
+[0.738s] [35m[1mConsolidate compiler generated dependencies of target aruco[0m
+[0.795s] [  5%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o[0m
+[0.798s] [ 11%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o[0m
+[0.807s] [ 16%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/dictionary_based.cpp.o[0m
+[0.814s] [ 22%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/debug.cpp.o[0m
+[0.828s] [ 27%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/dictionary.cpp.o[0m
+[0.830s] [ 33%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractaldetector.cpp.o[0m
+[0.840s] [ 38%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/ippe.cpp.o[0m
+[0.850s] [ 44%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/marker.cpp.o[0m
+[1.599s] [ 50%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markerdetector_impl.cpp.o[0m
+[2.145s] [01m[K/home/agilex/agilex_ws/src/aruco_ros/aruco/src/aruco/ippe.cpp:[m[K In member function ‘[01m[Kbool IPPE::PoseSolver::computeObjextSpaceR3Pts(cv::InputArray, cv::OutputArray)[m[K’:
+[2.145s] [01m[K/home/agilex/agilex_ws/src/aruco_ros/aruco/src/aruco/ippe.cpp:1221:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kn[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.145s]  1221 |   size_t [01;35m[Kn[m[K = objectPoints.rows * objectPoints.cols;
+[2.145s]       |          [01;35m[K^[m[K
+[2.390s] [ 55%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o[0m
+[2.391s] [ 61%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markerlabeler.cpp.o[0m
+[2.784s] [ 66%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markermap.cpp.o[0m
+[3.124s] [ 72%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/posetracker.cpp.o[0m
+[3.126s] [ 77%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractallabeler.cpp.o[0m
+[3.134s] [ 83%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalmarker.cpp.o[0m
+[3.155s] [ 88%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalmarkerset.cpp.o[0m
+[3.285s] [01m[K/home/agilex/agilex_ws/src/aruco_ros/aruco/src/aruco/markerdetector_impl.cpp:[m[K In function ‘[01m[Kvoid aruco::impl_assignClass_fast(const cv::Mat&, std::vector<cv::KeyPoint>&, bool, int)[m[K’:
+[3.285s] [01m[K/home/agilex/agilex_ws/src/aruco_ros/aruco/src/aruco/markerdetector_impl.cpp:199:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knorm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.286s]   199 |                            [01;35m[Kbool norm[m[K, int wsize)
+[3.286s]       |                            [01;35m[K~~~~~^~~~[m[K
+[3.312s] [ 94%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalposetracker.cpp.o[0m
+[3.673s] [01m[K/home/agilex/agilex_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp:[m[K In member function ‘[01m[Kstd::vector<aruco::Marker> aruco::MarkerDetector::detect(const cv::Mat&, const aruco::CameraParameters&, float, bool, bool)[m[K’:
+[3.673s] [01m[K/home/agilex/agilex_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp:128:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcorrectFisheye[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.673s]   128 |                                                   bool setYPerperdicular, [01;35m[Kbool correctFisheye[m[K)
+[3.673s]       |                                                                           [01;35m[K~~~~~^~~~~~~~~~~~~~[m[K
+[3.673s] [01m[K/home/agilex/agilex_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp:[m[K In member function ‘[01m[Kvoid aruco::MarkerDetector::detect(const cv::Mat&, std::vector<aruco::Marker>&, aruco::CameraParameters, float, bool, bool)[m[K’:
+[3.673s] [01m[K/home/agilex/agilex_ws/src/aruco_ros/aruco/src/aruco/markerdetector.cpp:141:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcorrectFisheye[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.673s]   141 |                             bool setYPerpendicular, [01;35m[Kbool correctFisheye[m[K)
+[3.673s]       |                                                     [01;35m[K~~~~~^~~~~~~~~~~~~~[m[K
+[4.522s] [01m[K/home/agilex/agilex_ws/src/aruco_ros/aruco/src/aruco/fractallabelers/fractalmarkerset.cpp:[m[K In member function ‘[01m[Kint aruco::FractalMarkerSet::dstMarkerToFractalDict(cv::Mat)[m[K’:
+[4.522s] [01m[K/home/agilex/agilex_ws/src/aruco_ros/aruco/src/aruco/fractallabelers/fractalmarkerset.cpp:510:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.525s]   510 |     if ([01;35m[Kmarker.second.nBits() == m.total()[m[K)
+[4.525s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.047s] [01m[K/home/agilex/agilex_ws/src/aruco_ros/aruco/src/aruco/fractallabelers/fractallabeler.cpp:[m[K In member function ‘[01m[Kvirtual bool aruco::FractalMarkerLabeler::detect(const cv::Mat&, int&, int&, std::string&)[m[K’:
+[5.047s] [01m[K/home/agilex/agilex_ws/src/aruco_ros/aruco/src/aruco/fractallabelers/fractallabeler.cpp:13:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KadditionalInfo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.047s]    13 |                                   [01;35m[Kstd::string& additionalInfo[m[K)
+[5.048s]       |                                   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[6.599s] [01m[K/home/agilex/agilex_ws/src/aruco_ros/aruco/src/aruco/fractallabelers/fractalposetracker.cpp:[m[K In member function ‘[01m[Kbool aruco::FractalPoseTracker::fractalRefinement(cv::Ptr<aruco::MarkerDetector>, int)[m[K’:
+[6.605s] [01m[K/home/agilex/agilex_ws/src/aruco_ros/aruco/src/aruco/fractallabelers/fractalposetracker.cpp:450:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Point_<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.605s]   450 |       for (int idx = 0; [01;35m[Kidx < _inners2d.size()[m[K; idx++)
+[6.605s]       |                         [01;35m[K~~~~^~~~~~~~~~~~~~~~~~[m[K
+[6.646s] [01m[K/home/agilex/agilex_ws/src/aruco_ros/aruco/src/aruco/fractallabelers/fractalposetracker.cpp:[m[K In member function ‘[01m[Kbool aruco::FractalPoseTracker::ROI(std::vector<cv::Mat>, cv::Mat&, std::vector<cv::Point_<float> >&, cv::Point2f&, float&)[m[K’:
+[6.646s] [01m[K/home/agilex/agilex_ws/src/aruco_ros/aruco/src/aruco/fractallabelers/fractalposetracker.cpp:805:12:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::map<int, aruco::FractalMarker>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.667s]   805 |        [01;35m[Kidx < _fractalMarker.fractalMarkerCollection.size()[m[K & biggest_p3d.size() < 4; idx++)
+[6.667s]       |        [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.673s] [01m[K/home/agilex/agilex_ws/src/aruco_ros/aruco/src/aruco/fractallabelers/fractalposetracker.cpp:805:12:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K&[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[15.188s] [100%] [32m[1mLinking CXX shared library libaruco.so[0m
+[16.006s] [100%] Built target aruco
+[16.066s] Invoked command in '/home/agilex/agilex_ws/build/aruco' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/agilex/agilex_ws/build/aruco -- -j8 -l8
+[16.932s] Invoking command in '/home/agilex/agilex_ws/build/aruco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/agilex/agilex_ws/build/aruco
+[21.971s] -- Install configuration: ""
+[21.971s] -- Installing: /home/agilex/agilex_ws/install/aruco/lib/libaruco.so
+[21.971s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include
+[21.971s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco
+[21.972s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/fractallabelers
+[21.972s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/fractallabelers/fractallabeler.h
+[21.972s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/fractallabelers/fractalmarker.h
+[21.972s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/fractallabelers/fractalmarkerset.h
+[21.972s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/fractallabelers/fractalposetracker.h
+[21.972s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/aruco.h
+[21.972s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/aruco_cvversioning.h
+[21.972s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/aruco_export.h
+[21.972s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/cameraparameters.h
+[21.972s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/cvdrawingutils.h
+[21.972s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/debug.h
+[21.972s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/dictionary.h
+[21.972s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/dictionary_based.h
+[21.972s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/fractaldetector.h
+[21.972s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/ippe.h
+[21.973s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/levmarq.h
+[21.973s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/marker.h
+[21.973s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/markerdetector.h
+[21.973s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/markerdetector_impl.h
+[21.973s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/markerlabeler.h
+[21.973s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/markermap.h
+[21.973s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/picoflann.h
+[21.973s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/posetracker.h
+[21.973s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/include/aruco/timers.h
+[21.973s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/share/aruco/environment/library_path.sh
+[21.973s] -- Installing: /home/agilex/agilex_ws/install/aruco/share/aruco/environment/library_path.dsv
+[21.973s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/share/ament_index/resource_index/package_run_dependencies/aruco
+[21.973s] -- Installing: /home/agilex/agilex_ws/install/aruco/share/ament_index/resource_index/parent_prefix_path/aruco
+[21.974s] -- Installing: /home/agilex/agilex_ws/install/aruco/share/aruco/environment/ament_prefix_path.sh
+[21.974s] -- Installing: /home/agilex/agilex_ws/install/aruco/share/aruco/environment/ament_prefix_path.dsv
+[21.974s] -- Installing: /home/agilex/agilex_ws/install/aruco/share/aruco/environment/path.sh
+[21.974s] -- Installing: /home/agilex/agilex_ws/install/aruco/share/aruco/environment/path.dsv
+[21.974s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/share/aruco/local_setup.bash
+[21.974s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/share/aruco/local_setup.sh
+[21.974s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/share/aruco/local_setup.zsh
+[21.974s] -- Installing: /home/agilex/agilex_ws/install/aruco/share/aruco/local_setup.dsv
+[21.974s] -- Installing: /home/agilex/agilex_ws/install/aruco/share/aruco/package.dsv
+[21.974s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/share/ament_index/resource_index/packages/aruco
+[21.974s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/share/aruco/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.974s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/share/aruco/cmake/ament_cmake_export_libraries-extras.cmake
+[21.974s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/share/aruco/cmake/arucoConfig.cmake
+[21.975s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/share/aruco/cmake/arucoConfig-version.cmake
+[21.975s] -- Up-to-date: /home/agilex/agilex_ws/install/aruco/share/aruco/package.xml
+[22.006s] Invoked command in '/home/agilex/agilex_ws/build/aruco' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/agilex/agilex_ws/build/aruco

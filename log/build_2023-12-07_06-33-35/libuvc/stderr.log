@@ -1,0 +1,4 @@
+[01m[K/home/agilex/agilex_ws/src/ros2_astra_camera/libuvc/src/example.c:[m[K In function ‘[01m[Kcb[m[K’:
+[01m[K/home/agilex/agilex_ws/src/ros2_astra_camera/libuvc/src/example.c:26:74:[m[K [01;35m[Kwarning: [m[Kcast from pointer to integer of different size [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpointer-to-int-cast-Wpointer-to-int-cast]8;;[m[K]
+   26 |     frame->frame_format, frame->width, frame->height, frame->data_bytes, [01;35m[K([m[Kint) ptr);
+      |                                                                          [01;35m[K^[m[K

@@ -1,0 +1,47 @@
+[0.769s] Invoking command in '/home/agilex/agilex_ws/src/yolov5_ros2': PYTHONPATH=/home/agilex/agilex_ws/build/yolov5_ros2/prefix_override:/home/agilex/agilex_ws/install/yolov5_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov5_ros2 build --build-base /home/agilex/agilex_ws/build/yolov5_ros2/build install --record /home/agilex/agilex_ws/build/yolov5_ros2/install.log --single-version-externally-managed
+[5.795s] running egg_info
+[5.795s] creating ../../build/yolov5_ros2/yolov5_ros2.egg-info
+[5.795s] writing ../../build/yolov5_ros2/yolov5_ros2.egg-info/PKG-INFO
+[5.795s] writing dependency_links to ../../build/yolov5_ros2/yolov5_ros2.egg-info/dependency_links.txt
+[5.796s] writing entry points to ../../build/yolov5_ros2/yolov5_ros2.egg-info/entry_points.txt
+[5.796s] writing requirements to ../../build/yolov5_ros2/yolov5_ros2.egg-info/requires.txt
+[5.796s] writing top-level names to ../../build/yolov5_ros2/yolov5_ros2.egg-info/top_level.txt
+[5.796s] writing manifest file '../../build/yolov5_ros2/yolov5_ros2.egg-info/SOURCES.txt'
+[5.796s] reading manifest file '../../build/yolov5_ros2/yolov5_ros2.egg-info/SOURCES.txt'
+[5.796s] writing manifest file '../../build/yolov5_ros2/yolov5_ros2.egg-info/SOURCES.txt'
+[5.796s] running build
+[5.796s] running build_py
+[5.796s] creating /home/agilex/agilex_ws/build/yolov5_ros2/build
+[5.796s] creating /home/agilex/agilex_ws/build/yolov5_ros2/build/lib
+[5.796s] creating /home/agilex/agilex_ws/build/yolov5_ros2/build/lib/yolov5_ros2
+[5.796s] copying yolov5_ros2/__init__.py -> /home/agilex/agilex_ws/build/yolov5_ros2/build/lib/yolov5_ros2
+[5.796s] copying yolov5_ros2/yolo_detect_2d.py -> /home/agilex/agilex_ws/build/yolov5_ros2/build/lib/yolov5_ros2
+[5.796s] copying yolov5_ros2/cv_tool.py -> /home/agilex/agilex_ws/build/yolov5_ros2/build/lib/yolov5_ros2
+[5.797s] running install
+[5.797s] running install_lib
+[5.797s] creating /home/agilex/agilex_ws/install/yolov5_ros2/lib/python3.10/site-packages/yolov5_ros2
+[5.797s] copying /home/agilex/agilex_ws/build/yolov5_ros2/build/lib/yolov5_ros2/__init__.py -> /home/agilex/agilex_ws/install/yolov5_ros2/lib/python3.10/site-packages/yolov5_ros2
+[5.797s] copying /home/agilex/agilex_ws/build/yolov5_ros2/build/lib/yolov5_ros2/yolo_detect_2d.py -> /home/agilex/agilex_ws/install/yolov5_ros2/lib/python3.10/site-packages/yolov5_ros2
+[5.797s] copying /home/agilex/agilex_ws/build/yolov5_ros2/build/lib/yolov5_ros2/cv_tool.py -> /home/agilex/agilex_ws/install/yolov5_ros2/lib/python3.10/site-packages/yolov5_ros2
+[5.797s] byte-compiling /home/agilex/agilex_ws/install/yolov5_ros2/lib/python3.10/site-packages/yolov5_ros2/__init__.py to __init__.cpython-310.pyc
+[5.797s] byte-compiling /home/agilex/agilex_ws/install/yolov5_ros2/lib/python3.10/site-packages/yolov5_ros2/yolo_detect_2d.py to yolo_detect_2d.cpython-310.pyc
+[5.797s] byte-compiling /home/agilex/agilex_ws/install/yolov5_ros2/lib/python3.10/site-packages/yolov5_ros2/cv_tool.py to cv_tool.cpython-310.pyc
+[5.797s] running install_data
+[5.797s] copying package.xml -> /home/agilex/agilex_ws/install/yolov5_ros2/share/yolov5_ros2
+[5.797s] creating /home/agilex/agilex_ws/install/yolov5_ros2/share/yolov5_ros2/launch
+[5.797s] copying launch/yolov5_ros2.launch.py -> /home/agilex/agilex_ws/install/yolov5_ros2/share/yolov5_ros2/launch
+[5.797s] creating /home/agilex/agilex_ws/install/yolov5_ros2/share/yolov5_ros2/config
+[5.798s] copying config/camera_info.yaml -> /home/agilex/agilex_ws/install/yolov5_ros2/share/yolov5_ros2/config
+[5.798s] copying config/yolov5s.pt -> /home/agilex/agilex_ws/install/yolov5_ros2/share/yolov5_ros2/config
+[5.798s] creating /home/agilex/agilex_ws/install/yolov5_ros2/share/yolov5_ros2/resource
+[5.798s] copying resource/fish.jpg -> /home/agilex/agilex_ws/install/yolov5_ros2/share/yolov5_ros2/resource
+[5.798s] copying resource/yolov5_ros2 -> /home/agilex/agilex_ws/install/yolov5_ros2/share/yolov5_ros2/resource
+[5.798s] copying resource/mouse.png -> /home/agilex/agilex_ws/install/yolov5_ros2/share/yolov5_ros2/resource
+[5.798s] running install_egg_info
+[5.798s] Copying ../../build/yolov5_ros2/yolov5_ros2.egg-info to /home/agilex/agilex_ws/install/yolov5_ros2/lib/python3.10/site-packages/yolov5_ros2-0.0.0-py3.10.egg-info
+[5.798s] running install_scripts
+[5.798s] Installing yolo_detect_2d script to /home/agilex/agilex_ws/install/yolov5_ros2/lib/yolov5_ros2
+[5.798s] writing list of installed files to '/home/agilex/agilex_ws/build/yolov5_ros2/install.log'
+[5.798s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.798s]   warnings.warn(
+[5.799s] Invoked command in '/home/agilex/agilex_ws/src/yolov5_ros2' returned '0': PYTHONPATH=/home/agilex/agilex_ws/build/yolov5_ros2/prefix_override:/home/agilex/agilex_ws/install/yolov5_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov5_ros2 build --build-base /home/agilex/agilex_ws/build/yolov5_ros2/build install --record /home/agilex/agilex_ws/build/yolov5_ros2/install.log --single-version-externally-managed

@@ -1,0 +1,30 @@
+[0.311s] Invoking command in '/home/agilex/agilex_ws/src/navigation2/nav2_simple_commander': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_msgs CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_msgs LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/build/nav2_simple_commander/prefix_override:/home/agilex/agilex_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/agilex/agilex_ws/build/nav2_simple_commander/build install --record /home/agilex/agilex_ws/build/nav2_simple_commander/install.log --single-version-externally-managed
+[0.563s] running egg_info
+[0.564s] writing ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+[0.565s] writing dependency_links to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+[0.568s] writing entry points to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+[0.570s] writing requirements to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+[0.571s] writing top-level names to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+[0.575s] reading manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[0.578s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[0.579s] running build
+[0.581s] running build_py
+[0.583s] running install
+[0.583s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.583s]   warnings.warn(
+[0.583s] running install_lib
+[0.584s] running install_data
+[0.584s] running install_egg_info
+[0.584s] removing '/home/agilex/agilex_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander-1.0.0-py3.10.egg-info' (and everything under it)
+[0.584s] Copying ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/agilex/agilex_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander-1.0.0-py3.10.egg-info
+[0.587s] running install_scripts
+[0.607s] Installing demo_inspection script to /home/agilex/agilex_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.608s] Installing demo_picking script to /home/agilex/agilex_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.608s] Installing demo_recoveries script to /home/agilex/agilex_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.609s] Installing demo_security script to /home/agilex/agilex_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.609s] Installing example_follow_path script to /home/agilex/agilex_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.609s] Installing example_nav_through_poses script to /home/agilex/agilex_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.609s] Installing example_nav_to_pose script to /home/agilex/agilex_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.609s] Installing example_waypoint_follower script to /home/agilex/agilex_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.609s] writing list of installed files to '/home/agilex/agilex_ws/build/nav2_simple_commander/install.log'
+[0.711s] Invoked command in '/home/agilex/agilex_ws/src/navigation2/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_msgs CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_msgs LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/build/nav2_simple_commander/prefix_override:/home/agilex/agilex_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/agilex/agilex_ws/build/nav2_simple_commander/build install --record /home/agilex/agilex_ws/build/nav2_simple_commander/install.log --single-version-externally-managed

@@ -1,0 +1,70 @@
+[0.089s] Invoking command in '/home/agilex/agilex_ws/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_behavior_tree:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_behavior_tree:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_behavior_tree/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_behaviors -- -j16 -l16
+[12.919s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_spin_behavior.dir/plugins/spin.cpp.o[0m
+[14.069s] [ 11%] [32m[1mLinking CXX shared library libnav2_spin_behavior.so[0m
+[14.523s] [ 11%] Built target nav2_spin_behavior
+[14.554s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[24.927s] [ 22%] [32m[1mLinking CXX static library libgtest.a[0m
+[24.976s] [ 22%] Built target gtest
+[25.006s] [ 33%] Built target gtest_main
+[25.047s] [ 38%] [32mBuilding CXX object CMakeFiles/behavior_server_core.dir/src/behavior_server.cpp.o[0m
+[38.369s] [ 44%] [32m[1mLinking CXX shared library libbehavior_server_core.so[0m
+[38.857s] [ 44%] Built target behavior_server_core
+[38.899s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_back_up_behavior.dir/plugins/back_up.cpp.o[0m
+[38.899s] [ 55%] [32mBuilding CXX object test/CMakeFiles/test_behaviors.dir/test_behaviors.cpp.o[0m
+[38.901s] [ 61%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_behavior.dir/plugins/drive_on_heading.cpp.o[0m
+[54.307s] [ 66%] [32m[1mLinking CXX shared library libnav2_back_up_behavior.so[0m
+[54.810s] [ 72%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_behavior.so[0m
+[54.863s] [ 72%] Built target nav2_back_up_behavior
+[54.909s] [ 77%] [32mBuilding CXX object CMakeFiles/behavior_server.dir/src/main.cpp.o[0m
+[55.222s] [ 77%] Built target nav2_drive_on_heading_behavior
+[55.267s] [ 83%] [32mBuilding CXX object CMakeFiles/nav2_wait_behavior.dir/plugins/wait.cpp.o[0m
+[58.772s] [ 88%] [32m[1mLinking CXX executable test_behaviors[0m
+[59.280s] [ 88%] Built target test_behaviors
+[60.461s] [ 94%] [32m[1mLinking CXX executable behavior_server[0m
+[60.717s] [ 94%] Built target behavior_server
+[84.115s] [100%] [32m[1mLinking CXX shared library libnav2_wait_behavior.so[0m
+[84.451s] [100%] Built target nav2_wait_behavior
+[84.542s] Invoked command in '/home/agilex/agilex_ws/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_behavior_tree:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_behavior_tree:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_behavior_tree/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_behaviors -- -j16 -l16
+[84.616s] Invoking command in '/home/agilex/agilex_ws/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_behavior_tree:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_behavior_tree:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_behavior_tree/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_behaviors
+[84.626s] -- Install configuration: "Release"
+[84.627s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/nav2_behaviors/behavior_plugin.xml
+[84.628s] -- Installing: /home/agilex/agilex_ws/install/nav2_behaviors/lib/libbehavior_server_core.so
+[84.629s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behaviors/lib/libbehavior_server_core.so" to ""
+[84.629s] -- Installing: /home/agilex/agilex_ws/install/nav2_behaviors/lib/libnav2_spin_behavior.so
+[84.631s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behaviors/lib/libnav2_spin_behavior.so" to ""
+[84.632s] -- Installing: /home/agilex/agilex_ws/install/nav2_behaviors/lib/libnav2_wait_behavior.so
+[84.633s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behaviors/lib/libnav2_wait_behavior.so" to ""
+[84.634s] -- Installing: /home/agilex/agilex_ws/install/nav2_behaviors/lib/libnav2_drive_on_heading_behavior.so
+[84.635s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behaviors/lib/libnav2_drive_on_heading_behavior.so" to ""
+[84.636s] -- Installing: /home/agilex/agilex_ws/install/nav2_behaviors/lib/libnav2_back_up_behavior.so
+[84.637s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behaviors/lib/libnav2_back_up_behavior.so" to ""
+[84.638s] -- Installing: /home/agilex/agilex_ws/install/nav2_behaviors/lib/nav2_behaviors/behavior_server
+[84.638s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_behaviors/lib/nav2_behaviors/behavior_server" to ""
+[84.639s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/include/
+[84.639s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/include//nav2_behaviors
+[84.639s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/include//nav2_behaviors/behavior_server.hpp
+[84.639s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/include//nav2_behaviors/timed_behavior.hpp
+[84.639s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/nav2_behaviors/behavior_plugin.xml
+[84.642s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.sh
+[84.642s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.dsv
+[84.643s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/ament_index/resource_index/package_run_dependencies/nav2_behaviors
+[84.643s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/ament_index/resource_index/parent_prefix_path/nav2_behaviors
+[84.645s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.sh
+[84.646s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.dsv
+[84.646s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/nav2_behaviors/environment/path.sh
+[84.646s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/nav2_behaviors/environment/path.dsv
+[84.646s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.bash
+[84.646s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.sh
+[84.646s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.zsh
+[84.646s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.dsv
+[84.646s] -- Installing: /home/agilex/agilex_ws/install/nav2_behaviors/share/nav2_behaviors/package.dsv
+[84.646s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/ament_index/resource_index/packages/nav2_behaviors
+[84.646s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_behaviors
+[84.647s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/ament_index/resource_index/rclcpp_components/nav2_behaviors
+[84.647s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_include_directories-extras.cmake
+[84.647s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_libraries-extras.cmake
+[84.647s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_dependencies-extras.cmake
+[84.648s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig.cmake
+[84.648s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig-version.cmake
+[84.648s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_behaviors/share/nav2_behaviors/package.xml
+[84.663s] Invoked command in '/home/agilex/agilex_ws/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_behavior_tree:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_behavior_tree:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_behavior_tree/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_behaviors

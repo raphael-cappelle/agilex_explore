@@ -1,0 +1,9 @@
+[0.027s] Invoking command in '/home/agilex/agilex_ws/build/costmap_queue': AMENT_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib PYTHONPATH=/home/agilex/agilex_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agilex/agilex_ws/install/nav2_common/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/agilex/agilex_ws/build/costmap_queue -- -j16 -l16
+[0.122s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.123s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.127s] [ 27%] [32mBuilding CXX object CMakeFiles/costmap_queue.dir/src/limited_costmap_queue.cpp.o[0m
+[0.132s] [ 36%] [32mBuilding CXX object CMakeFiles/costmap_queue.dir/src/costmap_queue.cpp.o[0m
+[2.204s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.333s] [ 45%] Built target gtest_main
+[5.219s] [ 54%] [32m[1mLinking CXX static library libcostmap_queue.a[0m
+[17.977s] [ 54%] Built target costmap_queue

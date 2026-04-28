@@ -1,0 +1,29 @@
+[0.174s] Invoking command in '/home/agilex/agilex_ws/build/magic_enum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/agilex/agilex_ws/build/magic_enum -- -j8 -l8
+[0.221s] [35m[1mConsolidate compiler generated dependencies of target enum_flag_example[0m
+[0.221s] [35m[1mConsolidate compiler generated dependencies of target example_custom_name[0m
+[0.225s] [35m[1mConsolidate compiler generated dependencies of target test_flags-cpp17[0m
+[0.225s] [35m[1mConsolidate compiler generated dependencies of target example_switch[0m
+[0.237s] [35m[1mConsolidate compiler generated dependencies of target example_nonascii_name[0m
+[0.239s] [35m[1mConsolidate compiler generated dependencies of target example[0m
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target test-cpp20[0m
+[0.250s] [ 11%] Built target example_custom_name
+[0.258s] [ 27%] Built target example_switch
+[0.258s] [ 33%] Built target enum_flag_example
+[0.259s] [35m[1mConsolidate compiler generated dependencies of target test-cpp17[0m
+[0.270s] [ 44%] Built target test_flags-cpp17
+[0.270s] [ 55%] Built target example
+[0.271s] [ 66%] Built target example_nonascii_name
+[0.272s] [35m[1mConsolidate compiler generated dependencies of target test_flags-cpp20[0m
+[0.285s] [ 77%] Built target test-cpp20
+[0.286s] [ 88%] Built target test-cpp17
+[0.297s] [100%] Built target test_flags-cpp20
+[0.521s] Invoked command in '/home/agilex/agilex_ws/build/magic_enum' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/agilex/agilex_ws/build/magic_enum -- -j8 -l8
+[1.027s] Invoking command in '/home/agilex/agilex_ws/build/magic_enum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/agilex/agilex_ws/build/magic_enum
+[1.128s] -- Install configuration: ""
+[1.128s] -- Up-to-date: /home/agilex/agilex_ws/install/magic_enum/lib/cmake/magic_enum/magic_enumConfigVersion.cmake
+[1.128s] -- Up-to-date: /home/agilex/agilex_ws/install/magic_enum/lib/cmake/magic_enum/magic_enumConfig.cmake
+[1.128s] -- Up-to-date: /home/agilex/agilex_ws/install/magic_enum/./include
+[1.129s] -- Up-to-date: /home/agilex/agilex_ws/install/magic_enum/./include/magic_enum.hpp
+[1.129s] -- Up-to-date: /home/agilex/agilex_ws/install/magic_enum/./include/magic_enum_fuse.hpp
+[1.129s] -- Up-to-date: /home/agilex/agilex_ws/install/magic_enum/share/magic_enum/package.xml
+[1.252s] Invoked command in '/home/agilex/agilex_ws/build/magic_enum' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/agilex/agilex_ws/build/magic_enum

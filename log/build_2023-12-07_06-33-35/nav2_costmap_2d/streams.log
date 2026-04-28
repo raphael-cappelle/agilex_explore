@@ -1,0 +1,223 @@
+[0.095s] Invoking command in '/home/agilex/agilex_ws/build/nav2_costmap_2d': CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_map_server:/home/agilex/agilex_ws/install/nav2_lifecycle_manager:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/home/agilex/agilex_ws/install/ydlidar_sdk:/home/agilex/agilex_ws/install/ydlidar_ros2_driver:/home/agilex/agilex_ws/install/teb_local_planner:/home/agilex/agilex_ws/install/teb_msgs:/home/agilex/agilex_ws/install/rf2o_laser_odometry:/home/agilex/agilex_ws/install/nav2_system_tests:/home/agilex/agilex_ws/install/nav2_bringup:/home/agilex/agilex_ws/install/navigation2:/home/agilex/agilex_ws/install/nav2_smoother:/home/agilex/agilex_ws/install/nav2_dwb_controller:/home/agilex/agilex_ws/install/limo_bringup:/home/agilex/agilex_ws/install/nav2_controller:/home/agilex/agilex_ws/install/dwb_plugins:/home/agilex/agilex_ws/install/dwb_critics:/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_waypoint_follower:/home/agilex/agilex_ws/install/nav2_theta_star_planner:/home/agilex/agilex_ws/install/nav2_smac_planner:/home/agilex/agilex_ws/install/nav2_rotation_shim_controller:/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/agilex_ws/install/nav2_planner:/home/agilex/agilex_ws/install/nav2_navfn_planner:/home/agilex/agilex_ws/install/nav2_constrained_smoother:/home/agilex/agilex_ws/install/nav2_bt_navigator:/home/agilex/agilex_ws/install/nav2_behaviors:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/costmap_converter:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_rviz_plugins:/home/agilex/agilex_ws/install/nav2_behavior_tree:/home/agilex/agilex_ws/install/nav2_amcl:/home/agilex/agilex_ws/install/magic_enum:/home/agilex/agilex_ws/install/limo_visions:/home/agilex/agilex_ws/install/limo_base:/home/agilex/agilex_ws/install/limo_msgs:/home/agilex/agilex_ws/install/limo_description:/home/agilex/agilex_ws/install/limo_car:/home/agilex/agilex_ws/install/libuvc:/home/agilex/agilex_ws/install/glog:/home/agilex/agilex_ws/install/csm:/home/agilex/agilex_ws/install/costmap_converter_msgs:/home/agilex/agilex_ws/install/astra_camera:/home/agilex/agilex_ws/install/astra_camera_msgs:/home/agilex/agilex_ws/install/aruco_ros:/home/agilex/agilex_ws/install/aruco_msgs:/home/agilex/agilex_ws/install/aruco:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_map_server/lib:/home/agilex/agilex_ws/install/nav2_lifecycle_manager/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:/home/agilex/agilex_ws/install/teb_local_planner/lib:/home/agilex/agilex_ws/install/teb_msgs/lib:/home/agilex/agilex_ws/install/nav2_smoother/lib:/home/agilex/agilex_ws/install/nav2_controller/lib:/home/agilex/agilex_ws/install/dwb_plugins/lib:/home/agilex/agilex_ws/install/dwb_critics/lib:/home/agilex/agilex_ws/install/dwb_core/lib:/home/agilex/agilex_ws/install/nav_2d_utils/lib:/home/agilex/agilex_ws/install/dwb_msgs/lib:/home/agilex/agilex_ws/install/nav_2d_msgs/lib:/home/agilex/agilex_ws/install/nav2_waypoint_follower/lib:/home/agilex/agilex_ws/install/nav2_theta_star_planner/lib:/home/agilex/agilex_ws/install/nav2_smac_planner/lib:/home/agilex/agilex_ws/install/nav2_rotation_shim_controller/lib:/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/agilex/agilex_ws/install/nav2_planner/lib:/home/agilex/agilex_ws/install/nav2_navfn_planner/lib:/home/agilex/agilex_ws/install/nav2_constrained_smoother/lib:/home/agilex/agilex_ws/install/nav2_bt_navigator/lib:/home/agilex/agilex_ws/install/nav2_behaviors/lib:/home/agilex/agilex_ws/install/costmap_queue/lib:/home/agilex/agilex_ws/install/costmap_converter/lib:/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_rviz_plugins/lib:/home/agilex/agilex_ws/install/nav2_behavior_tree/lib:/home/agilex/agilex_ws/install/nav2_amcl/lib:/home/agilex/agilex_ws/install/limo_msgs/lib:/home/agilex/agilex_ws/install/libuvc/lib:/home/agilex/agilex_ws/install/glog/lib:/home/agilex/agilex_ws/install/csm/lib:/home/agilex/agilex_ws/install/costmap_converter_msgs/lib:/home/agilex/agilex_ws/install/astra_camera/lib:/home/agilex/agilex_ws/install/astra_camera_msgs/lib:/home/agilex/agilex_ws/install/aruco_ros/lib:/home/agilex/agilex_ws/install/aruco_msgs/lib:/home/agilex/agilex_ws/install/aruco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_costmap_2d -- -j8 -l8
+[0.127s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.219s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.301s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.325s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.328s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.334s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.489s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[0.542s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.545s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.673s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.931s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[1.199s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[1.204s] -- Found nav2_common: 1.1.0 (/home/agilex/agilex_ws/install/nav2_common/share/nav2_common/cmake)
+[1.204s] -- Found nav2_msgs: 1.1.0 (/home/agilex/agilex_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[1.428s] -- Found nav2_util: 1.1.0 (/home/agilex/agilex_ws/install/nav2_util/share/nav2_util/cmake)
+[1.750s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.959s] -- Found nav2_voxel_grid: 1.1.0 (/home/agilex/agilex_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake)
+[1.963s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.978s] -- Found tf2_sensor_msgs: 0.25.5 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[2.001s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.140s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[5.523s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.257s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.273s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.471s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.480s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.482s] -- Configured cppcheck include dirs: /home/agilex/agilex_ws/src/navigation2/nav2_costmap_2d/include
+[10.482s] -- Configured cppcheck exclude dirs and/or files: 
+[10.482s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.483s] -- Added test 'lint_cmake' to check CMake code style
+[10.484s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.486s] -- Added test 'uncrustify' to check C / C++ code style
+[10.486s] -- Configured uncrustify additional arguments: 
+[10.487s] -- Added test 'xmllint' to check XML markup files
+[10.490s] -- Configuring done
+[10.974s] -- Generating done
+[10.979s] -- Build files have been written to: /home/agilex/agilex_ws/build/nav2_costmap_2d
+[11.016s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[11.016s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[11.029s] [35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_core[0m
+[11.032s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[11.047s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[11.084s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/array_parser.cpp.o[0m
+[11.087s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d.cpp.o[0m
+[11.096s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layer.cpp.o[0m
+[11.106s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layered_costmap.cpp.o[0m
+[11.714s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_publisher.cpp.o[0m
+[11.731s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_ros.cpp.o[0m
+[12.064s] [ 13%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[12.219s] [ 13%] Built target gtest_main
+[12.312s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint.cpp.o[0m
+[12.330s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_math.cpp.o[0m
+[12.346s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_layer.cpp.o[0m
+[13.447s] [ 19%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/observation_buffer.cpp.o[0m
+[15.398s] [ 21%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/clear_costmap_service.cpp.o[0m
+[15.553s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint_collision_checker.cpp.o[0m
+[17.601s] [ 24%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/plugins/costmap_filters/costmap_filter.cpp.o[0m
+[21.133s] [ 25%] [32m[1mLinking CXX static library libgtest.a[0m
+[21.207s] [ 25%] Built target gtest
+[39.675s] [ 27%] [32m[1mLinking CXX shared library libnav2_costmap_2d_core.so[0m
+[40.297s] [ 27%] Built target nav2_costmap_2d_core
+[40.341s] [35m[1mConsolidate compiler generated dependencies of target filters[0m
+[40.375s] [35m[1mConsolidate compiler generated dependencies of target layers[0m
+[40.378s] [ 28%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/keepout_filter.cpp.o[0m
+[40.498s] [ 30%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/inflation_layer.cpp.o[0m
+[42.509s] [35m[1mConsolidate compiler generated dependencies of target costmap_convesion_test[0m
+[42.598s] [ 31%] [32mBuilding CXX object test/unit/CMakeFiles/costmap_convesion_test.dir/costmap_conversion_test.cpp.o[0m
+[47.012s] [ 33%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/static_layer.cpp.o[0m
+[47.569s] [ 34%] [32m[1mLinking CXX executable costmap_convesion_test[0m
+[47.831s] [ 34%] Built target costmap_convesion_test
+[54.855s] [35m[1mConsolidate compiler generated dependencies of target array_parser_test[0m
+[54.858s] [35m[1mConsolidate compiler generated dependencies of target collision_footprint_test[0m
+[54.873s] [ 36%] [32mBuilding CXX object test/unit/CMakeFiles/array_parser_test.dir/array_parser_test.cpp.o[0m
+[54.883s] [ 37%] [32mBuilding CXX object test/unit/CMakeFiles/collision_footprint_test.dir/footprint_collision_checker_test.cpp.o[0m
+[55.600s] [ 39%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/speed_filter.cpp.o[0m
+[55.604s] [35m[1mConsolidate compiler generated dependencies of target declare_parameter_test[0m
+[55.637s] [ 40%] [32mBuilding CXX object test/unit/CMakeFiles/declare_parameter_test.dir/declare_parameter_test.cpp.o[0m
+[56.657s] [35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_cloud[0m
+[56.665s] [ 42%] [32m[1mLinking CXX executable array_parser_test[0m
+[56.679s] [35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_markers[0m
+[56.704s] [ 43%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_cloud.dir/src/costmap_2d_cloud.cpp.o[0m
+[56.767s] [ 45%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_markers.dir/src/costmap_2d_markers.cpp.o[0m
+[57.231s] [ 45%] Built target array_parser_test
+[57.271s] [ 46%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/obstacle_layer.cpp.o[0m
+[57.285s] [35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_client[0m
+[57.364s] [ 48%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/footprint_subscriber.cpp.o[0m
+[62.738s] [ 50%] [32m[1mLinking CXX executable declare_parameter_test[0m
+[63.527s] [ 51%] [32m[1mLinking CXX executable collision_footprint_test[0m
+[63.542s] [ 51%] Built target declare_parameter_test
+[64.186s] [ 51%] Built target collision_footprint_test
+[74.921s] [ 53%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_subscriber.cpp.o[0m
+[74.948s] [ 54%] [32m[1mLinking CXX executable nav2_costmap_2d_cloud[0m
+[75.222s] [ 54%] Built target nav2_costmap_2d_cloud
+[75.460s] [ 56%] [32m[1mLinking CXX executable nav2_costmap_2d_markers[0m
+[75.727s] [ 56%] Built target nav2_costmap_2d_markers
+[79.004s] [ 57%] [32m[1mLinking CXX shared library libfilters.so[0m
+[79.380s] [ 57%] Built target filters
+[83.411s] [ 59%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/range_sensor_layer.cpp.o[0m
+[84.419s] [35m[1mConsolidate compiler generated dependencies of target costmap_bresenham_2d[0m
+[84.421s] [35m[1mConsolidate compiler generated dependencies of target keepout_filter_test[0m
+[84.441s] [ 60%] [32mBuilding CXX object test/regression/CMakeFiles/costmap_bresenham_2d.dir/costmap_bresenham_2d.cpp.o[0m
+[84.444s] [ 62%] [32mBuilding CXX object test/unit/CMakeFiles/keepout_filter_test.dir/keepout_filter_test.cpp.o[0m
+[85.200s] [ 63%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_topic_collision_checker.cpp.o[0m
+[85.489s] [35m[1mConsolidate compiler generated dependencies of target dyn_params_tests[0m
+[85.519s] [ 65%] [32mBuilding CXX object test/integration/CMakeFiles/dyn_params_tests.dir/dyn_params_tests.cpp.o[0m
+[86.083s] [ 66%] [32m[1mLinking CXX executable costmap_bresenham_2d[0m
+[86.396s] [ 66%] Built target costmap_bresenham_2d
+[86.428s] [35m[1mConsolidate compiler generated dependencies of target copy_window_test[0m
+[86.466s] [35m[1mConsolidate compiler generated dependencies of target speed_filter_test[0m
+[86.515s] [ 68%] [32mBuilding CXX object test/unit/CMakeFiles/copy_window_test.dir/copy_window_test.cpp.o[0m
+[86.523s] [ 69%] [32mBuilding CXX object test/unit/CMakeFiles/speed_filter_test.dir/speed_filter_test.cpp.o[0m
+[89.619s] [ 71%] [32m[1mLinking CXX shared library libnav2_costmap_2d_client.so[0m
+[90.551s] [ 71%] Built target nav2_costmap_2d_client
+[93.437s] [ 72%] [32m[1mLinking CXX executable copy_window_test[0m
+[94.040s] [ 72%] Built target copy_window_test
+[95.155s] [ 74%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/voxel_layer.cpp.o[0m
+[96.502s] [ 75%] [32m[1mLinking CXX executable dyn_params_tests[0m
+[96.887s] [ 75%] Built target dyn_params_tests
+[96.960s] [ 77%] [32m[1mLinking CXX executable keepout_filter_test[0m
+[97.315s] [ 77%] Built target keepout_filter_test
+[103.859s] [ 78%] [32mBuilding CXX object CMakeFiles/layers.dir/src/observation_buffer.cpp.o[0m
+[104.783s] [ 80%] [32m[1mLinking CXX executable speed_filter_test[0m
+[105.100s] [ 80%] Built target speed_filter_test
+[108.506s] [ 81%] [32m[1mLinking CXX shared library liblayers.so[0m
+[108.966s] [ 81%] Built target layers
+[108.982s] [35m[1mConsolidate compiler generated dependencies of target footprint_tests_exec[0m
+[108.982s] [35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d[0m
+[108.982s] [35m[1mConsolidate compiler generated dependencies of target test_collision_checker_exec[0m
+[109.007s] [ 83%] [32mBuilding CXX object test/integration/CMakeFiles/footprint_tests_exec.dir/footprint_tests.cpp.o[0m
+[109.008s] [ 84%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d.dir/src/costmap_2d_node.cpp.o[0m
+[109.012s] [ 86%] [32mBuilding CXX object test/integration/CMakeFiles/test_collision_checker_exec.dir/test_costmap_topic_collision_checker.cpp.o[0m
+[115.201s] [ 87%] [32m[1mLinking CXX executable footprint_tests_exec[0m
+[115.477s] [ 89%] [32m[1mLinking CXX executable nav2_costmap_2d[0m
+[116.052s] [ 89%] Built target nav2_costmap_2d
+[116.066s] [ 89%] Built target footprint_tests_exec
+[116.124s] [35m[1mConsolidate compiler generated dependencies of target range_tests_exec[0m
+[116.139s] [35m[1mConsolidate compiler generated dependencies of target obstacle_tests_exec[0m
+[116.160s] [35m[1mConsolidate compiler generated dependencies of target inflation_tests_exec[0m
+[116.164s] [ 90%] [32mBuilding CXX object test/integration/CMakeFiles/range_tests_exec.dir/range_tests.cpp.o[0m
+[116.233s] [ 92%] [32mBuilding CXX object test/integration/CMakeFiles/obstacle_tests_exec.dir/obstacle_tests.cpp.o[0m
+[116.242s] [ 93%] [32mBuilding CXX object test/integration/CMakeFiles/inflation_tests_exec.dir/inflation_tests.cpp.o[0m
+[125.553s] [ 95%] [32m[1mLinking CXX executable test_collision_checker_exec[0m
+[126.131s] [ 95%] Built target test_collision_checker_exec
+[128.190s] [ 96%] [32m[1mLinking CXX executable range_tests_exec[0m
+[128.465s] [ 98%] [32m[1mLinking CXX executable obstacle_tests_exec[0m
+[128.606s] [ 98%] Built target range_tests_exec
+[128.819s] [ 98%] Built target obstacle_tests_exec
+[129.592s] [100%] [32m[1mLinking CXX executable inflation_tests_exec[0m
+[129.948s] [100%] Built target inflation_tests_exec
+[129.961s] Invoked command in '/home/agilex/agilex_ws/build/nav2_costmap_2d' returned '0': CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_map_server:/home/agilex/agilex_ws/install/nav2_lifecycle_manager:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/home/agilex/agilex_ws/install/ydlidar_sdk:/home/agilex/agilex_ws/install/ydlidar_ros2_driver:/home/agilex/agilex_ws/install/teb_local_planner:/home/agilex/agilex_ws/install/teb_msgs:/home/agilex/agilex_ws/install/rf2o_laser_odometry:/home/agilex/agilex_ws/install/nav2_system_tests:/home/agilex/agilex_ws/install/nav2_bringup:/home/agilex/agilex_ws/install/navigation2:/home/agilex/agilex_ws/install/nav2_smoother:/home/agilex/agilex_ws/install/nav2_dwb_controller:/home/agilex/agilex_ws/install/limo_bringup:/home/agilex/agilex_ws/install/nav2_controller:/home/agilex/agilex_ws/install/dwb_plugins:/home/agilex/agilex_ws/install/dwb_critics:/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_waypoint_follower:/home/agilex/agilex_ws/install/nav2_theta_star_planner:/home/agilex/agilex_ws/install/nav2_smac_planner:/home/agilex/agilex_ws/install/nav2_rotation_shim_controller:/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/agilex_ws/install/nav2_planner:/home/agilex/agilex_ws/install/nav2_navfn_planner:/home/agilex/agilex_ws/install/nav2_constrained_smoother:/home/agilex/agilex_ws/install/nav2_bt_navigator:/home/agilex/agilex_ws/install/nav2_behaviors:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/costmap_converter:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_rviz_plugins:/home/agilex/agilex_ws/install/nav2_behavior_tree:/home/agilex/agilex_ws/install/nav2_amcl:/home/agilex/agilex_ws/install/magic_enum:/home/agilex/agilex_ws/install/limo_visions:/home/agilex/agilex_ws/install/limo_base:/home/agilex/agilex_ws/install/limo_msgs:/home/agilex/agilex_ws/install/limo_description:/home/agilex/agilex_ws/install/limo_car:/home/agilex/agilex_ws/install/libuvc:/home/agilex/agilex_ws/install/glog:/home/agilex/agilex_ws/install/csm:/home/agilex/agilex_ws/install/costmap_converter_msgs:/home/agilex/agilex_ws/install/astra_camera:/home/agilex/agilex_ws/install/astra_camera_msgs:/home/agilex/agilex_ws/install/aruco_ros:/home/agilex/agilex_ws/install/aruco_msgs:/home/agilex/agilex_ws/install/aruco:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_map_server/lib:/home/agilex/agilex_ws/install/nav2_lifecycle_manager/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:/home/agilex/agilex_ws/install/teb_local_planner/lib:/home/agilex/agilex_ws/install/teb_msgs/lib:/home/agilex/agilex_ws/install/nav2_smoother/lib:/home/agilex/agilex_ws/install/nav2_controller/lib:/home/agilex/agilex_ws/install/dwb_plugins/lib:/home/agilex/agilex_ws/install/dwb_critics/lib:/home/agilex/agilex_ws/install/dwb_core/lib:/home/agilex/agilex_ws/install/nav_2d_utils/lib:/home/agilex/agilex_ws/install/dwb_msgs/lib:/home/agilex/agilex_ws/install/nav_2d_msgs/lib:/home/agilex/agilex_ws/install/nav2_waypoint_follower/lib:/home/agilex/agilex_ws/install/nav2_theta_star_planner/lib:/home/agilex/agilex_ws/install/nav2_smac_planner/lib:/home/agilex/agilex_ws/install/nav2_rotation_shim_controller/lib:/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/agilex/agilex_ws/install/nav2_planner/lib:/home/agilex/agilex_ws/install/nav2_navfn_planner/lib:/home/agilex/agilex_ws/install/nav2_constrained_smoother/lib:/home/agilex/agilex_ws/install/nav2_bt_navigator/lib:/home/agilex/agilex_ws/install/nav2_behaviors/lib:/home/agilex/agilex_ws/install/costmap_queue/lib:/home/agilex/agilex_ws/install/costmap_converter/lib:/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_rviz_plugins/lib:/home/agilex/agilex_ws/install/nav2_behavior_tree/lib:/home/agilex/agilex_ws/install/nav2_amcl/lib:/home/agilex/agilex_ws/install/limo_msgs/lib:/home/agilex/agilex_ws/install/libuvc/lib:/home/agilex/agilex_ws/install/glog/lib:/home/agilex/agilex_ws/install/csm/lib:/home/agilex/agilex_ws/install/costmap_converter_msgs/lib:/home/agilex/agilex_ws/install/astra_camera/lib:/home/agilex/agilex_ws/install/astra_camera_msgs/lib:/home/agilex/agilex_ws/install/aruco_ros/lib:/home/agilex/agilex_ws/install/aruco_msgs/lib:/home/agilex/agilex_ws/install/aruco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/agilex/agilex_ws/build/nav2_costmap_2d -- -j8 -l8
+[130.118s] Invoking command in '/home/agilex/agilex_ws/build/nav2_costmap_2d': CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_map_server:/home/agilex/agilex_ws/install/nav2_lifecycle_manager:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/home/agilex/agilex_ws/install/ydlidar_sdk:/home/agilex/agilex_ws/install/ydlidar_ros2_driver:/home/agilex/agilex_ws/install/teb_local_planner:/home/agilex/agilex_ws/install/teb_msgs:/home/agilex/agilex_ws/install/rf2o_laser_odometry:/home/agilex/agilex_ws/install/nav2_system_tests:/home/agilex/agilex_ws/install/nav2_bringup:/home/agilex/agilex_ws/install/navigation2:/home/agilex/agilex_ws/install/nav2_smoother:/home/agilex/agilex_ws/install/nav2_dwb_controller:/home/agilex/agilex_ws/install/limo_bringup:/home/agilex/agilex_ws/install/nav2_controller:/home/agilex/agilex_ws/install/dwb_plugins:/home/agilex/agilex_ws/install/dwb_critics:/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_waypoint_follower:/home/agilex/agilex_ws/install/nav2_theta_star_planner:/home/agilex/agilex_ws/install/nav2_smac_planner:/home/agilex/agilex_ws/install/nav2_rotation_shim_controller:/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/agilex_ws/install/nav2_planner:/home/agilex/agilex_ws/install/nav2_navfn_planner:/home/agilex/agilex_ws/install/nav2_constrained_smoother:/home/agilex/agilex_ws/install/nav2_bt_navigator:/home/agilex/agilex_ws/install/nav2_behaviors:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/costmap_converter:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_rviz_plugins:/home/agilex/agilex_ws/install/nav2_behavior_tree:/home/agilex/agilex_ws/install/nav2_amcl:/home/agilex/agilex_ws/install/magic_enum:/home/agilex/agilex_ws/install/limo_visions:/home/agilex/agilex_ws/install/limo_base:/home/agilex/agilex_ws/install/limo_msgs:/home/agilex/agilex_ws/install/limo_description:/home/agilex/agilex_ws/install/limo_car:/home/agilex/agilex_ws/install/libuvc:/home/agilex/agilex_ws/install/glog:/home/agilex/agilex_ws/install/csm:/home/agilex/agilex_ws/install/costmap_converter_msgs:/home/agilex/agilex_ws/install/astra_camera:/home/agilex/agilex_ws/install/astra_camera_msgs:/home/agilex/agilex_ws/install/aruco_ros:/home/agilex/agilex_ws/install/aruco_msgs:/home/agilex/agilex_ws/install/aruco:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_map_server/lib:/home/agilex/agilex_ws/install/nav2_lifecycle_manager/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:/home/agilex/agilex_ws/install/teb_local_planner/lib:/home/agilex/agilex_ws/install/teb_msgs/lib:/home/agilex/agilex_ws/install/nav2_smoother/lib:/home/agilex/agilex_ws/install/nav2_controller/lib:/home/agilex/agilex_ws/install/dwb_plugins/lib:/home/agilex/agilex_ws/install/dwb_critics/lib:/home/agilex/agilex_ws/install/dwb_core/lib:/home/agilex/agilex_ws/install/nav_2d_utils/lib:/home/agilex/agilex_ws/install/dwb_msgs/lib:/home/agilex/agilex_ws/install/nav_2d_msgs/lib:/home/agilex/agilex_ws/install/nav2_waypoint_follower/lib:/home/agilex/agilex_ws/install/nav2_theta_star_planner/lib:/home/agilex/agilex_ws/install/nav2_smac_planner/lib:/home/agilex/agilex_ws/install/nav2_rotation_shim_controller/lib:/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/agilex/agilex_ws/install/nav2_planner/lib:/home/agilex/agilex_ws/install/nav2_navfn_planner/lib:/home/agilex/agilex_ws/install/nav2_constrained_smoother/lib:/home/agilex/agilex_ws/install/nav2_bt_navigator/lib:/home/agilex/agilex_ws/install/nav2_behaviors/lib:/home/agilex/agilex_ws/install/costmap_queue/lib:/home/agilex/agilex_ws/install/costmap_converter/lib:/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_rviz_plugins/lib:/home/agilex/agilex_ws/install/nav2_behavior_tree/lib:/home/agilex/agilex_ws/install/nav2_amcl/lib:/home/agilex/agilex_ws/install/limo_msgs/lib:/home/agilex/agilex_ws/install/libuvc/lib:/home/agilex/agilex_ws/install/glog/lib:/home/agilex/agilex_ws/install/csm/lib:/home/agilex/agilex_ws/install/costmap_converter_msgs/lib:/home/agilex/agilex_ws/install/astra_camera/lib:/home/agilex/agilex_ws/install/astra_camera_msgs/lib:/home/agilex/agilex_ws/install/aruco_ros/lib:/home/agilex/agilex_ws/install/aruco_msgs/lib:/home/agilex/agilex_ws/install/aruco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_costmap_2d
+[130.128s] -- Install configuration: "Release"
+[130.129s] -- Installing: /home/agilex/agilex_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+[130.130s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so" to ""
+[130.131s] -- Installing: /home/agilex/agilex_ws/install/nav2_costmap_2d/lib/liblayers.so
+[130.137s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_costmap_2d/lib/liblayers.so" to ""
+[130.138s] -- Installing: /home/agilex/agilex_ws/install/nav2_costmap_2d/lib/libfilters.so
+[130.139s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_costmap_2d/lib/libfilters.so" to ""
+[130.140s] -- Installing: /home/agilex/agilex_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+[130.141s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so" to ""
+[130.143s] -- Installing: /home/agilex/agilex_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+[130.145s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d" to ""
+[130.146s] -- Installing: /home/agilex/agilex_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+[130.147s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers" to ""
+[130.148s] -- Installing: /home/agilex/agilex_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+[130.149s] -- Set runtime path of "/home/agilex/agilex_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud" to ""
+[130.149s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[130.149s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include/
+[130.149s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d
+[130.150s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/voxel_layer.hpp
+[130.150s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/clear_costmap_service.hpp
+[130.150s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d.hpp
+[130.150s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_publisher.hpp
+[130.150s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/exceptions.hpp
+[130.150s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters
+[130.150s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/keepout_filter.hpp
+[130.150s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/costmap_filter.hpp
+[130.150s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/speed_filter.hpp
+[130.150s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/filter_values.hpp
+[130.150s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_subscriber.hpp
+[130.151s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_math.hpp
+[130.151s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/range_sensor_layer.hpp
+[130.151s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/cost_values.hpp
+[130.151s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation_buffer.hpp
+[130.151s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layered_costmap.hpp
+[130.151s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_collision_checker.hpp
+[130.151s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_subscriber.hpp
+[130.151s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint.hpp
+[130.151s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_ros.hpp
+[130.151s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation.hpp
+[130.151s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/static_layer.hpp
+[130.151s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/array_parser.hpp
+[130.152s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/obstacle_layer.hpp
+[130.152s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_layer.hpp
+[130.152s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/inflation_layer.hpp
+[130.152s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layer.hpp
+[130.152s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_topic_collision_checker.hpp
+[130.152s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+[130.152s] -- Installing: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+[130.152s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[130.152s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+[130.152s] -- Installing: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+[130.153s] -- Installing: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+[130.153s] -- Installing: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+[130.153s] -- Installing: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+[130.153s] -- Installing: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+[130.153s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+[130.153s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+[130.153s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+[130.153s] -- Installing: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+[130.153s] -- Installing: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+[130.153s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+[130.153s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+[130.153s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_include_directories-extras.cmake
+[130.153s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_libraries-extras.cmake
+[130.154s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+[130.154s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+[130.154s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+[130.154s] -- Up-to-date: /home/agilex/agilex_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml
+[130.156s] Invoked command in '/home/agilex/agilex_ws/build/nav2_costmap_2d' returned '0': CMAKE_PREFIX_PATH=/home/agilex/agilex_ws/install/nav2_map_server:/home/agilex/agilex_ws/install/nav2_lifecycle_manager:/home/agilex/agilex_ws/install/nav2_util:/home/agilex/agilex_ws/install/nav2_voxel_grid:/home/agilex/agilex_ws/install/nav2_msgs:/home/agilex/agilex_ws/install/nav2_common:/home/agilex/agilex_ws/install/ydlidar_sdk:/home/agilex/agilex_ws/install/ydlidar_ros2_driver:/home/agilex/agilex_ws/install/teb_local_planner:/home/agilex/agilex_ws/install/teb_msgs:/home/agilex/agilex_ws/install/rf2o_laser_odometry:/home/agilex/agilex_ws/install/nav2_system_tests:/home/agilex/agilex_ws/install/nav2_bringup:/home/agilex/agilex_ws/install/navigation2:/home/agilex/agilex_ws/install/nav2_smoother:/home/agilex/agilex_ws/install/nav2_dwb_controller:/home/agilex/agilex_ws/install/limo_bringup:/home/agilex/agilex_ws/install/nav2_controller:/home/agilex/agilex_ws/install/dwb_plugins:/home/agilex/agilex_ws/install/dwb_critics:/home/agilex/agilex_ws/install/dwb_core:/home/agilex/agilex_ws/install/nav_2d_utils:/home/agilex/agilex_ws/install/dwb_msgs:/home/agilex/agilex_ws/install/nav_2d_msgs:/home/agilex/agilex_ws/install/nav2_waypoint_follower:/home/agilex/agilex_ws/install/nav2_theta_star_planner:/home/agilex/agilex_ws/install/nav2_smac_planner:/home/agilex/agilex_ws/install/nav2_rotation_shim_controller:/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/agilex_ws/install/nav2_planner:/home/agilex/agilex_ws/install/nav2_navfn_planner:/home/agilex/agilex_ws/install/nav2_constrained_smoother:/home/agilex/agilex_ws/install/nav2_bt_navigator:/home/agilex/agilex_ws/install/nav2_behaviors:/home/agilex/agilex_ws/install/nav2_core:/home/agilex/agilex_ws/install/costmap_queue:/home/agilex/agilex_ws/install/costmap_converter:/home/agilex/agilex_ws/install/nav2_costmap_2d:/home/agilex/agilex_ws/install/nav2_rviz_plugins:/home/agilex/agilex_ws/install/nav2_behavior_tree:/home/agilex/agilex_ws/install/nav2_amcl:/home/agilex/agilex_ws/install/magic_enum:/home/agilex/agilex_ws/install/limo_visions:/home/agilex/agilex_ws/install/limo_base:/home/agilex/agilex_ws/install/limo_msgs:/home/agilex/agilex_ws/install/limo_description:/home/agilex/agilex_ws/install/limo_car:/home/agilex/agilex_ws/install/libuvc:/home/agilex/agilex_ws/install/glog:/home/agilex/agilex_ws/install/csm:/home/agilex/agilex_ws/install/costmap_converter_msgs:/home/agilex/agilex_ws/install/astra_camera:/home/agilex/agilex_ws/install/astra_camera_msgs:/home/agilex/agilex_ws/install/aruco_ros:/home/agilex/agilex_ws/install/aruco_msgs:/home/agilex/agilex_ws/install/aruco:/home/agilex/agilex_ws/install/yolov5_ros2:/home/agilex/agilex_ws/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/agilex/agilex_ws/install/nav2_map_server/lib:/home/agilex/agilex_ws/install/nav2_lifecycle_manager/lib:/home/agilex/agilex_ws/install/nav2_util/lib:/home/agilex/agilex_ws/install/nav2_voxel_grid/lib:/home/agilex/agilex_ws/install/nav2_msgs/lib:/home/agilex/agilex_ws/install/teb_local_planner/lib:/home/agilex/agilex_ws/install/teb_msgs/lib:/home/agilex/agilex_ws/install/nav2_smoother/lib:/home/agilex/agilex_ws/install/nav2_controller/lib:/home/agilex/agilex_ws/install/dwb_plugins/lib:/home/agilex/agilex_ws/install/dwb_critics/lib:/home/agilex/agilex_ws/install/dwb_core/lib:/home/agilex/agilex_ws/install/nav_2d_utils/lib:/home/agilex/agilex_ws/install/dwb_msgs/lib:/home/agilex/agilex_ws/install/nav_2d_msgs/lib:/home/agilex/agilex_ws/install/nav2_waypoint_follower/lib:/home/agilex/agilex_ws/install/nav2_theta_star_planner/lib:/home/agilex/agilex_ws/install/nav2_smac_planner/lib:/home/agilex/agilex_ws/install/nav2_rotation_shim_controller/lib:/home/agilex/agilex_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/agilex/agilex_ws/install/nav2_planner/lib:/home/agilex/agilex_ws/install/nav2_navfn_planner/lib:/home/agilex/agilex_ws/install/nav2_constrained_smoother/lib:/home/agilex/agilex_ws/install/nav2_bt_navigator/lib:/home/agilex/agilex_ws/install/nav2_behaviors/lib:/home/agilex/agilex_ws/install/costmap_queue/lib:/home/agilex/agilex_ws/install/costmap_converter/lib:/home/agilex/agilex_ws/install/nav2_costmap_2d/lib:/home/agilex/agilex_ws/install/nav2_rviz_plugins/lib:/home/agilex/agilex_ws/install/nav2_behavior_tree/lib:/home/agilex/agilex_ws/install/nav2_amcl/lib:/home/agilex/agilex_ws/install/limo_msgs/lib:/home/agilex/agilex_ws/install/libuvc/lib:/home/agilex/agilex_ws/install/glog/lib:/home/agilex/agilex_ws/install/csm/lib:/home/agilex/agilex_ws/install/costmap_converter_msgs/lib:/home/agilex/agilex_ws/install/astra_camera/lib:/home/agilex/agilex_ws/install/astra_camera_msgs/lib:/home/agilex/agilex_ws/install/aruco_ros/lib:/home/agilex/agilex_ws/install/aruco_msgs/lib:/home/agilex/agilex_ws/install/aruco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/agilex/agilex_ws/build/nav2_costmap_2d
