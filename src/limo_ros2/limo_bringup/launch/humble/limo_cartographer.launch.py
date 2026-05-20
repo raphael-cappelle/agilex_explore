@@ -34,6 +34,8 @@ def generate_launch_description():
         parameters=[{'use_sim_time': use_sim_time}],
         arguments=['-configuration_directory', configuration_directory,
                    '-configuration_basename', configuration_basename],
+        remappings=[
+            ('scan', '/scan_merged')],
         )
 
     cartographer_occupancy_grid_node = Node(
@@ -43,6 +45,9 @@ def generate_launch_description():
         output='screen',
         parameters=[{'use_sim_time': use_sim_time}],
         arguments=['-resolution', resolution, '-publish_period_sec', publish_period_sec],
+        remappings=[
+            ('odom', '/wheel/odom')
+            ],
         )
 
     rviz_node = Node(

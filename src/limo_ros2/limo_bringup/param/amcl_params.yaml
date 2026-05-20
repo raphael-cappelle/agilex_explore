@@ -154,8 +154,9 @@ local_costmap:
         enabled: True
         observation_sources: scan
         scan:
-          topic: /scan
+          topic: /scan_merged
           max_obstacle_height: 2.0
+          min_obstacle_height: 0.01
           clearing: True
           marking: True
           data_type: "LaserScan"
@@ -196,8 +197,9 @@ global_costmap:
         enabled: True
         observation_sources: scan
         scan:
-          topic: /scan
+          topic: /scan_merged
           max_obstacle_height: 2.0
+          min_obstacle_height: 0.01
           clearing: True
           marking: True
           data_type: "LaserScan"
