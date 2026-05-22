@@ -158,3 +158,144 @@
 [05/20 13:51:39.203818][info][23229][DeviceManager.cpp:15] Current found device(s): (1)
 [05/20 13:51:39.203824][info][23229][DeviceManager.cpp:24] 	- Name: DaBai DC1, PID: 0x0657, SN/ID: , Connection: USB2.0
 [05/20 13:51:39.203828][debug][23229][DeviceManager.cpp:55] DeviceManager construct done!
+[05/21 11:40:20.802527][debug][108476][Context.cpp:29] Context creating. work_dir=/home/agilex/agilex_explore
+[05/21 11:40:20.802726][debug][108476][Context.cpp:48] Config file version=1.1
+[05/21 11:40:20.802988][debug][108476][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/21 11:40:20.803002][info][108476][Context.cpp:67] Context created with config: /home/agilex/agilex_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[05/21 11:40:20.803031][info][108476][Context.cpp:72] Context work_dir=/home/agilex/agilex_explore
+[05/21 11:40:20.803042][debug][108476][DeviceManager.cpp:30] DeviceManager init ...
+[05/21 11:40:20.803052][debug][108476][LinuxPal.cpp:36] createObPal: create LinuxPal!
+[05/21 11:40:20.808706][debug][108476][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/21 11:40:20.867195][debug][108476][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/21 11:40:20.867372][debug][108476][ObV4lDevice.cpp:341] Found video4linux: video1
+[05/21 11:40:20.867917][debug][108476][ObV4lDevice.cpp:341] Found video4linux: video0
+[05/21 11:40:20.868476][debug][108476][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/21 11:40:20.868495][debug][108476][UsbDeviceEnumerator.cpp:164]  - 1-1.4-6.0 | Orbbec(R) Astra(TM) 3D Camera(F) Depth
+[05/21 11:40:20.868499][debug][108476][UsbDeviceEnumerator.cpp:164]  - 1-1.2-4.0 | Dabai DC1
+[05/21 11:40:20.868603][warning][108476][OpenNIDeviceInfo.cpp:180] New openni device matched.
+[05/21 11:40:20.868962][info][108476][LinuxPal.cpp:110] Create PollingDeviceWatcher!
+[05/21 11:40:20.868995][debug][108476][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/21 11:40:20.869003][debug][108476][UsbDeviceEnumerator.cpp:72]   - Name: DaBai DC1, PID: 0x0657, SN/ID: , connection: USB2.0
+[05/21 11:40:20.869013][info][108476][DeviceManager.cpp:15] Current found device(s): (1)
+[05/21 11:40:20.869023][info][108476][DeviceManager.cpp:24] 	- Name: DaBai DC1, PID: 0x0657, SN/ID: , Connection: USB2.0
+[05/21 11:40:20.869031][debug][108476][DeviceManager.cpp:55] DeviceManager construct done!
+[05/21 13:28:03.984288][debug][4518][Context.cpp:29] Context creating. work_dir=/home/agilex/agilex_explore
+[05/21 13:28:03.984487][debug][4518][Context.cpp:48] Config file version=1.1
+[05/21 13:28:03.984713][debug][4518][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/21 13:28:03.984717][info][4518][Context.cpp:67] Context created with config: /home/agilex/agilex_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[05/21 13:28:03.984724][info][4518][Context.cpp:72] Context work_dir=/home/agilex/agilex_explore
+[05/21 13:28:03.984729][debug][4518][DeviceManager.cpp:30] DeviceManager init ...
+[05/21 13:28:03.984733][debug][4518][LinuxPal.cpp:36] createObPal: create LinuxPal!
+[05/21 13:28:03.987031][debug][4518][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/21 13:28:04.046814][debug][4518][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/21 13:28:04.046973][debug][4518][ObV4lDevice.cpp:341] Found video4linux: video1
+[05/21 13:28:04.047367][debug][4518][ObV4lDevice.cpp:341] Found video4linux: video0
+[05/21 13:28:04.047687][debug][4518][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/21 13:28:04.047694][debug][4518][UsbDeviceEnumerator.cpp:164]  - 1-1.4-6.0 | Orbbec(R) Astra(TM) 3D Camera(F) Depth
+[05/21 13:28:04.047698][debug][4518][UsbDeviceEnumerator.cpp:164]  - 1-1.2-4.0 | Dabai DC1
+[05/21 13:28:04.047785][warning][4518][OpenNIDeviceInfo.cpp:180] New openni device matched.
+[05/21 13:28:04.048055][info][4518][LinuxPal.cpp:110] Create PollingDeviceWatcher!
+[05/21 13:28:04.048069][debug][4518][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/21 13:28:04.048075][debug][4518][UsbDeviceEnumerator.cpp:72]   - Name: DaBai DC1, PID: 0x0657, SN/ID: , connection: USB2.0
+[05/21 13:28:04.048084][info][4518][DeviceManager.cpp:15] Current found device(s): (1)
+[05/21 13:28:04.048091][info][4518][DeviceManager.cpp:24] 	- Name: DaBai DC1, PID: 0x0657, SN/ID: , Connection: USB2.0
+[05/21 13:28:04.048097][debug][4518][DeviceManager.cpp:55] DeviceManager construct done!
+[05/21 13:36:25.473067][debug][14700][Context.cpp:29] Context creating. work_dir=/home/agilex/agilex_explore
+[05/21 13:36:25.473099][debug][14700][Context.cpp:48] Config file version=1.1
+[05/21 13:36:25.473108][debug][14700][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/21 13:36:25.473121][info][14700][Context.cpp:67] Context created with config: /home/agilex/agilex_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[05/21 13:36:25.473129][info][14700][Context.cpp:72] Context work_dir=/home/agilex/agilex_explore
+[05/21 13:36:25.473133][debug][14700][DeviceManager.cpp:30] DeviceManager init ...
+[05/21 13:36:25.473134][debug][14700][LinuxPal.cpp:36] createObPal: create LinuxPal!
+[05/21 13:36:25.475618][debug][14700][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/21 13:36:25.534058][debug][14700][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/21 13:36:25.534140][debug][14700][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/21 13:36:25.534146][debug][14700][UsbDeviceEnumerator.cpp:164]  - 1-1.4-6.0 | Orbbec(R) Astra(TM) 3D Camera(F) Depth
+[05/21 13:36:25.534147][debug][14700][UsbDeviceEnumerator.cpp:164]  - 1-1.2-4.0 | Dabai DC1
+[05/21 13:36:25.534169][warning][14700][OpenNIDeviceInfo.cpp:180] New openni device matched.
+[05/21 13:36:25.534270][info][14700][LinuxPal.cpp:110] Create PollingDeviceWatcher!
+[05/21 13:36:25.534279][debug][14700][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/21 13:36:25.534282][debug][14700][UsbDeviceEnumerator.cpp:72]   - Name: DaBai DC1, PID: 0x0657, SN/ID: , connection: USB2.0
+[05/21 13:36:25.534285][info][14700][DeviceManager.cpp:15] Current found device(s): (1)
+[05/21 13:36:25.534288][info][14700][DeviceManager.cpp:24] 	- Name: DaBai DC1, PID: 0x0657, SN/ID: , Connection: USB2.0
+[05/21 13:36:25.534289][debug][14700][DeviceManager.cpp:55] DeviceManager construct done!
+[05/21 14:04:53.219838][debug][20254][Context.cpp:29] Context creating. work_dir=/home/agilex/agilex_explore
+[05/21 14:04:53.220125][debug][20254][Context.cpp:48] Config file version=1.1
+[05/21 14:04:53.220362][debug][20254][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/21 14:04:53.220365][info][20254][Context.cpp:67] Context created with config: /home/agilex/agilex_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[05/21 14:04:53.220373][info][20254][Context.cpp:72] Context work_dir=/home/agilex/agilex_explore
+[05/21 14:04:53.220378][debug][20254][DeviceManager.cpp:30] DeviceManager init ...
+[05/21 14:04:53.220382][debug][20254][LinuxPal.cpp:36] createObPal: create LinuxPal!
+[05/21 14:04:53.222562][debug][20254][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/21 14:04:53.279226][debug][20254][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/21 14:04:53.279412][debug][20254][ObV4lDevice.cpp:341] Found video4linux: video1
+[05/21 14:04:53.279873][debug][20254][ObV4lDevice.cpp:341] Found video4linux: video0
+[05/21 14:04:53.280310][debug][20254][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/21 14:04:53.280321][debug][20254][UsbDeviceEnumerator.cpp:164]  - 1-1.4-6.0 | Orbbec(R) Astra(TM) 3D Camera(F) Depth
+[05/21 14:04:53.280327][debug][20254][UsbDeviceEnumerator.cpp:164]  - 1-1.2-4.0 | Dabai DC1
+[05/21 14:04:53.280441][warning][20254][OpenNIDeviceInfo.cpp:180] New openni device matched.
+[05/21 14:04:53.280806][info][20254][LinuxPal.cpp:110] Create PollingDeviceWatcher!
+[05/21 14:04:53.280823][debug][20254][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/21 14:04:53.280832][debug][20254][UsbDeviceEnumerator.cpp:72]   - Name: DaBai DC1, PID: 0x0657, SN/ID: , connection: USB2.0
+[05/21 14:04:53.280844][info][20254][DeviceManager.cpp:15] Current found device(s): (1)
+[05/21 14:04:53.280854][info][20254][DeviceManager.cpp:24] 	- Name: DaBai DC1, PID: 0x0657, SN/ID: , Connection: USB2.0
+[05/21 14:04:53.280861][debug][20254][DeviceManager.cpp:55] DeviceManager construct done!
+[05/22 10:26:14.511312][debug][24810][Context.cpp:29] Context creating. work_dir=/home/agilex/agilex_explore
+[05/22 10:26:14.511653][debug][24810][Context.cpp:48] Config file version=1.1
+[05/22 10:26:14.511879][debug][24810][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/22 10:26:14.511886][info][24810][Context.cpp:67] Context created with config: /home/agilex/agilex_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[05/22 10:26:14.511893][info][24810][Context.cpp:72] Context work_dir=/home/agilex/agilex_explore
+[05/22 10:26:14.511897][debug][24810][DeviceManager.cpp:30] DeviceManager init ...
+[05/22 10:26:14.511902][debug][24810][LinuxPal.cpp:36] createObPal: create LinuxPal!
+[05/22 10:26:14.514428][debug][24810][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/22 10:26:14.572756][debug][24810][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/22 10:26:14.572951][debug][24810][ObV4lDevice.cpp:341] Found video4linux: video1
+[05/22 10:26:14.573420][debug][24810][ObV4lDevice.cpp:341] Found video4linux: video0
+[05/22 10:26:14.573829][debug][24810][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/22 10:26:14.573836][debug][24810][UsbDeviceEnumerator.cpp:164]  - 1-1.4-6.0 | Orbbec(R) Astra(TM) 3D Camera(F) Depth
+[05/22 10:26:14.573840][debug][24810][UsbDeviceEnumerator.cpp:164]  - 1-1.2-4.0 | Dabai DC1
+[05/22 10:26:14.573959][warning][24810][OpenNIDeviceInfo.cpp:180] New openni device matched.
+[05/22 10:26:14.574354][info][24810][LinuxPal.cpp:110] Create PollingDeviceWatcher!
+[05/22 10:26:14.574377][debug][24810][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/22 10:26:14.574384][debug][24810][UsbDeviceEnumerator.cpp:72]   - Name: DaBai DC1, PID: 0x0657, SN/ID: , connection: USB2.0
+[05/22 10:26:14.574395][info][24810][DeviceManager.cpp:15] Current found device(s): (1)
+[05/22 10:26:14.574414][info][24810][DeviceManager.cpp:24] 	- Name: DaBai DC1, PID: 0x0657, SN/ID: , Connection: USB2.0
+[05/22 10:26:14.574420][debug][24810][DeviceManager.cpp:55] DeviceManager construct done!
+[05/22 11:21:54.359007][debug][92120][Context.cpp:29] Context creating. work_dir=/home/agilex/agilex_explore
+[05/22 11:21:54.359036][debug][92120][Context.cpp:48] Config file version=1.1
+[05/22 11:21:54.359046][debug][92120][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/22 11:21:54.359048][info][92120][Context.cpp:67] Context created with config: /home/agilex/agilex_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[05/22 11:21:54.359056][info][92120][Context.cpp:72] Context work_dir=/home/agilex/agilex_explore
+[05/22 11:21:54.359060][debug][92120][DeviceManager.cpp:30] DeviceManager init ...
+[05/22 11:21:54.359062][debug][92120][LinuxPal.cpp:36] createObPal: create LinuxPal!
+[05/22 11:21:54.361353][debug][92120][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/22 11:21:54.420275][debug][92120][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/22 11:21:54.420524][debug][92120][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/22 11:21:54.420540][debug][92120][UsbDeviceEnumerator.cpp:164]  - 1-1.4-6.0 | Orbbec(R) Astra(TM) 3D Camera(F) Depth
+[05/22 11:21:54.420546][debug][92120][UsbDeviceEnumerator.cpp:164]  - 1-1.2-4.0 | Dabai DC1
+[05/22 11:21:54.420588][warning][92120][OpenNIDeviceInfo.cpp:180] New openni device matched.
+[05/22 11:21:54.420840][info][92120][LinuxPal.cpp:110] Create PollingDeviceWatcher!
+[05/22 11:21:54.420855][debug][92120][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/22 11:21:54.420864][debug][92120][UsbDeviceEnumerator.cpp:72]   - Name: DaBai DC1, PID: 0x0657, SN/ID: , connection: USB2.0
+[05/22 11:21:54.420876][info][92120][DeviceManager.cpp:15] Current found device(s): (1)
+[05/22 11:21:54.420885][info][92120][DeviceManager.cpp:24] 	- Name: DaBai DC1, PID: 0x0657, SN/ID: , Connection: USB2.0
+[05/22 11:21:54.420892][debug][92120][DeviceManager.cpp:55] DeviceManager construct done!
+[05/22 11:31:45.293538][debug][103396][Context.cpp:29] Context creating. work_dir=/home/agilex/agilex_explore
+[05/22 11:31:45.293566][debug][103396][Context.cpp:48] Config file version=1.1
+[05/22 11:31:45.293574][debug][103396][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[05/22 11:31:45.293577][info][103396][Context.cpp:67] Context created with config: /home/agilex/agilex_ws/install/orbbec_camera/share/orbbec_camera/config/OrbbecSDKConfig_v1.0.xml
+[05/22 11:31:45.293589][info][103396][Context.cpp:72] Context work_dir=/home/agilex/agilex_explore
+[05/22 11:31:45.293593][debug][103396][DeviceManager.cpp:30] DeviceManager init ...
+[05/22 11:31:45.293594][debug][103396][LinuxPal.cpp:36] createObPal: create LinuxPal!
+[05/22 11:31:45.295624][debug][103396][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[05/22 11:31:45.352762][debug][103396][EnumeratorLibusb.cpp:323] queryDevicesInfo done!
+[05/22 11:31:45.352907][debug][103396][UsbDeviceEnumerator.cpp:161] Current usb device port list:
+[05/22 11:31:45.352914][debug][103396][UsbDeviceEnumerator.cpp:164]  - 1-1.4-6.0 | Orbbec(R) Astra(TM) 3D Camera(F) Depth
+[05/22 11:31:45.352918][debug][103396][UsbDeviceEnumerator.cpp:164]  - 1-1.2-4.0 | Dabai DC1
+[05/22 11:31:45.352946][warning][103396][OpenNIDeviceInfo.cpp:180] New openni device matched.
+[05/22 11:31:45.353109][info][103396][LinuxPal.cpp:110] Create PollingDeviceWatcher!
+[05/22 11:31:45.353124][debug][103396][UsbDeviceEnumerator.cpp:69] Found 1 device(s):
+[05/22 11:31:45.353130][debug][103396][UsbDeviceEnumerator.cpp:72]   - Name: DaBai DC1, PID: 0x0657, SN/ID: , connection: USB2.0
+[05/22 11:31:45.353139][info][103396][DeviceManager.cpp:15] Current found device(s): (1)
+[05/22 11:31:45.353147][info][103396][DeviceManager.cpp:24] 	- Name: DaBai DC1, PID: 0x0657, SN/ID: , Connection: USB2.0
+[05/22 11:31:45.353152][debug][103396][DeviceManager.cpp:55] DeviceManager construct done!

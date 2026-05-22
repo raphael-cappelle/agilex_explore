@@ -250,8 +250,8 @@ controller_server:
       publish_feedback: False
           
       # Robot
-              
-      max_vel_x: 0.2
+      min_vel_x: 0.1
+      max_vel_x: 0.3
       max_vel_theta: 0.2 
       acc_lim_x: 0.4
       acc_lim_theta: 0.5
