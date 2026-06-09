@@ -1,0 +1,26 @@
+#!/bin/bash
+
+export ROS_DOMAIN_ID=0
+export ROBOT_NAMESPACE={{inventory_hostname}}
+
+# Source tous les workspaces nécessaire à l'exécution du programme
+source /opt/ros/{{ros_distro}}/setup.bash
+source {{ws_dst}}/install/setup.bash
+source $HOME/{{driver_workspace}}/install/setup.bash
+
+#
+# Démarre le serveur du robot pour le contrôler et lire les capteurs.
+# Pour arrêter le serveur, il vaut mieux envoyer un signal SIGINT pour que le programme prenne le temps de tout arrêter.
+# On veut aussi qu'il tourne en arrière plan, afin de lancer un autre programme ROS.
+# On est obligé de créer un subshell (utilisation des accolades) pour pouvoir faire ça.
+# https://stackoverflow.com/questions/25511294/sending-sigint-to-foreground-process-works-but-not-background
+#
+{
+    {{bringup_command}};
+} &
+
+# Exécute en premier plan une application ROS qui va contrôler le robot
+{% include './ros_apps/' + app + '.sh.j2' %}
+
+# On attend que le serveur du robot s'arrête quand il faut stopper le service
+wait

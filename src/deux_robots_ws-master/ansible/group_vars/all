@@ -1,0 +1,8 @@
+# Valeurs par défaut pour copier un workspace
+ws_src: ~/deux_robots_ws/
+ws_dst: ~/deux_robots_ws/
+
+# Application qui sera lancée par défaut
+app: mimic
+
+clean_install: false

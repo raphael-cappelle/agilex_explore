@@ -142,7 +142,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+# lib/
 lib64/
 parts/
 sdist/
@@ -338,7 +338,7 @@ qtcreator-*
 # Catkin custom files
 CATKIN_IGNORE
 
-### ROS2 ###
+### ROS 2 ###
 install/
 log/
 .obj-x86_64-linux-gnu/
@@ -400,11 +400,11 @@ mono_crash.*
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
-x64/
+# x64/
 x86/
 [Ww][Ii][Nn]32/
 [Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
+# [Aa][Rr][Mm]64/
 bld/
 [Bb]in/
 [Oo]bj/
@@ -757,6 +757,9 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+.obj-aarch64-linux-gnu/
+*.deb
+*.ddeb
 
 # JetBrains Rider
 *.sln.iml

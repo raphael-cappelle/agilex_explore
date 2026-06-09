@@ -1,0 +1,14 @@
+[Unit]
+Description=Launch ROS 2 app
+After=network.target
+
+[Service]
+Type=simple
+User={{ansible_user}}
+Group={{ansible_user}}
+EnvironmentFile=/etc/robot-environment
+ExecStart=/opt/robot_launch.sh
+KillSignal=SIGINT
+Restart=no
+StandardOutput=inherit
+StandardError=inherit

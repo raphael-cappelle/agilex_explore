@@ -117,7 +117,7 @@ local_costmap:
         mark_threshold: 0
         observation_sources: scan pointcloud_low pointcloud_high
         scan:
-          topic: /scan_merged
+          topic: /scan
           max_obstacle_height: 2.0
           clearing: true
           marking: true
@@ -172,7 +172,7 @@ global_costmap:
         enabled: true
         observation_sources: scan pointcloud_low pointcloud_high
         scan:
-          topic: /scan_merged
+          topic: /scan
           max_obstacle_height: 2.0
           clearing: true
           marking: true

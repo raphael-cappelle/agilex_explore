@@ -4,17 +4,18 @@ project(orbbec_camera)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fPIC -O3")
-set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG}  -fPIC -g")
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG}  -fPIC -g3")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -O3")
-set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fPIC -g")
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fPIC -g3")
 set(CMAKE_BUILD_TYPE "Release")
 option(USE_RK_HW_DECODER "Use Rockchip hardware decoder" OFF)
 option(USE_NV_HW_DECODER "Use Nvidia hardware decoder" OFF)
+option(INSTALL_UDEV_RULES "Install udev rule for Orbbec cameras" ON)
 
 
-if (CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra -Werror -Wno-pedantic)
-endif ()
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Werror -Wno-pedantic -Wno-array-bounds)
+endif()
 
 # find dependencies
 set(dependencies
@@ -39,30 +40,30 @@ set(dependencies
   tf2_ros
   tf2_sensor_msgs
   Threads
+  diagnostic_updater
+  diagnostic_msgs
+  statistics_msgs
+  backward_ros
 )
 
-foreach (dep IN LISTS dependencies)
+foreach(dep IN LISTS dependencies)
   find_package(${dep} REQUIRED)
-endforeach ()
+endforeach()
 
 find_package(PkgConfig REQUIRED)
-pkg_search_module(GLOG REQUIRED libglog)
 
-if (NOT GLOG_FOUND)
-  message(FATAL_ERROR "glog is not found")
-endif ()
 
-if (USE_RK_HW_DECODER)
+if(USE_RK_HW_DECODER)
   pkg_search_module(RK_MPP REQUIRED rockchip_mpp)
-  if (NOT RK_MPP_FOUND)
+  if(NOT RK_MPP_FOUND)
     message(FATAL_ERROR "rockchip_mpp is not found")
-  endif ()
+  endif()
   pkg_search_module(RGA librga)
-  if (NOT RGA_FOUND)
+  if(NOT RGA_FOUND)
     add_definitions(-DUSE_LIBYUV)
     message("librga is not found, use libyuv instead")
-  endif ()
-endif ()
+  endif()
+endif()
 
 
 execute_process(COMMAND uname -m OUTPUT_VARIABLE MACHINES)
@@ -70,20 +71,20 @@ execute_process(COMMAND getconf LONG_BIT OUTPUT_VARIABLE MACHINES_BIT)
 message(STATUS "ORRBEC Machine : ${MACHINES}")
 message(STATUS "ORRBEC Machine Bits : ${MACHINES_BIT}")
 
-if ((${MACHINES} MATCHES "x86_64") AND (${MACHINES_BIT} MATCHES "64"))
+if((${MACHINES} MATCHES "x86_64") AND (${MACHINES_BIT} MATCHES "64"))
   set(HOST_PLATFORM "x64")
-elseif (${MACHINES} MATCHES "arm" OR (${MACHINES} MATCHES "aarch64" AND ${MACHINES_BIT} MATCHES "32"))
+elseif(${MACHINES} MATCHES "arm" OR (${MACHINES} MATCHES "aarch64" AND ${MACHINES_BIT} MATCHES "32"))
   set(HOST_PLATFORM "arm32")
-elseif ((${MACHINES} MATCHES "aarch64") AND (${MACHINES_BIT} MATCHES "64"))
+elseif((${MACHINES} MATCHES "aarch64") AND (${MACHINES_BIT} MATCHES "64"))
   set(HOST_PLATFORM "arm64")
-endif ()
+endif()
 
 set(ORBBEC_LIBS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/SDK/lib/${HOST_PLATFORM})
 set(ORBBEC_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/SDK/include/)
 
 set(CMAKE_BUILD_RPATH "${CMAKE_BUILD_RPATH}:${ORBBEC_LIBS_DIR}")
 set(CMAKE_INSTALL_RPATH "${CMAKE_INSTALL_RPATH}:${ORBBEC_LIBS_DIR}")
-if (USE_NV_HW_DECODER)
+if(USE_NV_HW_DECODER)
   set(JETSON_MULTI_MEDIA_API_DIR /usr/src/jetson_multimedia_api)
   set(JETSON_MULTI_MEDIA_API_CLASS_DIR ${JETSON_MULTI_MEDIA_API_DIR}/samples/common/classes)
   set(JETSON_MULTI_MEDIA_API_INCLUDE_DIR ${JETSON_MULTI_MEDIA_API_DIR}/include/)
@@ -96,7 +97,7 @@ if (USE_NV_HW_DECODER)
   )
   list(APPEND NV_LIBRARIES
     -L${TEGRA_ARMABI} -L${TEGRA_ARMABI}/tegra)
-endif ()
+endif()
 
 set(COMMON_INCLUDE_DIRS
   $<BUILD_INTERFACE:${CMAKE_CURRENT_BINARY_DIR}/include>
@@ -104,35 +105,36 @@ set(COMMON_INCLUDE_DIRS
   $<INSTALL_INTERFACE:include>
   ${ORBBEC_INCLUDE_DIR}
   ${OpenCV_INCLUDED_DIRS}
-  ${GLOG_INCLUDED_DIRS}
+  ${CMAKE_CURRENT_SOURCE_DIR}/tools
 )
 
 set(COMMON_LIBRARIES
   ${ORBBEC_SDK_LIBRARIES}
   ${OpenCV_LIBS}
   Eigen3::Eigen
-  ${GLOG_LIBRARIES}
   -lOrbbecSDK
   -L${ORBBEC_LIBS_DIR}
   Threads::Threads
+  -lrt
+  -ldw
 )
-if (USE_RK_HW_DECODER)
+if(USE_RK_HW_DECODER)
   list(APPEND COMMON_LIBRARIES
     ${RK_MPP_LIBRARIES}
     ${RGA_LIBRARIES}
   )
+endif()
 
-endif ()
-
-if (USE_NV_HW_DECODER)
+if(USE_NV_HW_DECODER)
   list(APPEND COMMON_LIBRARIES
     ${NV_LIBRARIES})
-endif ()
+endif()
 
 
 set(SOURCE_FILES
   src/d2c_viewer.cpp
   src/dynamic_params.cpp
+  src/image_publisher.cpp
   src/ob_camera_node_driver.cpp
   src/ob_camera_node.cpp
   src/ros_param_backend.cpp
@@ -142,7 +144,7 @@ set(SOURCE_FILES
   src/jpeg_decoder.cpp
 )
 
-if (USE_RK_HW_DECODER)
+if(USE_RK_HW_DECODER)
   add_definitions(-DUSE_RK_HW_DECODER)
   list(APPEND SOURCE_FILES src/rk_mpp_decoder.cpp)
   list(APPEND COMMON_INCLUDE_DIRS
@@ -153,14 +155,12 @@ if (USE_RK_HW_DECODER)
     ${RGA_LIBRARIES}
     ${RK_MPP_LIBRARIES}
   )
-  if (NOT RGA_FOUND)
-    list(APPEND COMMON_LIBRARIES
-      -lyuv
-    )
-  endif ()
-endif ()
+  if(NOT RGA_FOUND)
+    list(APPEND COMMON_LIBRARIES -lyuv)
+  endif()
+endif()
 
-if (USE_NV_HW_DECODER)
+if(USE_NV_HW_DECODER)
   list(APPEND SOURCE_FILES src/jetson_nv_decoder.cpp)
   list(APPEND COMMON_INCLUDE_DIRS ${JETSON_MULTI_MEDIA_API_INCLUDE_DIR}
     ${LIBJPEG8B_INCLUDE_DIR})
@@ -179,7 +179,7 @@ if (USE_NV_HW_DECODER)
     ${JETSON_MULTI_MEDIA_API_CLASS_DIR}/NvVideoEncoder.cpp
     ${JETSON_MULTI_MEDIA_API_CLASS_DIR}/NvBufSurface.cpp
   )
-endif ()
+endif()
 
 macro(add_orbbec_executable TARGET SOURCE)
   add_executable(${TARGET} ${SOURCE})
@@ -203,12 +203,24 @@ rclcpp_components_register_node(${PROJECT_NAME}
   EXECUTABLE orbbec_camera_node
 )
 # Add nodes using the macro
-add_orbbec_executable(list_devices_node src/list_devices_node.cpp)
-add_orbbec_executable(list_depth_work_mode_node src/list_depth_work_mode.cpp)
-add_orbbec_executable(list_camera_profile_mode_node src/list_camera_profile.cpp)
+add_orbbec_executable(list_devices_node tools/list_devices_node.cpp)
+add_orbbec_executable(list_depth_work_mode_node tools/list_depth_work_mode.cpp)
+add_orbbec_executable(list_camera_profile_mode_node tools/list_camera_profile.cpp)
 
+add_orbbec_executable(topic_statistics_node tools/topic_statistics.cpp)
+
+
+add_library(frame_latency SHARED tools/frame_latency.cpp)
+target_include_directories(frame_latency PUBLIC ${COMMON_INCLUDE_DIRS})
+target_link_libraries(frame_latency ${COMMON_LIBRARIES})
+ament_target_dependencies(frame_latency ${dependencies})
+
+rclcpp_components_register_node(frame_latency
+        PLUGIN "orbbec_camera::FrameLatencyNode"
+        EXECUTABLE frame_latency_node
+)
 # Install rules
-install(TARGETS ${PROJECT_NAME}
+install(TARGETS ${PROJECT_NAME} frame_latency
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION bin
@@ -219,17 +231,26 @@ install(DIRECTORY launch DESTINATION share/${PROJECT_NAME}/)
 install(DIRECTORY config DESTINATION share/${PROJECT_NAME}/)
 install(DIRECTORY ${ORBBEC_INCLUDE_DIR} DESTINATION include)
 install(DIRECTORY ${ORBBEC_LIBS_DIR}/ DESTINATION lib/ FILES_MATCHING PATTERN "*.so*")
+if(DEFINED ENV{BUILDING_PACKAGE})
+  # Install udev rules
+  install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/scripts/99-obsensor-libusb.rules DESTINATION /etc/udev/rules.d)
+endif()
+if(INSTALL_UDEV_RULES)
+  install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/scripts/99-obsensor-libusb.rules DESTINATION share/${PROJECT_NAME}/udev)
+endif()
+
 install(TARGETS list_devices_node
   list_depth_work_mode_node
   list_camera_profile_mode_node
+  topic_statistics_node
   DESTINATION lib/${PROJECT_NAME}/)
 
-if (BUILD_TESTING)
+if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   ament_lint_auto_find_test_dependencies()
-endif ()
+endif()
 
-ament_export_include_directories(include ${ORBBEC_INCLUDE_DIR})
+ament_export_include_directories(include)
 ament_export_libraries(${PROJECT_NAME})
 ament_export_dependencies(${dependencies} ${ORBBEC_LIBS})
 

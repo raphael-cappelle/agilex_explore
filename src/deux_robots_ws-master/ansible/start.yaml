@@ -1,0 +1,24 @@
+- name: Launch TurtleBot3 App
+  hosts: all
+  become: yes
+  tasks:
+    - name: Create script file
+      template:
+        src: robot_launch.sh.j2
+        dest: /opt/robot_launch.sh
+        mode: "755"
+
+    - name: Create Unit file
+      template:
+        src: robot_launch.service.j2
+        dest: /etc/systemd/system/robot_launch.service
+        mode: "644"
+        
+    - name: Start robot_launch service
+      service:
+        name: robot_launch.service
+        # Si le programme est actif on le redémarre
+        state: restarted
+        # Si le service n'existait pas avant, daemon_reload va le détecter
+        daemon_reload: true
+        enabled: no

@@ -1,0 +1,9 @@
+- name: Stop TurtleBot3 App
+  hosts: all
+  become: yes
+  gather_facts: no
+  tasks:
+    - name: Stop robot_launch service
+      service:
+        name: robot_launch.service
+        state: stopped

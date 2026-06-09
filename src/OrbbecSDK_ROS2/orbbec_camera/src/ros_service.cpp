@@ -113,7 +113,20 @@ void OBCameraNode::setupCameraCtrlServices() {
         (void)request_header;
         getLdpStatusCallback(request, response);
       });
-
+  get_ldp_protection_status_srv_ = node_->create_service<GetBool>(
+      "get_ldp_protection_status", [this](const std::shared_ptr<rmw_request_id_t> request_header,
+                                          const std::shared_ptr<GetBool::Request> request,
+                                          std::shared_ptr<GetBool::Response> response) {
+        (void)request_header;
+        getLdpProtectionStatusCallback(request, response);
+      });
+  get_laser_status_srv_ = node_->create_service<GetBool>(
+      "get_laser_status", [this](const std::shared_ptr<rmw_request_id_t> request_header,
+                                 const std::shared_ptr<GetBool::Request> request,
+                                 std::shared_ptr<GetBool::Response> response) {
+        (void)request_header;
+        getLaserStatusCallback(request, response);
+      });
   get_white_balance_srv_ = node_->create_service<GetInt32>(
       "get_white_balance", [this](const std::shared_ptr<GetInt32::Request> request,
                                   std::shared_ptr<GetInt32::Response> response) {
@@ -158,6 +171,16 @@ void OBCameraNode::setupCameraCtrlServices() {
       "switch_ir", [this](const std::shared_ptr<SetString::Request> request,
                           std::shared_ptr<SetString::Response> response) {
         switchIRCameraCallback(request, response);
+      });
+  set_ir_long_exposure_srv_ = node_->create_service<SetBool>(
+      "set_ir_long_exposure", [this](const std::shared_ptr<SetBool::Request> request,
+                                     std::shared_ptr<SetBool::Response> response) {
+        setIRLongExposureCallback(request, response);
+      });
+  get_ldp_measure_distance_srv_ = node_->create_service<GetInt32>(
+      "get_ldp_measure_distance", [this](const std::shared_ptr<GetInt32::Request> request,
+                                         std::shared_ptr<GetInt32::Response> response) {
+        getLdpMeasureDistanceCallback(request, response);
       });
 }
 
@@ -235,23 +258,34 @@ void OBCameraNode::setGainCallback(const std::shared_ptr<SetInt32 ::Request>& re
                                    std::shared_ptr<SetInt32::Response>& response,
                                    const stream_index_pair& stream_index) {
   auto stream = stream_index.first;
+  OBPropertyID prop_id = OB_PROP_IR_GAIN_INT;
   try {
     switch (stream) {
       case OB_STREAM_IR_LEFT:
       case OB_STREAM_IR_RIGHT:
       case OB_STREAM_IR:
-        device_->setIntProperty(OB_PROP_IR_GAIN_INT, request->data);
+        prop_id = OB_PROP_IR_GAIN_INT;
         break;
       case OB_STREAM_DEPTH:
-        device_->setIntProperty(OB_PROP_DEPTH_GAIN_INT, request->data);
+        prop_id = OB_PROP_DEPTH_GAIN_INT;
         break;
       case OB_STREAM_COLOR:
-        device_->setIntProperty(OB_PROP_COLOR_GAIN_INT, request->data);
+        prop_id = OB_PROP_COLOR_GAIN_INT;
         break;
       default:
         RCLCPP_ERROR(logger_, "%s NOT a video stream", __FUNCTION__);
-        break;
+        response->success = false;
+        response->message = "NOT a video stream";
+        return;
     }
+    auto range = device_->getIntPropertyRange(prop_id);
+    if (request->data < range.min || request->data > range.max) {
+      response->success = false;
+      RCLCPP_INFO_STREAM(logger_, "set gain value out of range");
+      response->message = "value out of range";
+      return;
+    }
+    device_->setIntProperty(prop_id, request->data);
     response->success = true;
   } catch (const ob::Error& e) {
     response->success = false;
@@ -286,6 +320,20 @@ void OBCameraNode::getWhiteBalanceCallback(const std::shared_ptr<GetInt32::Reque
 void OBCameraNode::setWhiteBalanceCallback(const std::shared_ptr<SetInt32 ::Request>& request,
                                            std::shared_ptr<SetInt32 ::Response>& response) {
   try {
+    auto range = device_->getIntPropertyRange(OB_PROP_COLOR_WHITE_BALANCE_INT);
+    if (request->data < range.min || request->data > range.max) {
+      response->success = false;
+      RCLCPP_INFO_STREAM(logger_, "set white balance value out of range");
+      response->message = "value out of range";
+      return;
+    }
+    bool auto_white_balance = device_->getBoolProperty(OB_PROP_COLOR_AUTO_WHITE_BALANCE_BOOL);
+    if (auto_white_balance) {
+      RCLCPP_WARN(logger_, "auto white balance is enabled, set white balance will be ignored");
+      response->success = false;
+      response->message = "auto white balance is enabled";
+      return;
+    }
     device_->setIntProperty(OB_PROP_COLOR_WHITE_BALANCE_INT, request->data);
     response->success = true;
   } catch (const ob::Error& e) {
@@ -337,28 +385,28 @@ void OBCameraNode::setAutoExposureCallback(
     std::shared_ptr<std_srvs::srv::SetBool::Response>& response,
     const stream_index_pair& stream_index) {
   auto stream = stream_index.first;
+  OBPropertyID prop_id = OB_PROP_IR_AUTO_EXPOSURE_BOOL;
   try {
     switch (stream) {
       case OB_STREAM_IR_LEFT:
       case OB_STREAM_IR_RIGHT:
       case OB_STREAM_IR:
-        response->success = true;
-        device_->setIntProperty(OB_PROP_IR_AUTO_EXPOSURE_BOOL, request->data);
+        prop_id = OB_PROP_IR_AUTO_EXPOSURE_BOOL;
         break;
       case OB_STREAM_DEPTH:
-        device_->setIntProperty(OB_PROP_DEPTH_AUTO_EXPOSURE_BOOL, request->data);
-        response->success = true;
+        prop_id = OB_PROP_DEPTH_AUTO_EXPOSURE_BOOL;
         break;
       case OB_STREAM_COLOR:
-        device_->setIntProperty(OB_PROP_COLOR_AUTO_EXPOSURE_BOOL, request->data);
-        response->success = true;
+        prop_id = OB_PROP_COLOR_AUTO_EXPOSURE_BOOL;
         break;
       default:
         RCLCPP_ERROR(logger_, "%s NOT a video stream", __FUNCTION__);
         response->success = false;
         response->message = "NOT a video stream";
-        break;
+        return;
     }
+    device_->setIntProperty(prop_id, request->data);
+    response->success = true;
   } catch (const ob::Error& e) {
     response->success = false;
     response->message = e.getMessage();
@@ -419,7 +467,11 @@ void OBCameraNode::setLaserEnableCallback(
   (void)response;
   bool laser_enable = request->data;
   try {
-    device_->setBoolProperty(OB_PROP_LASER_BOOL, laser_enable);
+    if (device_->isPropertySupported(OB_PROP_LASER_CONTROL_INT, OB_PERMISSION_READ_WRITE)) {
+      device_->setIntProperty(OB_PROP_LASER_CONTROL_INT, laser_enable);
+    } else if (device_->isPropertySupported(OB_PROP_LASER_BOOL, OB_PERMISSION_READ_WRITE)) {
+      device_->setIntProperty(OB_PROP_LASER_BOOL, laser_enable);
+    }
     response->success = true;
   } catch (const ob::Error& e) {
     response->message = e.getMessage();
@@ -441,7 +493,20 @@ void OBCameraNode::setLdpEnableCallback(
   (void)response;
   bool ldp_enable = request->data;
   try {
-    device_->setBoolProperty(OB_PROP_LDP_BOOL, ldp_enable);
+    if (device_->isPropertySupported(OB_PROP_LASER_CONTROL_INT, OB_PERMISSION_READ_WRITE)) {
+      auto laser_enable = device_->getIntProperty(OB_PROP_LASER_CONTROL_INT);
+      device_->setBoolProperty(OB_PROP_LDP_BOOL, ldp_enable);
+      device_->setIntProperty(OB_PROP_LASER_CONTROL_INT, laser_enable);
+    } else if (device_->isPropertySupported(OB_PROP_LASER_BOOL, OB_PERMISSION_READ_WRITE)) {
+      if (!ldp_enable) {
+        auto laser_enable = device_->getIntProperty(OB_PROP_LASER_BOOL);
+        device_->setBoolProperty(OB_PROP_LDP_BOOL, ldp_enable);
+        std::this_thread::sleep_for(std::chrono::milliseconds(3));
+        device_->setIntProperty(OB_PROP_LASER_BOOL, laser_enable);
+      } else {
+        device_->setBoolProperty(OB_PROP_LDP_BOOL, ldp_enable);
+      }
+    }
     response->success = true;
   } catch (const ob::Error& e) {
     response->success = false;
@@ -496,8 +561,6 @@ void OBCameraNode::getDeviceInfoCallback(const std::shared_ptr<GetDeviceInfo::Re
   try {
     auto device_info = device_->getDeviceInfo();
     response->info.name = device_info->name();
-    response->info.pid = device_info->pid();
-    response->info.vid = device_info->vid();
     response->info.serial_number = device_info->serialNumber();
     response->info.firmware_version = device_info->firmwareVersion();
     response->info.supported_min_sdk_version = device_info->supportedMinSdkVersion();
@@ -579,7 +642,62 @@ void OBCameraNode::getLdpStatusCallback(const std::shared_ptr<GetBool::Request>&
                                         std::shared_ptr<GetBool::Response>& response) {
   (void)request;
   try {
+    response->data = device_->getBoolProperty(OB_PROP_LDP_BOOL);
+    response->success = true;
+  } catch (const ob::Error& e) {
+    response->message = e.getMessage();
+    response->success = false;
+  } catch (const std::exception& e) {
+    response->message = e.what();
+    response->success = false;
+  } catch (...) {
+    response->message = "unknown error";
+    response->success = false;
+  }
+}
+void OBCameraNode::getLdpProtectionStatusCallback(const std::shared_ptr<GetBool::Request>& request,
+                                                  std::shared_ptr<GetBool::Response>& response) {
+  (void)request;
+  try {
     response->data = device_->getBoolProperty(OB_PROP_LDP_STATUS_BOOL);
+    response->success = true;
+  } catch (const ob::Error& e) {
+    response->message = e.getMessage();
+    response->success = false;
+  } catch (const std::exception& e) {
+    response->message = e.what();
+    response->success = false;
+  } catch (...) {
+    response->message = "unknown error";
+    response->success = false;
+  }
+}
+void OBCameraNode::getLaserStatusCallback(const std::shared_ptr<GetBool::Request>& request,
+                                          std::shared_ptr<GetBool::Response>& response) {
+  (void)request;
+  try {
+    if (device_->isPropertySupported(OB_PROP_LASER_CONTROL_INT, OB_PERMISSION_READ_WRITE)) {
+      response->data = device_->getBoolProperty(OB_PROP_LASER_CONTROL_INT);
+    } else if (device_->isPropertySupported(OB_PROP_LASER_BOOL, OB_PERMISSION_READ_WRITE)) {
+      response->data = device_->getBoolProperty(OB_PROP_LASER_BOOL);
+    }
+    response->success = true;
+  } catch (const ob::Error& e) {
+    response->message = e.getMessage();
+    response->success = false;
+  } catch (const std::exception& e) {
+    response->message = e.what();
+    response->success = false;
+  } catch (...) {
+    response->message = "unknown error";
+    response->success = false;
+  }
+}
+void OBCameraNode::getLdpMeasureDistanceCallback(const std::shared_ptr<GetInt32::Request>& request,
+                                                 std::shared_ptr<GetInt32::Response>& response) {
+  (void)request;
+  try {
+    response->data = device_->getIntProperty(OB_PROP_LDP_MEASURE_DISTANCE_INT);
     response->success = true;
   } catch (const ob::Error& e) {
     response->message = e.getMessage();
@@ -645,6 +763,7 @@ void OBCameraNode::saveImageCallback(const std::shared_ptr<std_srvs::srv::Empty:
   for (const auto& stream_index : IMAGE_STREAMS) {
     if (enable_stream_[stream_index]) {
       save_images_[stream_index] = true;
+      save_images_count_[stream_index] = 0;
     }
   }
 }
@@ -674,6 +793,23 @@ void OBCameraNode::switchIRCameraCallback(const std::shared_ptr<SetString::Reque
     device_->setIntProperty(OB_PROP_IR_CHANNEL_DATA_SOURCE_INT, data);
     response->success = true;
     return;
+  } catch (const ob::Error& e) {
+    response->message = e.getMessage();
+    response->success = false;
+  } catch (const std::exception& e) {
+    response->message = e.what();
+    response->success = false;
+  } catch (...) {
+    response->message = "unknown error";
+    response->success = false;
+  }
+}
+void OBCameraNode::setIRLongExposureCallback(
+    const std::shared_ptr<std_srvs::srv::SetBool::Request>& request,
+    std::shared_ptr<std_srvs::srv::SetBool::Response>& response) {
+  try {
+    device_->setBoolProperty(OB_PROP_IR_LONG_EXPOSURE_BOOL, request->data);
+    response->success = true;
   } catch (const ob::Error& e) {
     response->message = e.getMessage();
     response->success = false;

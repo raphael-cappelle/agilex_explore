@@ -1,0 +1,26 @@
+- name: Create ROS 2 Workspace
+  hosts: all
+  tasks:
+    - name: Copy folder
+      synchronize:
+        src: "{{ ws_src }}/"
+        dest: "{{ ws_dst }}/"
+        rsync_opts:
+          # Ces options ne transfèrent pas les fichiers de compilation
+          # En revanche, ceux qui sont sur le robot ne sont pas supprimés
+          # Pour cela, il faudrait utiliser l'option --delete-excluded (mais la compilation prendrait plus de temps)
+          - '--exclude build'
+          - '--exclude install'
+          - '--exclude log'
+          # Dans le else, je remets --exclude install pour éviter d'avoir une chaîne vide dans le else
+          - "{{ '--delete-excluded' if clean_install else '--exclude install' }}"
+        delete: true
+
+    - name: Compile (it will take some time)
+      shell: |
+        source /opt/ros/{{ ros_distro }}/setup.bash
+        rosdep install -i --from-path src --rosdistro {{ ros_distro }} -y
+        colcon build
+      args:
+        executable: /bin/bash
+        chdir: "{{ ws_dst }}/"

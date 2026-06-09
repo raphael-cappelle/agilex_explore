@@ -1,0 +1,6 @@
+geometry_msgs/Point coordinates
+float32 distance_tolerance
+---
+geometry_msgs/Point final
+---
+geometry_msgs/Point current

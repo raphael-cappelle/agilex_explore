@@ -1,0 +1,15 @@
+turtlebot3:
+  hosts:
+    tb3_1:
+      ansible_host: 10.230.39.153 # 10.42.0.1 est reservé au routeur
+      ros_distro: foxy
+      ansible_user: jetson
+      ansible_password: jetson
+    tb3_2:
+      ansible_host: 10.230.39.96
+      ros_distro: foxy
+      ansible_user: jetson
+      ansible_password: jetson
+  vars:
+    bringup_command: "ros2 launch tb3_namespace robot.launch.py"
+    driver_workspace: "turtlebot3_ws"

@@ -62,12 +62,12 @@ LimoDriver::LimoDriver(std::string node_name):rclcpp::Node(node_name),keep_runni
     tf_broadcaster_=std::make_shared<tf2_ros::TransformBroadcaster>(*this);
     tf_static_broadcaster_ = std::make_shared<tf2_ros::StaticTransformBroadcaster>(*this);
 
-    odom_publisher_=this->create_publisher<nav_msgs::msg::Odometry>("/odom",50);
-    status_publisher_ = this->create_publisher<limo_msgs::msg::LimoStatus>("/limo_status",50);
-    imu_publisher_ = this->create_publisher<sensor_msgs::msg::Imu>("/imu",10);
+    odom_publisher_=this->create_publisher<nav_msgs::msg::Odometry>("odom",50);
+    status_publisher_ = this->create_publisher<limo_msgs::msg::LimoStatus>("limo_status",50);
+    imu_publisher_ = this->create_publisher<sensor_msgs::msg::Imu>("imu",10);
 
     motion_cmd_sub_= this->create_subscription<geometry_msgs::msg::Twist>(
-        "/cmd_vel",10,std::bind(&LimoDriver::twistCmdCallback,this,std::placeholders::_1));
+        "cmd_vel",10,std::bind(&LimoDriver::twistCmdCallback,this,std::placeholders::_1));
 
     
     // connect to the serial port

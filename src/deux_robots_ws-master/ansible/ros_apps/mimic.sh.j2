@@ -1,0 +1,5 @@
+{% if inventory_hostname == 'tb3_1' %}
+ros2 launch mimic leader.launch.py other_robot_id:=tb3_2
+{% else %}
+ros2 launch mimic follower.launch.py
+{% endif %}

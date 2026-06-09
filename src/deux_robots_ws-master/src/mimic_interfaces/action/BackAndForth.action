@@ -1,0 +1,6 @@
+float64 speed
+int64 duration
+int64 repeat
+---
+---
+int64 nb_iteration

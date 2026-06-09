@@ -1,0 +1,13 @@
+- name: Synchroniser la date
+  hosts: all
+  gather_facts: no
+  tasks:
+    - name: Récupérer le timestamp actuel
+      delegate_to: localhost
+      command: date -u +"%s"
+      register: timestamp_output
+
+    - name: Appliquer le nouveau timestamp
+      become: yes
+      command: date -s @{{timestamp_output.stdout}}
+

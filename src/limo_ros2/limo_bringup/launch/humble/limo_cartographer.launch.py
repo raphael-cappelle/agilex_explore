@@ -35,7 +35,7 @@ def generate_launch_description():
         arguments=['-configuration_directory', configuration_directory,
                    '-configuration_basename', configuration_basename],
         remappings=[
-            ('scan', '/scan_merged')],
+            ('scan', '/scan')],
         )
 
     cartographer_occupancy_grid_node = Node(
