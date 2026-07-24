@@ -1,0 +1,65 @@
+### ekf config file ###
+ekf_filter_node:
+    ros__parameters:
+        frequency: 50.0
+        two_d_mode: false
+        publish_acceleration: false
+        # true: this node keeps publishing odom -> base_link, exactly what
+        # Cartographer's limo_lds_2d.lua expects from an external source
+        # (use_odometry=true, provide_odom_frame=false).
+        publish_tf: true
+
+        # world_frame stays "odom" (unchanged): mocap is smooth, continuous,
+        # high-rate ground truth, not subject to discrete jumps like GPS --
+        # it can be fused here alongside the other continuous odometry
+        # sources, exactly like an extra odometry input, rather than
+        # needing the map_frame/"absolute position subject to jumps" setup
+        # described in the comments above for GPS-style sources.
+        odom_frame: odom
+        base_link_frame: base_link
+        world_frame: odom
+
+        # Existing wheel/laser odometry sources (unchanged from before).
+        odom0: /laser/odom
+        odom0_config: [true,  true,  true,
+                       false, false, false,
+                       false, false, false,
+                       false, false, true,
+                       false, false, false]
+        # Uncomment to also fuse wheel odometry alongside laser odometry
+        # and mocap:
+        # odom1: /wheel/odom
+        # odom1_config: [true,  true,  true,
+        #                false, false, false,
+        #                false, false, false,
+        #                false, false, true,
+        #                false, false, false]
+
+        imu0: /imu
+        imu0_config: [false, false, false,
+                      true,  true,  true,
+                      false, false, false,
+                      false, false, false,
+                      false, false, false]
+
+        # New: motion capture, via mocap_pose_bridge.py (converts
+        # vrpn_mocap's plain PoseStamped into the PoseWithCovarianceStamped
+        # robot_localization expects). Fusing x, y, and yaw only, matching
+        # the same 2D-robot convention already used for odom0/imu0 above --
+        # z/roll/pitch are left unfused since this is a ground robot and
+        # mocap's z/roll/pitch could otherwise fight with a laser_link that
+        # isn't perfectly level.
+        pose0: /mocap_pose
+        pose0_config: [true,  true,  false,
+                       false, false, true,
+                       false, false, false,
+                       false, false, false,
+                       false, false, false]
+        # Mocap essentially never has to extrapolate/predict (it directly
+        # observes position), so a tight rejection threshold is safe and
+        # helps reject occasional bad mocap frames (marker occlusion
+        # glitches, reflection artifacts) rather than blindly trusting
+        # every single reading.
+        pose0_rejection_threshold: 2.0
+        pose0_differential: false
+        pose0_relative: false

@@ -1,0 +1,11 @@
+domain_bridge:
+  from_domain: 2
+  to_domain: 1
+  topics:
+    /tb3_2/map:
+      type: nav_msgs/msg/OccupancyGrid
+      qos:
+        reliability: reliable
+        durability: transient_local
+    /tb3_2/cmd_vel:
+      type: geometry_msgs/msg/Twist

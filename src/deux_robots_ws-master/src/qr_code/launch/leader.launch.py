@@ -10,8 +10,8 @@ def generate_launch_description():
                 ('/image', '/image_raw')
             ]
         ),
-        Node(
-            package='image_publisher',
-            executable='camera'
-        )
+#        Node(
+#            package='image_publisher',
+#            executable='camera'
+#        )
     ])

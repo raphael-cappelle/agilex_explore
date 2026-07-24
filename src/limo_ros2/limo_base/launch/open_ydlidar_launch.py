@@ -43,6 +43,8 @@ def generate_launch_description():
         emulate_tty=True,
         parameters=[parameter_file],
         node_namespace='/',
+        remappings=[
+            ('/scan', '/tb3_2/scan'),]
     )
     tf2_node = Node(
         package='tf2_ros',

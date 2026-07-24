@@ -10,7 +10,7 @@ def generate_launch_description():
     return LaunchDescription([
         Node(
             package='qr_code',
-            namespace=robot_id,
+            namespace='tb3_2',
             executable='tb3_movement'
         )
     ])

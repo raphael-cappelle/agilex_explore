@@ -5,7 +5,7 @@ from launch.actions import DeclareLaunchArgument, GroupAction
 from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
-from launch_ros.actions import Node, PushRosNamespace
+from launch_ros.actions import Node, PushRosNamespace, SetRemap
 
 def generate_launch_description():
     # Déclarer le namespace en argument (par défaut tb3_1)
@@ -34,6 +34,10 @@ def generate_launch_description():
     nodes = GroupAction(
         actions=[
             PushRosNamespace(namespace),
+            
+            SetRemap(src='/tf', dst='tf'),
+            SetRemap(src='/tf_static', dst='tf_static'),
+
             IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([limo_base_dir,'/launch','/limo_base.launch.py']),
             ),  
